@@ -10,7 +10,36 @@
     "ourService": "Our Service",
     "homeLoan": "Home Loan",
     "carLoan": "Car Loan",
-    "commercialLoan": "Commercial Loan"
+    "commercialLoan": "Commercial Loan",
+    "ourProcess": {
+      "title": "Our Process",
+      "steps": {
+        "step1": {
+          "title": "Search & Shortlist",
+          "description": "Discover us through our website and social media. Access blog posts, articles, and resources with valuable mortgage insights. We update interest rates weekly, allowing you to search and shortlist home loans."
+        },
+        "step2": {
+          "title": "Expert Consultation",
+          "description": "Reach out for personalised advice and answers to your questions. Schedule a meeting with one of our experienced brokers to discuss your financial needs and goals."
+        },
+        "step3": {
+          "title": "Application",
+          "description": "Ready to proceed? Complete and submit your application online. We'll handle all the paperwork for you."
+        },
+        "step4": {
+          "title": "Tracking & Updating",
+          "description": "Stay informed with regular updates about your application status. We'll manage correspondence with the lender and keep you updated throughout the process."
+        },
+        "step5": {
+          "title": "Closing",
+          "description": "We'll prepare all the necessary documents for you to review and sign. Receive your loan funds and complete your mortgage transaction smoothly."
+        },
+        "step6": {
+          "title": "Post-Closing",
+          "description": "Our support continues even after closing. We offer ongoing assistance with tax, accounting, and insurance, and help you explore refinancing options or additional financial services as your needs evolve."
+        }
+      }
+    }
   },
   "resources": {
     "repaymentCalculator": "Repayment Calculator",

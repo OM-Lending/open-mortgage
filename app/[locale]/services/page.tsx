@@ -1,8 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { Section } from '@/components/Section';
-import { Card } from '@/components/Card';
-import { Button } from '@/components/Button';
-import Link from 'next/link';
+import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -19,49 +17,80 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function ServicesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'services' });
-  const tCommon = await getTranslations({ locale, namespace: 'common' });
+
+  const steps = [
+    { key: 'step1', image: '/our-process/rs=w_1200,h_600,cg_true.webp' },
+    { key: 'step2', image: '/our-process/rs=w_1200,h_600,cg_true (1).webp' },
+    { key: 'step3', image: '/our-process/rs=w_1200,h_600,cg_true (2).webp' },
+    { key: 'step4', image: '/our-process/rs=w_1200,h_600,cg_true (3).webp' },
+    { key: 'step5', image: '/our-process/rs=w_1200,h_600,cg_true (4).webp' },
+    { key: 'step6', image: '/our-process/rs=w_1200,h_600,cg_true (5).webp' },
+  ];
 
   return (
-    <Section title={t('ourService')} className="bg-white py-16">
+    <Section title={t('ourProcess.title')} className="bg-gray-50">
       <div className="max-w-4xl mx-auto">
-        <p className="text-lg text-[#666666] mb-8 text-center">
-          We offer a comprehensive range of mortgage and loan services to meet all your financial needs. 
-          Our expert team is dedicated to helping you find the best solutions.
-        </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-          <Card title={t('homeLoan')}>
-            <p className="text-[#666666] mb-4">
-              Expert guidance for your home loan needs with competitive rates and flexible terms.
-            </p>
-            <Link href={`/${locale}/services/home-loan`}>
-              <Button variant="primary" className="w-full">
-                {tCommon('readMore')}
-              </Button>
-            </Link>
-          </Card>
-
-          <Card title={t('carLoan')}>
-            <p className="text-[#666666] mb-4">
-              Flexible car loan options with quick approval and competitive rates.
-            </p>
-            <Link href={`/${locale}/services/car-loan`}>
-              <Button variant="primary" className="w-full">
-                {tCommon('readMore')}
-              </Button>
-            </Link>
-          </Card>
-
-          <Card title={t('commercialLoan')}>
-            <p className="text-[#666666] mb-4">
-              Business financing solutions tailored to your commercial needs.
-            </p>
-            <Link href={`/${locale}/services/commercial-loan`}>
-              <Button variant="primary" className="w-full">
-                {tCommon('readMore')}
-              </Button>
-            </Link>
-          </Card>
+        <div className="space-y-8">
+          {steps.map((step, index) => {
+            const isOdd = index % 2 === 0; // Steps 1, 3, 5 (index 0, 2, 4)
+            const stepTitle = t(`ourProcess.steps.${step.key}.title`);
+            
+            return (
+              <div key={step.key} className="py-6 border-b border-gray-200 last:border-b-0">
+                {/* Mobile: Image first, then content */}
+                <div className="block md:hidden mb-4">
+                  <div className="relative w-full aspect-video rounded-lg overflow-hidden">
+                    <Image
+                      src={step.image}
+                      alt={stepTitle}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+                
+                {/* Desktop: Alternating layout */}
+                <div className="flex flex-col md:flex-row gap-6 items-start">
+                  {/* Even steps (2, 4, 6): Image on left */}
+                  {!isOdd && (
+                    <div className="hidden md:block flex-shrink-0 w-full md:w-80 lg:w-96">
+                      <div className="relative w-full aspect-video rounded-lg overflow-hidden">
+                        <Image
+                          src={step.image}
+                          alt={stepTitle}
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    </div>
+                  )}
+                  
+                  <div className="flex-1">
+                    <h3 className="text-xl md:text-2xl font-black text-[#0d3250] mb-3 leading-tight" style={{ fontFamily: 'var(--font-montserrat), sans-serif', fontWeight: 900 }}>
+                      {stepTitle}
+                    </h3>
+                    <p className="text-lg text-[#666666] leading-relaxed">
+                      {t(`ourProcess.steps.${step.key}.description`)}
+                    </p>
+                  </div>
+                  
+                  {/* Odd steps (1, 3, 5): Image on right */}
+                  {isOdd && (
+                    <div className="hidden md:block flex-shrink-0 w-full md:w-80 lg:w-96">
+                      <div className="relative w-full aspect-video rounded-lg overflow-hidden">
+                        <Image
+                          src={step.image}
+                          alt={stepTitle}
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </Section>
