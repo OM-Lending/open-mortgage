@@ -17,7 +17,6 @@ export const Hero: React.FC<HeroProps> = ({
   subtitle,
   ctaText,
   ctaLink,
-  locale,
 }) => {
   return (
     <section className="relative w-full h-[90vh] min-h-[500px] flex items-center justify-center overflow-hidden">
