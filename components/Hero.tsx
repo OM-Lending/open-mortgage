@@ -27,11 +27,9 @@ export const Hero: React.FC<HeroProps> = ({
         muted
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        suppressHydrationWarning
       >
-        <source
-          src="https://categories.api.godaddy.com/v4/videos/raw/video/R8wB5Qa"
-          type="video/mp4"
-        />
+        <source src="/hero.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
