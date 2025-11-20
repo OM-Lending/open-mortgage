@@ -1,0 +1,99 @@
+import { useTranslations } from 'next-intl';
+import Link from 'next/link';
+import { useLocale } from 'next-intl';
+
+export const Footer = () => {
+  const tNav = useTranslations('nav');
+  const tServices = useTranslations('services');
+  const tResources = useTranslations('resources');
+  const tMore = useTranslations('more');
+  const locale = useLocale();
+
+  return (
+    <footer className="bg-[#0d3250] text-white py-12">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <h3 className="text-xl font-bold mb-4">Open Mortgage</h3>
+            <p className="text-gray-300 text-sm">
+              Your trusted partner for mortgage solutions.
+            </p>
+          </div>
+          
+          <div>
+            <h4 className="font-semibold mb-4">{tNav('services')}</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href={`/${locale}/services`} className="text-gray-300 hover:text-white">
+                  {tServices('ourService')}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/services/home-loan`} className="text-gray-300 hover:text-white">
+                  {tServices('homeLoan')}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/services/car-loan`} className="text-gray-300 hover:text-white">
+                  {tServices('carLoan')}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/services/commercial-loan`} className="text-gray-300 hover:text-white">
+                  {tServices('commercialLoan')}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold mb-4">{tNav('resources')}</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href={`/${locale}/resources/repayment-calculator`} className="text-gray-300 hover:text-white">
+                  {tResources('repaymentCalculator')}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/resources/stamp-duty-calculator`} className="text-gray-300 hover:text-white">
+                  {tResources('stampDutyCalculator')}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/resources/free-valuation`} className="text-gray-300 hover:text-white">
+                  {tResources('freeValuation')}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold mb-4">{tNav('more')}</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href={`/${locale}/about-us`} className="text-gray-300 hover:text-white">
+                  {tMore('aboutUs')}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/contact-us`} className="text-gray-300 hover:text-white">
+                  {tMore('contactUs')}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/faq`} className="text-gray-300 hover:text-white">
+                  {tMore('faq')}
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div className="border-t border-gray-600 mt-8 pt-8 text-center text-sm text-gray-300">
+          <p>&copy; {new Date().getFullYear()} Open Mortgage. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+

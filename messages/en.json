@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "resources": "Resources",
+    "blogs": "Blogs",
+    "more": "More"
+  },
+  "services": {
+    "ourService": "Our Service",
+    "homeLoan": "Home Loan",
+    "carLoan": "Car Loan",
+    "commercialLoan": "Commercial Loan"
+  },
+  "resources": {
+    "repaymentCalculator": "Repayment Calculator",
+    "stampDutyCalculator": "Stamp Duty Calculator",
+    "freeValuation": "Free Valuation",
+    "loanPreparation": "Loan Preparation",
+    "loanBorrowingCalculator": "Loan Borrowing Calculator"
+  },
+  "more": {
+    "loanProducts": "Loan Products",
+    "faq": "FAQ",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us"
+  },
+  "home": {
+    "title": "Open Mortgage Solutions",
+    "subtitle": "Your key to smart financing includes various options like a business loan, car loan, and home loan, ensuring you find the best financial solutions tailored to your needs, all while keeping an eye on favorable mortgage rates.",
+    "cta": "Get Started",
+    "learnMore": "Learn More",
+    "servicesTitle": "Our Services",
+    "resourcesTitle": "Resources",
+    "servicesAndResourcesTitle": "Services & Resources",
+    "trustTitle": "Why Choose Us",
+    "welcome": {
+      "title": "Welcome to Open Mortgage",
+      "content": "At Open Mortgage, we are committed to providing exceptional financial solutions tailored to your unique needs. With years of experience in the mortgage industry, our team of experts is dedicated to helping you achieve your property and financial goals."
+    },
+    "whyChoose": {
+      "title": "Why Choose Open Mortgage",
+      "items": {
+        "expertTeam": {
+          "title": "Expert Team",
+          "description": "Our experienced professionals are here to guide you through every step."
+        },
+        "bestRates": {
+          "title": "Best Rates",
+          "description": "We work with multiple lenders to find you the best rates available."
+        },
+        "fastApproval": {
+          "title": "Fast Approval",
+          "description": "Quick and efficient loan processing to get you approved faster."
+        },
+        "personalizedService": {
+          "title": "Personalized Service",
+          "description": "Tailored solutions designed specifically for your financial situation."
+        },
+        "freePropertyValuation": {
+          "title": "Free Property Valuation",
+          "button": "Apply Now"
+        },
+        "tailoredLoanSolution": {
+          "title": "Tailored Loan Solution",
+          "button": "Check Our Process"
+        },
+        "professionalTeam": {
+          "title": "Professional Team",
+          "button": "Contact Us"
+        },
+        "competitiveRates": {
+          "title": "Competitive Rates",
+          "button": "View Loan Products"
+        }
+      }
+    },
+    "lenders": {
+      "title": "Our Lenders",
+      "description": "We partner with leading financial institutions to provide you with the best loan options."
+    }
+  },
+  "common": {
+    "readMore": "Read More",
+    "contact": "Contact",
+    "submit": "Submit",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message"
+  }
+}
+
