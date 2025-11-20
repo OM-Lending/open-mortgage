@@ -5,7 +5,7 @@ import { Button } from '@/components/Button';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Blogs - Open Mortgage',
     description: 'Latest news, tips, and insights about mortgages and loans',

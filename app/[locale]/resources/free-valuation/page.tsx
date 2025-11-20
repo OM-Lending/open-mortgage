@@ -6,10 +6,7 @@ import { Textarea } from '@/components/Textarea';
 import { Button } from '@/components/Button';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'resources' });
-
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Free Valuation - Open Mortgage',
     description: 'Get a free property valuation from our experts',
@@ -28,7 +25,7 @@ export default async function FreeValuationPage({ params }: { params: Promise<{ 
         <Card>
           <p className="text-[#666666] mb-6">
             Request a free property valuation from our expert team. Fill out the form below 
-            and we'll get back to you with an accurate assessment.
+            and we&apos;ll get back to you with an accurate assessment.
           </p>
           
           <form className="space-y-4">

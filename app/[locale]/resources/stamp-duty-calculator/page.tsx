@@ -5,10 +5,7 @@ import { Input } from '@/components/Input';
 import { Button } from '@/components/Button';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'resources' });
-
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Stamp Duty Calculator - Open Mortgage',
     description: 'Estimate stamp duty costs for your property purchase',
@@ -25,7 +22,7 @@ export default async function StampDutyCalculatorPage({ params }: { params: Prom
       <div className="max-w-2xl mx-auto">
         <Card>
           <p className="text-[#666666] mb-6">
-            Calculate the stamp duty you'll need to pay on your property purchase. 
+            Calculate the stamp duty you&apos;ll need to pay on your property purchase. 
             Enter the property details below.
           </p>
           

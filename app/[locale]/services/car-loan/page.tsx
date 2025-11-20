@@ -2,10 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Section } from '@/components/Section';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'services' });
-
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Car Loan - Open Mortgage',
     description: 'Flexible car loan options with quick approval and competitive rates',

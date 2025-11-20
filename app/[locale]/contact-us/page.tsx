@@ -6,7 +6,7 @@ import { Textarea } from '@/components/Textarea';
 import { Button } from '@/components/Button';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Contact Us - Open Mortgage',
     description: 'Get in touch with Open Mortgage for all your mortgage and loan needs',
@@ -22,7 +22,7 @@ export default async function ContactUsPage({ params }: { params: Promise<{ loca
     <Section title="Contact Us" className="bg-gray-50 py-16">
       <div className="max-w-4xl mx-auto">
         <p className="text-lg text-[#666666] mb-8 text-center">
-          Have questions or ready to get started? We're here to help. Fill out the form below or contact us directly.
+          Have questions or ready to get started? We&apos;re here to help. Fill out the form below or contact us directly.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

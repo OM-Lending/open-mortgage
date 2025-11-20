@@ -1,9 +1,8 @@
-import { getTranslations } from 'next-intl/server';
 import { Section } from '@/components/Section';
 import { Card } from '@/components/Card';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Loan Products - Open Mortgage',
     description: 'Explore our range of loan products and find the right solution for you',
@@ -11,8 +10,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default async function LoanProductsPage({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
+export default async function LoanProductsPage() {
 
   return (
     <Section title="Loan Products" className="bg-white py-16">

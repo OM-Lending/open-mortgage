@@ -2,10 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Section } from '@/components/Section';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'services' });
-
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Commercial Loan - Open Mortgage',
     description: 'Business financing solutions tailored to your commercial needs',

@@ -5,10 +5,7 @@ import { Input } from '@/components/Input';
 import { Button } from '@/components/Button';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'resources' });
-
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Repayment Calculator - Open Mortgage',
     description: 'Calculate your monthly loan repayments easily',
@@ -19,7 +16,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function RepaymentCalculatorPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'resources' });
-  const tCommon = await getTranslations({ locale, namespace: 'common' });
 
   return (
     <Section title={t('repaymentCalculator')} className="bg-gray-50 py-16">

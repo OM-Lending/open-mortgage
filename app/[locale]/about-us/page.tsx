@@ -1,8 +1,7 @@
-import { getTranslations } from 'next-intl/server';
 import { Section } from '@/components/Section';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'About Us - Open Mortgage',
     description: 'Learn about Open Mortgage and our commitment to helping you achieve your financial goals',
@@ -10,7 +9,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
-export default async function AboutUsPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function AboutUsPage() {
   return (
     <>
       <Section className="bg-[#0d3250] text-white py-16">

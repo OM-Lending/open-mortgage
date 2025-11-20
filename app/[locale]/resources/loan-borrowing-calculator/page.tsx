@@ -5,10 +5,7 @@ import { Input } from '@/components/Input';
 import { Button } from '@/components/Button';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'resources' });
-
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Loan Borrowing Calculator - Open Mortgage',
     description: 'Calculate how much you can borrow for your loan',

@@ -1,9 +1,8 @@
-import { getTranslations } from 'next-intl/server';
 import { Section } from '@/components/Section';
 import { Card } from '@/components/Card';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'FAQ - Open Mortgage',
     description: 'Frequently asked questions about mortgages and loans',
@@ -14,7 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 const faqs = [
   {
     question: 'What documents do I need to apply for a loan?',
-    answer: 'You will typically need proof of identity, proof of income (payslips, tax returns), bank statements, proof of employment, and details about the property you\'re purchasing. Our team can provide a complete checklist based on your specific situation.',
+    answer: 'You will typically need proof of identity, proof of income (payslips, tax returns), bank statements, proof of employment, and details about the property you&apos;re purchasing. Our team can provide a complete checklist based on your specific situation.',
   },
   {
     question: 'How long does the loan approval process take?',
@@ -63,7 +62,7 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: st
 
         <div className="mt-12 text-center">
           <p className="text-[#666666] mb-4">
-            Still have questions? We're here to help.
+            Still have questions? We&apos;re here to help.
           </p>
           <a 
             href={`/${locale}/contact-us`}

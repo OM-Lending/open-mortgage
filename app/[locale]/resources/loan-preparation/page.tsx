@@ -2,10 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Section } from '@/components/Section';
 import type { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'resources' });
-
+export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Loan Preparation - Open Mortgage',
     description: 'Prepare for your loan application with our comprehensive guide',
@@ -24,12 +21,12 @@ export default async function LoanPreparationPage({ params }: { params: Promise<
           <h2 className="text-2xl font-semibold text-[#0d3250] mb-4">Preparing for Your Loan Application</h2>
           <p className="text-[#666666] mb-6">
             Being well-prepared can significantly speed up your loan application process. 
-            Here's what you'll need to have ready.
+            Here&apos;s what you&apos;ll need to have ready.
           </p>
 
           <h3 className="text-xl font-semibold text-[#0d3250] mb-4">Required Documents</h3>
           <ul className="list-disc list-inside text-[#666666] mb-6 space-y-2">
-            <li>Proof of identity (driver's license or passport)</li>
+            <li>Proof of identity (driver&apos;s license or passport)</li>
             <li>Proof of income (payslips, tax returns, bank statements)</li>
             <li>Proof of employment</li>
             <li>Asset statements</li>
@@ -52,7 +49,7 @@ export default async function LoanPreparationPage({ params }: { params: Promise<
           <ol className="list-decimal list-inside text-[#666666] mb-6 space-y-2">
             <li>Organize all documents before starting your application</li>
             <li>Be honest about your financial situation</li>
-            <li>Ask questions if you're unsure about anything</li>
+            <li>Ask questions if you&apos;re unsure about anything</li>
             <li>Work with our experts to find the best loan option</li>
           </ol>
 

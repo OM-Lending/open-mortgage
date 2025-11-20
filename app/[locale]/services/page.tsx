@@ -4,8 +4,7 @@ import Image from 'next/image';
 import type { Metadata } from 'next';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'services' });
+  await params;
 
   return {
     title: 'Our Services - Open Mortgage',
