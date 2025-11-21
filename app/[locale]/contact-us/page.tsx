@@ -68,22 +68,30 @@ export default async function ContactUsPage({ params }: { params: Promise<{ loca
           <div className="space-y-6">
             <Card>
               <h3 className="text-xl font-semibold text-[#0d3250] mb-4">Contact Information</h3>
-              <div className="space-y-4 text-[#666666]">
-                <div>
-                  <strong className="text-[#0d3250]">Phone:</strong>
-                  <p>+1 (555) 123-4567</p>
-                </div>
+              <div className="space-y-5 text-[#666666]">
                 <div>
                   <strong className="text-[#0d3250]">Email:</strong>
-                  <p>info@openmortgage.com</p>
+                  <p>info@omlending.com.au</p>
                 </div>
                 <div>
-                  <strong className="text-[#0d3250]">Address:</strong>
-                  <p>123 Financial Street<br />Business District, City 12345</p>
+                  <strong className="text-[#0d3250]">Sydney Office:</strong>
+                  <p>1211/87-89 Liverpool Street, Sydney NSW 2000</p>
+                </div>
+                <div>
+                  <strong className="text-[#0d3250]">Brisbane Office:</strong>
+                  <p>Suite 1.8, 7 Clunies Ross Court, Eight Mile Plains QLD 4113</p>
+                </div>
+                <div>
+                  <strong className="text-[#0d3250]">Hobart Office:</strong>
+                  <p>Level 1/22 Liverpool Street, Hobart TAS 7000</p>
                 </div>
                 <div>
                   <strong className="text-[#0d3250]">Business Hours:</strong>
-                  <p>Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM - 2:00 PM<br />Sunday: Closed</p>
+                  <p>
+                    Mon – Fri: 10:00 am – 06:00 pm<br />
+                    Sat: Closed<br />
+                    Sun: Closed
+                  </p>
                 </div>
               </div>
             </Card>

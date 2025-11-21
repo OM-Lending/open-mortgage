@@ -15,9 +15,29 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">Open Mortgage</h3>
-            <p className="text-gray-300 text-sm">
+            <p className="text-gray-300 text-sm mb-4">
               Your trusted partner for mortgage solutions.
             </p>
+            <div className="space-y-2 text-sm text-gray-300">
+              <p>
+                <span className="font-semibold text-white">Email:</span>{' '}
+                <a href="mailto:info@omlending.com.au" className="text-gray-300 hover:text-white">
+                  info@omlending.com.au
+                </a>
+              </p>
+              <p>
+                <span className="font-semibold text-white">Sydney:</span> 1211/87-89 Liverpool Street, Sydney NSW 2000
+              </p>
+              <p>
+                <span className="font-semibold text-white">Brisbane:</span> Suite 1.8, 7 Clunies Ross Court, Eight Mile Plains QLD 4113
+              </p>
+              <p>
+                <span className="font-semibold text-white">Hobart:</span> Level 1/22 Liverpool Street, Hobart TAS 7000
+              </p>
+              <p>
+                <span className="font-semibold text-white">Hours:</span> Mon–Fri 10:00 am – 06:00 pm · Sat/Sun Closed
+              </p>
+            </div>
           </div>
           
           <div>
