@@ -9,8 +9,137 @@
   "services": {
     "ourService": "我们的服务",
     "homeLoan": "房屋贷款",
+    "homeLoanHeroEyebrow": "房贷专属",
+    "homeLoanHeroTitle": "更有把握地拥抱下一套房",
+    "homeLoanHeroDescription": "Open Mortgage 结合本地经验与丰富贷款渠道，为您匹配契合目标的方案。",
+    "homeLoanHeroCtaPrimary": "与专家通话",
+    "homeLoanHeroCtaSecondary": "查看贷款选项",
+    "homeLoanBenefitsTitle": "我们打造助您前行的计划",
+    "homeLoanBenefitsSubtitle": "每份申请都独一无二，我们会根据时间节点与需求定制策略与文书。",
+    "homeLoanBenefits": {
+      "items": {
+        "tailored": {
+          "title": "量身贷款方案",
+          "description": "我们整合首付款替代、产品组合与余额策略，呈现清晰路径。"
+        },
+        "strategic": {
+          "title": "战略性贷款方匹配",
+          "description": "我们与银行及非银行贷款机构谈判，平衡利率、费用与灵活性。"
+        },
+        "holistic": {
+          "title": "全流程支持",
+          "description": "从估值到交割，我们保持透明并积极争取您的批准。"
+        }
+      }
+    },
+    "homeLoanProcessTitle": "我们引导每个房贷流程",
+    "homeLoanProcessSubtitle": "您保持掌控，我们处理细节、文件与贷款机构互动。",
+    "homeLoanSolutionsTitle": "面向每类借款人的方案",
+    "homeLoanSolutionsSubtitle": "选择与您故事契合的路径，我们简化选项并突显关键。",
+    "homeLoanSolutionsCategoryLabel": "类别",
+    "homeLoanSolutionsPrompt": "浏览完整房贷产品组合，或联系我们获取更贴近您需求的建议。",
+    "homeLoanCtaEyebrow": "一次对话，无限可能",
+    "homeLoanCtaTitle": "准备开始您的房贷故事吗？",
+    "homeLoanCtaDescription": "预约与我们的经纪人通话，或提交房产资料，我们会为您规划简明路径。",
+    "homeLoanCtaButton": "安排咨询",
     "carLoan": "汽车贷款",
+    "carLoanHeroEyebrow": "汽车贷款",
+    "carLoanHeroTitle": "合适的融资方案助您即刻启程",
+    "carLoanHeroDescription": "我们助您寻找极具竞争力的车贷利率和灵活条款，让您更快上路。",
+    "carLoanHeroCtaPrimary": "获取报价",
+    "carLoanHeroCtaSecondary": "查看贷款类型",
+    "carLoanBenefitsTitle": "为什么选择我们的车贷",
+    "carLoanBenefitsSubtitle": "快速审批与定制选项，契合您的预算和生活方式。",
+    "carLoanBenefits": {
+      "items": {
+        "speed": {
+          "title": "快速审批",
+          "description": "快速获得批准，不错过您的心仪座驾。"
+        },
+        "flexibility": {
+          "title": "灵活条款",
+          "description": "选择适合您预算和财务目标的还款方案。"
+        },
+        "competitive": {
+          "title": "优惠利率",
+          "description": "从广泛的值得信赖的贷款机构网络中获取低利率。"
+        }
+      }
+    },
+    "carLoanSolutionsTitle": "车贷选项",
+    "carLoanSolutionsSubtitle": "无论是商业用途还是个人使用，我们都有适合您的贷款方案。",
+    "carLoanSolutionsPrompt": "探索我们旨在助您前行的车贷融资选项。",
+    "carLoanTypes": {
+      "new": {
+        "title": "新车贷款",
+        "description": "为全新车辆提供具有竞争力的利率和灵活条款。"
+      },
+      "used": {
+        "title": "二手车贷款",
+        "description": "为经销商或私人卖家的优质二手车提供融资。"
+      },
+      "refinance": {
+        "title": "车贷再融资",
+        "description": "对现有车贷进行再融资，以获得更优利率或降低还款额。"
+      },
+      "business": {
+        "title": "商业车贷",
+        "description": "为企业主提供具有税务效益的车辆融资方案。"
+      }
+    },
+    "carLoanCtaEyebrow": "今天就开始您的旅程",
+    "carLoanCtaTitle": "准备好握紧方向盘了吗？",
+    "carLoanCtaDescription": "联系我们讨论您的车贷需求，获取个性化报价。",
+    "carLoanCtaButton": "立即咨询",
     "commercialLoan": "商业贷款",
+    "commercialLoanHeroEyebrow": "商业贷款",
+    "commercialLoanHeroTitle": "助推您的业务增长",
+    "commercialLoanHeroDescription": "量身定制的融资方案，旨在支持您的商业雄心和运营需求。",
+    "commercialLoanHeroCtaPrimary": "咨询专家",
+    "commercialLoanHeroCtaSecondary": "查看方案",
+    "commercialLoanBenefitsTitle": "赋能您的企业",
+    "commercialLoanBenefitsSubtitle": "战略性融资选项，助您管理现金流并把握机遇。",
+    "commercialLoanBenefits": {
+      "items": {
+        "growth": {
+          "title": "业务增长",
+          "description": "获取资金用于扩展运营、招聘员工或进入新市场。"
+        },
+        "cashflow": {
+          "title": "现金流管理",
+          "description": "灵活的解决方案，用于平滑收入波动并支付运营成本。"
+        },
+        "tax": {
+          "title": "税务效益",
+          "description": "构建您的贷款结构，以最大化企业的潜在税务优惠。"
+        }
+      }
+    },
+    "commercialLoanSolutionsTitle": "商业融资方案",
+    "commercialLoanSolutionsSubtitle": "从房产到设备，我们有适合您业务需求的贷款。",
+    "commercialLoanSolutionsPrompt": "浏览我们全面的商业贷款产品系列。",
+    "commercialLoanTypes": {
+      "property": {
+        "title": "商业房产",
+        "description": "购买或再融资办公室、零售或工业房产。"
+      },
+      "equipment": {
+        "title": "设备融资",
+        "description": "升级机械、车辆或技术，而无需占用资金。"
+      },
+      "lineOfCredit": {
+        "title": "商业信用额度",
+        "description": "灵活获取资金，用于日常开支和机遇。"
+      },
+      "development": {
+        "title": "开发融资",
+        "description": "为住宅或商业房产开发项目提供资金。"
+      }
+    },
+    "commercialLoanCtaEyebrow": "让我们谈谈业务",
+    "commercialLoanCtaTitle": "准备好迈出下一步了吗？",
+    "commercialLoanCtaDescription": "联系我们的商业借贷专家，构建适合您的交易。",
+    "commercialLoanCtaButton": "联系我们",
     "ourProcess": {
       "title": "我们的流程",
       "steps": {
@@ -43,7 +172,87 @@
   },
   "resources": {
     "repaymentCalculator": "还款计算器",
+    "repaymentCalculatorHeroEyebrow": "计算器",
+    "repaymentCalculatorHeroTitle": "更有把握地规划还款",
+    "repaymentCalculatorHeroDescription": "在申请前估算您的每月房贷还款额，了解什么适合您的预算。",
+    "repaymentCalculatorHeroCtaPrimary": "开始计算",
+    "repaymentCalculatorHeroCtaSecondary": "获取完整估值",
+    "repaymentCalculatorInputTitle": "输入您的贷款详情",
+    "repaymentCalculatorInputSubtitle": "调整数值以查看不同利率和期限如何影响您的还款。",
+    "repaymentCalculatorResultsTitle": "您的预估还款额",
+    "repaymentCalculatorResultsSubtitle": "此仅为预估值。利率和费用可能会有所不同。",
+    "repaymentCalculatorInputs": {
+      "loanAmount": {
+        "label": "贷款金额 ($)",
+        "placeholder": "例如 500,000"
+      },
+      "interestRate": {
+        "label": "利率 (%)",
+        "placeholder": "例如 5.89"
+      },
+      "loanTerm": {
+        "label": "贷款期限 (年)",
+        "placeholder": "例如 30"
+      },
+      "repaymentType": {
+        "label": "还款类型",
+        "principalAndInterest": "本金和利息",
+        "interestOnly": "仅利息"
+      },
+      "repaymentFrequency": {
+        "label": "还款频率",
+        "monthly": "每月",
+        "fortnightly": "每两周",
+        "weekly": "每周"
+      }
+    },
+    "repaymentCalculatorResults": {
+      "totalRepayment": "总还款额",
+      "totalInterest": "应付总利息",
+      "monthlyRepayment": "每月还款",
+      "fortnightlyRepayment": "每两周还款",
+      "weeklyRepayment": "每周还款"
+    },
+    "repaymentCalculatorCtaTitle": "准备好迈出下一步了吗？",
+    "repaymentCalculatorCtaDescription": "与经纪人交谈，精准评估您的借款能力。",
+    "repaymentCalculatorCtaButton": "预约咨询",
     "stampDutyCalculator": "印花税计算器",
+    "stampDutyCalculatorHeroEyebrow": "计算器",
+    "stampDutyCalculatorHeroTitle": "估算您的印花税",
+    "stampDutyCalculatorHeroDescription": "澳洲各州的印花税规则不同，使用此工具查看新南威尔士、维多利亚、昆士兰等地区的估算值。",
+    "stampDutyCalculatorHeroCtaPrimary": "立即计算",
+    "stampDutyCalculatorHeroCtaSecondary": "联系经纪人",
+    "stampDutyCalculatorInputTitle": "房产信息",
+    "stampDutyCalculatorInputSubtitle": "选择州别、房产用途与优惠，了解预估的印花税。",
+    "stampDutyCalculatorInputs": {
+      "state": {
+        "label": "州 / 领地"
+      },
+      "propertyValue": {
+        "label": "房产价值 ($)",
+        "placeholder": "例如 850,000"
+      },
+      "propertyType": {
+        "label": "房产用途",
+        "liveIn": "自住",
+        "investment": "投资"
+      },
+      "firstHomeBuyer": {
+        "label": "首次购房者？"
+      },
+      "foreignBuyer": {
+        "label": "海外买家？"
+      }
+    },
+    "stampDutyCalculatorResultsTitle": "预估印花税",
+    "stampDutyCalculatorResultsSubtitle": "基于当前州别税率与可用优惠的粗略计算。",
+    "stampDutyCalculatorResults": {
+      "estimatedDuty": "政府转让税",
+      "disclaimer": "数字仅为估算，基于标准的 {state} 税率。请咨询过户师确认准确金额。"
+    },
+    "stampDutyCalculatorCtaTitle": "需要清晰的明细吗？",
+    "stampDutyCalculatorCtaDescription": "我们的经纪人可以帮助您梳理各州优惠、附加费与实际总成本。",
+    "stampDutyCalculatorCtaButton": "咨询专家",
     "freeValuation": "免费估值",
     "loanPreparation": "贷款准备",
     "loanBorrowingCalculator": "贷款额度计算器"
@@ -119,4 +328,3 @@
     "message": "留言"
   }
 }
-

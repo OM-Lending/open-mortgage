@@ -1,15 +1,15 @@
 import { getTranslations } from 'next-intl/server';
 import { Section } from '@/components/Section';
-import { Card } from '@/components/Card';
-import { Input } from '@/components/Input';
 import { Button } from '@/components/Button';
+import { RepaymentCalculator } from '@/components/RepaymentCalculator';
+import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Repayment Calculator - Open Mortgage',
-    description: 'Calculate your monthly loan repayments easily',
-    keywords: 'repayment calculator, loan calculator, mortgage calculator',
+    description: 'Calculate your estimated monthly loan repayments',
+    keywords: 'mortgage calculator, repayment calculator, loan estimator, home loan calculator',
   };
 }
 
@@ -18,52 +18,56 @@ export default async function RepaymentCalculatorPage({ params }: { params: Prom
   const t = await getTranslations({ locale, namespace: 'resources' });
 
   return (
-    <Section title={t('repaymentCalculator')} className="bg-gray-50 py-16">
-      <div className="max-w-2xl mx-auto">
-        <Card>
-          <p className="text-[#666666] mb-6">
-            Use our repayment calculator to estimate your monthly loan repayments. 
-            Enter your loan details below to get started.
+    <>
+      <Section className="bg-gradient-to-br from-[#eef3ff] via-[#f9fbff] to-white text-[#0d3250]">
+        <div className="max-w-4xl mx-auto text-center space-y-6">
+          <p className="text-xs uppercase tracking-[0.5em] text-[#0d3250]/60">{t('repaymentCalculatorHeroEyebrow')}</p>
+          <h1
+            className="text-4xl md:text-5xl font-black leading-tight"
+            style={{ fontFamily: 'var(--font-montserrat), sans-serif', fontWeight: 900 }}
+          >
+            {t('repaymentCalculatorHeroTitle')}
+          </h1>
+          <p className="text-lg text-[#666666] leading-relaxed max-w-2xl mx-auto">
+            {t('repaymentCalculatorHeroDescription')}
           </p>
           
-          <form className="space-y-4">
-            <Input
-              type="number"
-              label="Loan Amount"
-              placeholder="Enter loan amount"
-              name="loanAmount"
-            />
-            
-            <Input
-              type="number"
-              label="Interest Rate (%)"
-              placeholder="Enter interest rate"
-              name="interestRate"
-              step="0.01"
-            />
-            
-            <Input
-              type="number"
-              label="Loan Term (years)"
-              placeholder="Enter loan term"
-              name="loanTerm"
-            />
-            
-            <div className="pt-4">
-              <Button type="submit" variant="primary" className="w-full">
-                Calculate Repayment
-              </Button>
-            </div>
-          </form>
-          
-          <div className="mt-6 p-4 bg-gray-50 border border-[#e0e0e0]">
-            <p className="text-sm text-[#666666]">
-              This is a placeholder calculator. Results will be displayed here once functionality is implemented.
-            </p>
+          <div className="flex flex-wrap justify-center gap-4 pt-4">
+            <Link
+              href="#calculator"
+              className="inline-flex items-center justify-center rounded-full bg-[#0d3250] px-8 py-4 text-sm font-medium uppercase tracking-wide text-white transition hover:bg-[#1a4a70]"
+            >
+              {t('repaymentCalculatorHeroCtaPrimary')}
+            </Link>
+            <Link
+              href={`/${locale}/resources/free-valuation`}
+              className="inline-flex items-center justify-center rounded-full border border-[#0d3250] px-8 py-4 text-sm font-medium uppercase tracking-wide text-[#0d3250] transition hover:bg-[#0d3250] hover:text-white"
+            >
+              {t('repaymentCalculatorHeroCtaSecondary')}
+            </Link>
           </div>
-        </Card>
+            </div>
+      </Section>
+          
+      <div id="calculator">
+        <Section className="bg-white">
+          <div className="max-w-5xl mx-auto">
+            <RepaymentCalculator />
+          </div>
+        </Section>
+      </div>
+
+      <Section className="bg-[#0d3250] text-white">
+        <div className="mx-auto flex max-w-4xl flex-col items-center gap-4 text-center">
+          <h2 className="text-3xl font-black md:text-4xl">{t('repaymentCalculatorCtaTitle')}</h2>
+          <p className="text-lg text-[#d5e2ff]/90">{t('repaymentCalculatorCtaDescription')}</p>
+          <Link href={`/${locale}/contact-us`}>
+            <Button variant="secondary" className="mt-4 rounded-full px-8">
+              {t('repaymentCalculatorCtaButton')}
+            </Button>
+          </Link>
       </div>
     </Section>
+    </>
   );
 }
-

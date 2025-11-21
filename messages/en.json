@@ -9,8 +9,137 @@
   "services": {
     "ourService": "Our Service",
     "homeLoan": "Home Loan",
+    "homeLoanHeroEyebrow": "Home Loans",
+    "homeLoanHeroTitle": "Own your next home with certainty",
+    "homeLoanHeroDescription": "Open Mortgage combines local expertise with broad lender access to match you with the loan that fits your goals.",
+    "homeLoanHeroCtaPrimary": "Talk to a broker",
+    "homeLoanHeroCtaSecondary": "Review loan options",
+    "homeLoanBenefitsTitle": "We build plans that move you forward",
+    "homeLoanBenefitsSubtitle": "Every application is unique, so we tailor the strategy and paperwork to your timeline.",
+    "homeLoanBenefits": {
+      "items": {
+        "tailored": {
+          "title": "Tailored borrowing plans",
+          "description": "We layer deposit alternatives, product mix, and offset strategies into a clear pathway."
+        },
+        "strategic": {
+          "title": "Strategic lender matching",
+          "description": "We negotiate with our panel of banks and non-bank lenders to balance rates, fees, and flexibility."
+        },
+        "holistic": {
+          "title": "Holistic support",
+          "description": "From valuation to settlement, we keep you informed and advocate for your approval."
+        }
+      }
+    },
+    "homeLoanProcessTitle": "How we guide every home loan",
+    "homeLoanProcessSubtitle": "You stay in control while we manage the details, paperwork, and lender relationships.",
+    "homeLoanSolutionsTitle": "Solutions for every borrower",
+    "homeLoanSolutionsSubtitle": "Pick the pathway that matches your story. We simplify the options and highlight what matters.",
+    "homeLoanSolutionsCategoryLabel": "Category",
+    "homeLoanSolutionsPrompt": "Explore the full range of home loan products or reach out for a tailored recommendation.",
+    "homeLoanCtaEyebrow": "One conversation, countless possibilities",
+    "homeLoanCtaTitle": "Ready to build your mortgage story?",
+    "homeLoanCtaDescription": "Book a call with our brokers or send us your property notes and we’ll deliver a straight path forward.",
+    "homeLoanCtaButton": "Schedule a consultation",
     "carLoan": "Car Loan",
+    "carLoanHeroEyebrow": "Car Loans",
+    "carLoanHeroTitle": "Drive away sooner with the right finance",
+    "carLoanHeroDescription": "We help you find competitive car loan rates and flexible terms so you can get on the road faster.",
+    "carLoanHeroCtaPrimary": "Get a quote",
+    "carLoanHeroCtaSecondary": "View loan types",
+    "carLoanBenefitsTitle": "Why choose our car loans",
+    "carLoanBenefitsSubtitle": "Fast approvals and tailored options to suit your budget and lifestyle.",
+    "carLoanBenefits": {
+      "items": {
+        "speed": {
+          "title": "Fast Approvals",
+          "description": "Get approved quickly so you don't miss out on your dream car."
+        },
+        "flexibility": {
+          "title": "Flexible Terms",
+          "description": "Choose repayment options that fit your budget and financial goals."
+        },
+        "competitive": {
+          "title": "Competitive Rates",
+          "description": "Access low interest rates from a wide network of trusted lenders."
+        }
+      }
+    },
+    "carLoanSolutionsTitle": "Car Loan Options",
+    "carLoanSolutionsSubtitle": "Whether it's for business or personal use, we have a loan solution for you.",
+    "carLoanSolutionsPrompt": "Explore our range of car financing options designed to get you moving.",
+    "carLoanTypes": {
+      "new": {
+        "title": "New Car Loans",
+        "description": "Competitive rates for brand new vehicles with flexible terms."
+      },
+      "used": {
+        "title": "Used Car Loans",
+        "description": "Finance for quality used cars from dealers or private sellers."
+      },
+      "refinance": {
+        "title": "Car Loan Refinancing",
+        "description": "Refinance your existing car loan to get a better rate or lower payments."
+      },
+      "business": {
+        "title": "Business Car Loans",
+        "description": "Tax-effective vehicle financing solutions for business owners."
+      }
+    },
+    "carLoanCtaEyebrow": "Start your journey today",
+    "carLoanCtaTitle": "Ready to get behind the wheel?",
+    "carLoanCtaDescription": "Contact us to discuss your car loan needs and get a personalized quote.",
+    "carLoanCtaButton": "Enquire Now",
     "commercialLoan": "Commercial Loan",
+    "commercialLoanHeroEyebrow": "Commercial Loans",
+    "commercialLoanHeroTitle": "Fuel your business growth",
+    "commercialLoanHeroDescription": "Tailored financing solutions designed to support your business ambitions and operational needs.",
+    "commercialLoanHeroCtaPrimary": "Talk to an expert",
+    "commercialLoanHeroCtaSecondary": "View solutions",
+    "commercialLoanBenefitsTitle": "Empowering your business",
+    "commercialLoanBenefitsSubtitle": "Strategic financing options to help you manage cash flow and seize opportunities.",
+    "commercialLoanBenefits": {
+      "items": {
+        "growth": {
+          "title": "Business Growth",
+          "description": "Access capital to expand operations, hire staff, or enter new markets."
+        },
+        "cashflow": {
+          "title": "Cash Flow Management",
+          "description": "Flexible solutions to smooth out revenue fluctuations and cover operational costs."
+        },
+        "tax": {
+          "title": "Tax Efficiency",
+          "description": "Structure your loans to maximize potential tax benefits for your business."
+        }
+      }
+    },
+    "commercialLoanSolutionsTitle": "Commercial Financing Solutions",
+    "commercialLoanSolutionsSubtitle": "From property to equipment, we have the right loan for your business needs.",
+    "commercialLoanSolutionsPrompt": "Browse our comprehensive range of commercial loan products.",
+    "commercialLoanTypes": {
+      "property": {
+        "title": "Commercial Property",
+        "description": "Purchase or refinance office, retail, or industrial property."
+      },
+      "equipment": {
+        "title": "Equipment Finance",
+        "description": "Upgrade machinery, vehicles, or technology without tying up capital."
+      },
+      "lineOfCredit": {
+        "title": "Business Line of Credit",
+        "description": "Flexible access to funds for day-to-day expenses and opportunities."
+      },
+      "development": {
+        "title": "Development Finance",
+        "description": "Funding for residential or commercial property development projects."
+      }
+    },
+    "commercialLoanCtaEyebrow": "Let's talk business",
+    "commercialLoanCtaTitle": "Ready to take the next step?",
+    "commercialLoanCtaDescription": "Connect with our commercial lending specialists to structure a deal that works for you.",
+    "commercialLoanCtaButton": "Contact Us",
     "ourProcess": {
       "title": "Our Process",
       "steps": {
@@ -43,7 +172,87 @@
   },
   "resources": {
     "repaymentCalculator": "Repayment Calculator",
+    "repaymentCalculatorHeroEyebrow": "Calculators",
+    "repaymentCalculatorHeroTitle": "Plan your repayments with confidence",
+    "repaymentCalculatorHeroDescription": "Estimate your monthly mortgage repayments to understand what fits your budget before you apply.",
+    "repaymentCalculatorHeroCtaPrimary": "Start calculating",
+    "repaymentCalculatorHeroCtaSecondary": "Get a full valuation",
+    "repaymentCalculatorInputTitle": "Enter your loan details",
+    "repaymentCalculatorInputSubtitle": "Adjust the values to see how different rates and terms affect your repayments.",
+    "repaymentCalculatorResultsTitle": "Your estimated repayments",
+    "repaymentCalculatorResultsSubtitle": "This is an estimate only. Interest rates and fees may vary.",
+    "repaymentCalculatorInputs": {
+      "loanAmount": {
+        "label": "Loan Amount ($)",
+        "placeholder": "e.g. 500,000"
+      },
+      "interestRate": {
+        "label": "Interest Rate (%)",
+        "placeholder": "e.g. 5.89"
+      },
+      "loanTerm": {
+        "label": "Loan Term (Years)",
+        "placeholder": "e.g. 30"
+      },
+      "repaymentType": {
+        "label": "Repayment Type",
+        "principalAndInterest": "Principal & Interest",
+        "interestOnly": "Interest Only"
+      },
+      "repaymentFrequency": {
+        "label": "Repayment Frequency",
+        "monthly": "Monthly",
+        "fortnightly": "Fortnightly",
+        "weekly": "Weekly"
+      }
+    },
+    "repaymentCalculatorResults": {
+      "totalRepayment": "Total Repayment",
+      "totalInterest": "Total Interest Payable",
+      "monthlyRepayment": "Monthly Repayment",
+      "fortnightlyRepayment": "Fortnightly Repayment",
+      "weeklyRepayment": "Weekly Repayment"
+    },
+    "repaymentCalculatorCtaTitle": "Ready to take the next step?",
+    "repaymentCalculatorCtaDescription": "Speak to a broker to get a precise assessment of your borrowing capacity.",
+    "repaymentCalculatorCtaButton": "Book a consultation",
     "stampDutyCalculator": "Stamp Duty Calculator",
+    "stampDutyCalculatorHeroEyebrow": "Calculators",
+    "stampDutyCalculatorHeroTitle": "Estimate your stamp duty",
+    "stampDutyCalculatorHeroDescription": "Stamp duty varies across states. Use this guide for NSW, VIC, QLD, and beyond to understand the likely transfer duty.",
+    "stampDutyCalculatorHeroCtaPrimary": "Calculate now",
+    "stampDutyCalculatorHeroCtaSecondary": "Talk to a broker",
+    "stampDutyCalculatorInputTitle": "Property details",
+    "stampDutyCalculatorInputSubtitle": "Choose your state, property type, and concessions to see a rough duty estimate.",
+    "stampDutyCalculatorInputs": {
+      "state": {
+        "label": "State / Territory"
+      },
+      "propertyValue": {
+        "label": "Property Value ($)",
+        "placeholder": "e.g. 850,000"
+      },
+      "propertyType": {
+        "label": "Property Use",
+        "liveIn": "Live-in",
+        "investment": "Investment"
+      },
+      "firstHomeBuyer": {
+        "label": "First Home Buyer?"
+      },
+      "foreignBuyer": {
+        "label": "Foreign Buyer?"
+      }
+    },
+    "stampDutyCalculatorResultsTitle": "Estimated stamp duty",
+    "stampDutyCalculatorResultsSubtitle": "Based on current state rates plus any available concessions.",
+    "stampDutyCalculatorResults": {
+      "estimatedDuty": "Government transfer duty",
+      "disclaimer": "Figures are estimates only, based on standard {state} rates. Confirm the exact amount with a conveyancer."
+    },
+    "stampDutyCalculatorCtaTitle": "Need a clear breakdown?",
+    "stampDutyCalculatorCtaDescription": "Our brokers can review concessions, surcharges, and any government relief so you understand the total upfront cost.",
+    "stampDutyCalculatorCtaButton": "Talk to an expert",
     "freeValuation": "Free Valuation",
     "loanPreparation": "Loan Preparation",
     "loanBorrowingCalculator": "Loan Borrowing Calculator"
@@ -119,4 +328,3 @@
     "message": "Message"
   }
 }
-

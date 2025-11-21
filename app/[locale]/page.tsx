@@ -73,24 +73,24 @@ export default async function HomePage({
       />
 
       {/* Welcome to Open Mortgage Section */}
-      <section className="py-20 md:py-24 bg-[#0d3250] text-white pt-24">
+      <section className="py-24 bg-[#0d3250] text-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-6">
+          <div className="text-center mb-8">
             <h2
-              className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3 leading-tight"
-              style={{ fontFamily: "var(--font-playfair-display), serif" }}
+              className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 leading-tight"
+              style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
             >
               {tHome("welcome.title")}
             </h2>
           </div>
           <div className="max-w-3xl mx-auto text-center">
-            <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-10">
               {tHome("welcome.content")}
             </p>
             <Link href={`/${locale}/about-us`}>
               <Button
                 variant="secondary"
-                className="bg-white text-[#0d3250] hover:bg-gray-100 px-8 py-4"
+                className="bg-white text-[#0d3250] hover:bg-gray-100 px-8 py-4 rounded-full"
               >
                 {t("more.aboutUs")}
               </Button>
@@ -100,71 +100,78 @@ export default async function HomePage({
       </section>
 
       {/* Why Choose Open Mortgage Section */}
-      <Section title={tHome("whyChoose.title")} className="bg-gray-50">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto items-stretch">
+      <Section title={tHome("whyChoose.title")} className="bg-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           <Card
             title={tHome("whyChoose.items.freePropertyValuation.title")}
             image="/Free Property Valuation.webp"
             imageAlt="Free Property Valuation"
           >
-            <Link href={`/${locale}/resources/free-valuation`}>
-              <Button variant="primary" className="w-full mt-4">
-                {tHome("whyChoose.items.freePropertyValuation.button")}
-              </Button>
-            </Link>
+            <div className="mt-auto">
+              <Link href={`/${locale}/resources/free-valuation`}>
+                <Button variant="primary" className="w-full mt-4 rounded-full">
+                  {tHome("whyChoose.items.freePropertyValuation.button")}
+                </Button>
+              </Link>
+            </div>
           </Card>
           <Card
             title={tHome("whyChoose.items.tailoredLoanSolution.title")}
             image="/Tailored Loan Solution.webp"
             imageAlt="Tailored Loan Solution"
           >
-            <Link href={`/${locale}/our-process`}>
-              <Button variant="primary" className="w-full mt-4">
-                {tHome("whyChoose.items.tailoredLoanSolution.button")}
-              </Button>
-            </Link>
+            <div className="mt-auto">
+              <Link href={`/${locale}/our-process`}>
+                <Button variant="primary" className="w-full mt-4 rounded-full">
+                  {tHome("whyChoose.items.tailoredLoanSolution.button")}
+                </Button>
+              </Link>
+            </div>
           </Card>
           <Card
             title={tHome("whyChoose.items.professionalTeam.title")}
             image="/Professional Team.webp"
             imageAlt="Professional Team"
           >
-            <Link href={`/${locale}/contact-us`}>
-              <Button variant="primary" className="w-full mt-4">
-                {tHome("whyChoose.items.professionalTeam.button")}
-              </Button>
-            </Link>
+            <div className="mt-auto">
+              <Link href={`/${locale}/contact-us`}>
+                <Button variant="primary" className="w-full mt-4 rounded-full">
+                  {tHome("whyChoose.items.professionalTeam.button")}
+                </Button>
+              </Link>
+            </div>
           </Card>
           <Card
             title={tHome("whyChoose.items.competitiveRates.title")}
             image="/Competitive Rates.webp"
             imageAlt="Competitive Rates"
           >
-            <Link href={`/${locale}/loan-products`}>
-              <Button variant="primary" className="w-full mt-4">
-                {tHome("whyChoose.items.competitiveRates.button")}
-              </Button>
-            </Link>
+            <div className="mt-auto">
+              <Link href={`/${locale}/loan-products`}>
+                <Button variant="primary" className="w-full mt-4 rounded-full">
+                  {tHome("whyChoose.items.competitiveRates.button")}
+                </Button>
+              </Link>
+            </div>
           </Card>
         </div>
       </Section>
 
-      {/* Services & Resources Section */}
-      <Section
-        title={tHome("servicesAndResourcesTitle")}
-        className="bg-[#0d3250] text-white"
-      >
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+      {/* Services Section */}
+      <Section title={tHome("servicesTitle")} className="bg-[#f9fbff]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <Card
             title={tServices("homeLoan")}
             image="/Home Loans.webp"
             imageAlt="Home Loans"
           >
-            <Link href={`/${locale}/services/home-loan`} className="mt-auto">
-              <Button variant="primary" className="w-full">
-                {t("common.readMore")}
-              </Button>
-            </Link>
+            <div className="mt-auto">
+              <Link href={`/${locale}/services/home-loan`}>
+                <Button variant="primary" className="w-full rounded-full">
+                  {t("common.readMore")}
+                </Button>
+              </Link>
+            </div>
           </Card>
 
           <Card
@@ -172,11 +179,13 @@ export default async function HomePage({
             image="/Car Loans.webp"
             imageAlt="Car Loans"
           >
-            <Link href={`/${locale}/services/car-loan`} className="mt-auto">
-              <Button variant="primary" className="w-full">
-                {t("common.readMore")}
-              </Button>
-            </Link>
+            <div className="mt-auto">
+              <Link href={`/${locale}/services/car-loan`}>
+                <Button variant="primary" className="w-full rounded-full">
+                  {t("common.readMore")}
+                </Button>
+              </Link>
+            </div>
           </Card>
 
           <Card
@@ -184,29 +193,32 @@ export default async function HomePage({
             image="/Business Loans.webp"
             imageAlt="Business Loans"
           >
-            <Link
-              href={`/${locale}/services/commercial-loan`}
-              className="mt-auto"
-            >
-              <Button variant="primary" className="w-full">
-                {t("common.readMore")}
-              </Button>
-            </Link>
+            <div className="mt-auto">
+              <Link href={`/${locale}/services/commercial-loan`}>
+                <Button variant="primary" className="w-full rounded-full">
+                  {t("common.readMore")}
+                </Button>
+              </Link>
+            </div>
           </Card>
+        </div>
+      </Section>
 
+      {/* Resources Section */}
+      <Section title={tHome("resourcesTitle")} className="bg-white">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <Card
             title={tResources("repaymentCalculator")}
             image="/Repayment Calculator.webp"
             imageAlt="Repayment Calculator"
           >
-            <Link
-              href={`/${locale}/resources/repayment-calculator`}
-              className="mt-auto"
-            >
-              <Button variant="primary" className="w-full">
-                {t("common.readMore")}
-              </Button>
-            </Link>
+            <div className="mt-auto">
+              <Link href={`/${locale}/resources/repayment-calculator`}>
+                <Button variant="secondary" className="w-full rounded-full">
+                  {t("common.readMore")}
+                </Button>
+              </Link>
+            </div>
           </Card>
 
           <Card
@@ -214,14 +226,13 @@ export default async function HomePage({
             image="/Stamp Duty Calculator.webp"
             imageAlt="Stamp Duty Calculator"
           >
-            <Link
-              href={`/${locale}/resources/stamp-duty-calculator`}
-              className="mt-auto"
-            >
-              <Button variant="primary" className="w-full">
-                {t("common.readMore")}
-              </Button>
-            </Link>
+            <div className="mt-auto">
+              <Link href={`/${locale}/resources/stamp-duty-calculator`}>
+                <Button variant="secondary" className="w-full rounded-full">
+                  {t("common.readMore")}
+                </Button>
+              </Link>
+            </div>
           </Card>
 
           <Card
@@ -229,28 +240,27 @@ export default async function HomePage({
             image="/Loan Borrowing Calculator.webp"
             imageAlt="Loan Borrowing Calculator"
           >
-            <Link
-              href={`/${locale}/resources/loan-borrowing-calculator`}
-              className="mt-auto"
-            >
-              <Button variant="primary" className="w-full">
-                {t("common.readMore")}
-              </Button>
-            </Link>
+            <div className="mt-auto">
+              <Link href={`/${locale}/resources/loan-borrowing-calculator`}>
+                <Button variant="secondary" className="w-full rounded-full">
+                  {t("common.readMore")}
+                </Button>
+              </Link>
+            </div>
           </Card>
         </div>
       </Section>
 
       {/* Our Lenders Section */}
-      <Section title={tHome("lenders.title")} className="bg-gray-50">
+      <Section title={tHome("lenders.title")} className="bg-[#f9fbff]">
         <p className="text-center text-[#666666] mb-12 max-w-2xl mx-auto text-lg leading-relaxed">
           {tHome("lenders.description")}
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center justify-items-center max-w-7xl mx-auto">
           {lenderImages.map((lender, index) => (
             <div
               key={index}
-              className="w-full aspect-video bg-white border border-gray-200 flex items-center justify-center hover:shadow-md transition-shadow duration-300 p-4"
+              className="w-full aspect-video bg-white border border-[#e3e7f5] rounded-2xl flex items-center justify-center hover:shadow-lg transition-all duration-300 p-6 shadow-sm hover:-translate-y-1"
             >
               <Image
                 src={lender.src}

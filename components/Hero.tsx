@@ -39,16 +39,22 @@ export const Hero: React.FC<HeroProps> = ({
       {/* Content */}
       <div className="relative z-20 container mx-auto px-4 text-center">
         <h1
-          className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 leading-tight"
-          style={{ fontFamily: "var(--font-playfair-display), serif" }}
+          className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white mb-6 leading-tight"
+          style={{
+            fontFamily: "var(--font-montserrat), sans-serif",
+            fontWeight: 900,
+          }}
         >
           {title}
         </h1>
-        <p className="text-lg md:text-xl lg:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
+        <p
+          className="text-lg md:text-xl lg:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed"
+          style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
+        >
           {subtitle}
         </p>
         <Link href={ctaLink}>
-          <Button variant="primary" className="px-8 py-4 text-lg">
+          <Button variant="primary" className="px-8 py-4 text-lg rounded-full">
             {ctaText}
           </Button>
         </Link>
