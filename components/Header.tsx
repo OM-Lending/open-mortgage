@@ -13,17 +13,16 @@ export const Header = () => {
     <header className="bg-[#0d3250] text-white shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20 relative">
-          <Link href={`/${locale}`} className="flex items-center gap-3">
-            <div className="relative w-32 h-10">
-              <Image
-                src="/om logo blue.svg"
-                alt="Open Mortgage logo"
-                fill
-                className="object-contain"
-                priority
-              />
-            </div>
-            <span className="text-base font-semibold tracking-wide uppercase">Open Mortgage</span>
+          <Link href={`/${locale}`} className="inline-flex items-center gap-2">
+            <Image
+              src="/om-logo-blue.svg"
+              alt="Open Mortgage"
+              width={150}
+              height={45}
+              className="h-auto w-auto"
+              priority
+            />
+            <span className="sr-only">Open Mortgage</span>
           </Link>
           <div className="flex items-center gap-4">
             <Navigation />
