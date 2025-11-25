@@ -121,7 +121,7 @@ export default async function HomePage({
             imageAlt="Tailored Loan Solution"
           >
             <div className="mt-auto">
-              <Link href={`/${locale}/our-process`}>
+              <Link href={`/${locale}/services`}>
                 <Button variant="primary" className="w-full mt-4 rounded-full">
                   {tHome("whyChoose.items.tailoredLoanSolution.button")}
                 </Button>
