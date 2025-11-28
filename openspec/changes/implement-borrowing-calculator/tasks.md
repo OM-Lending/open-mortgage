@@ -1,0 +1,26 @@
+## 1. Implementation
+- [ ] 1.1 Create `components/BorrowingCalculator.tsx` with state management.
+    - [ ] State: Applicant Type (Single/Joint).
+    - [ ] State: Dependants (number).
+    - [ ] State: Income Frequency (Annually, Monthly, Fortnightly, Weekly).
+    - [ ] State: Applicant 1 Income (Fixed, Other).
+    - [ ] State: Applicant 2 Income (Fixed, Other) - conditional.
+    - [ ] State: Monthly Expenses, Existing Repayments.
+    - [ ] State: Interest Rate, Loan Term.
+- [ ] 1.2 Implement `calculateTax(grossIncome)` helper (2024-25 AU rates).
+- [ ] 1.3 Implement `calculateBorrowingPower()` logic:
+    - Normalization: Convert all income inputs to Annual first based on selected Frequency.
+    - Single: Net = (App1_Gross - Tax(App1_Gross)) / 12.
+    - Joint: Net = ((App1_Gross - Tax(App1_Gross)) + (App2_Gross - Tax(App2_Gross))) / 12.
+    - Surplus = Net - Expenses - Repayments.
+    - Assessment Rate = Rate + 3.00%.
+    - Max Loan = PV(Assessment Rate, Term, Surplus).
+- [ ] 1.4 Build UI:
+    - [ ] Toggle for Single/Joint.
+    - [ ] Selector for Income Frequency.
+    - [ ] Input sections for Applicant 1 (and 2 if Joint).
+    - [ ] Inputs for Dependants, Expenses, Repayments.
+    - [ ] Result display (Total Borrowing Power).
+- [ ] 1.5 Add translation keys to `messages/en.json` and `messages/zh.json` covering all new fields (including frequency options).
+- [ ] 1.6 Integrate component into `app/[locale]/resources/loan-borrowing-calculator/page.tsx`.
+- [ ] 1.7 Verify calculations for different frequencies (e.g., $5k/mo should equal $60k/yr) and for Single vs Joint scenarios.

@@ -255,7 +255,74 @@
     "stampDutyCalculatorCtaButton": "咨询专家",
     "freeValuation": "免费估值",
     "loanPreparation": "贷款准备",
-    "loanBorrowingCalculator": "贷款额度计算器"
+    "loanBorrowingCalculator": "贷款额度计算器",
+    "borrowingCalculatorInputTitle": "输入您的收入和支出",
+    "borrowingCalculatorInputSubtitle": "调整收入、支出和利率，预估您大致可以借到的金额。",
+    "borrowingCalculatorResultsTitle": "预估可借款额度",
+    "borrowingCalculatorResultsSubtitle": "结果仅供参考，不构成任何贷款要约或审批。",
+    "borrowingCalculatorInputs": {
+      "applicantType": {
+        "label": "申请类型",
+        "single": "单人申请",
+        "joint": "两人共同申请"
+      },
+      "incomeFrequency": {
+        "label": "收入频率",
+        "annual": "每年",
+        "monthly": "每月",
+        "fortnightly": "每两周",
+        "weekly": "每周"
+      },
+      "dependants": {
+        "label": "受抚养人数",
+        "placeholder": "例如 0"
+      },
+      "applicant1": {
+        "title": "申请人 1 收入"
+      },
+      "applicant1Fixed": {
+        "label": "申请人 1 固定收入",
+        "placeholder": "例如 100,000"
+      },
+      "applicant1Other": {
+        "label": "申请人 1 其他收入",
+        "placeholder": "例如 5,000"
+      },
+      "applicant2": {
+        "title": "申请人 2 收入"
+      },
+      "applicant2Fixed": {
+        "label": "申请人 2 固定收入",
+        "placeholder": "例如 60,000"
+      },
+      "applicant2Other": {
+        "label": "申请人 2 其他收入",
+        "placeholder": "例如 3,000"
+      },
+      "monthlyExpenses": {
+        "label": "每月生活支出",
+        "placeholder": "例如 2,000"
+      },
+      "existingRepayments": {
+        "label": "现有贷款每月还款",
+        "placeholder": "例如 0"
+      },
+      "interestRate": {
+        "label": "利率 (%)",
+        "placeholder": "例如 6.00"
+      },
+      "loanTerm": {
+        "label": "贷款期限 (年)",
+        "placeholder": "例如 30"
+      }
+    },
+    "borrowingCalculatorResults": {
+      "maxBorrowing": "预估可借款额度",
+      "monthlySurplus": "预估每月结余",
+      "assessmentRate": "评估利率（含 3% 安全缓冲）",
+      "disclaimer": "本借款能力预估仅供一般参考，未考虑您的全部个人情况，并不构成贷款要约或审批结论。",
+      "noResult": "请在左侧完善收入和支出信息，以查看预估借款额度。"
+    }
   },
   "loanProducts": {
     "title": "贷款产品",

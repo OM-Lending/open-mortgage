@@ -255,7 +255,74 @@
     "stampDutyCalculatorCtaButton": "Talk to an expert",
     "freeValuation": "Free Valuation",
     "loanPreparation": "Loan Preparation",
-    "loanBorrowingCalculator": "Loan Borrowing Calculator"
+    "loanBorrowingCalculator": "Loan Borrowing Calculator",
+    "borrowingCalculatorInputTitle": "Enter your income and expenses",
+    "borrowingCalculatorInputSubtitle": "Adjust your income, expenses, and rate to estimate how much you may be able to borrow.",
+    "borrowingCalculatorResultsTitle": "Your estimated borrowing power",
+    "borrowingCalculatorResultsSubtitle": "This is a guide only and does not constitute a loan approval.",
+    "borrowingCalculatorInputs": {
+      "applicantType": {
+        "label": "Application type",
+        "single": "Single",
+        "joint": "There's two of us"
+      },
+      "incomeFrequency": {
+        "label": "Income frequency",
+        "annual": "Annually",
+        "monthly": "Monthly",
+        "fortnightly": "Fortnightly",
+        "weekly": "Weekly"
+      },
+      "dependants": {
+        "label": "Number of dependants",
+        "placeholder": "e.g. 0"
+      },
+      "applicant1": {
+        "title": "Applicant 1 income"
+      },
+      "applicant1Fixed": {
+        "label": "Applicant 1 fixed income",
+        "placeholder": "e.g. 100,000"
+      },
+      "applicant1Other": {
+        "label": "Applicant 1 other income",
+        "placeholder": "e.g. 5,000"
+      },
+      "applicant2": {
+        "title": "Applicant 2 income"
+      },
+      "applicant2Fixed": {
+        "label": "Applicant 2 fixed income",
+        "placeholder": "e.g. 60,000"
+      },
+      "applicant2Other": {
+        "label": "Applicant 2 other income",
+        "placeholder": "e.g. 3,000"
+      },
+      "monthlyExpenses": {
+        "label": "Monthly living expenses",
+        "placeholder": "e.g. 2,000"
+      },
+      "existingRepayments": {
+        "label": "Existing loan repayments (monthly)",
+        "placeholder": "e.g. 0"
+      },
+      "interestRate": {
+        "label": "Interest rate (%)",
+        "placeholder": "e.g. 6.00"
+      },
+      "loanTerm": {
+        "label": "Loan term (years)",
+        "placeholder": "e.g. 30"
+      }
+    },
+    "borrowingCalculatorResults": {
+      "maxBorrowing": "Estimated borrowing power",
+      "monthlySurplus": "Estimated monthly surplus",
+      "assessmentRate": "Assessment rate (with 3% buffer)",
+      "disclaimer": "This borrowing power estimate is a general guide only and does not take into account your full circumstances. It is not a loan offer or approval.",
+      "noResult": "Adjust the fields on the left to see an estimate of your borrowing power."
+    }
   },
   "loanProducts": {
     "title": "Loan Products",
