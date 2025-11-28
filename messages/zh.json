@@ -71,12 +71,12 @@
     "carLoanSolutionsPrompt": "探索我们旨在助您前行的车贷融资选项。",
     "carLoanTypes": {
       "new": {
-        "title": "新车贷款",
-        "description": "为全新车辆提供具有竞争力的利率和灵活条款。"
+        "title": "个人汽车贷款",
+        "description": "为您的个人车辆购买提供灵活融资，利率优惠，条款灵活。"
       },
       "used": {
-        "title": "二手车贷款",
-        "description": "为经销商或私人卖家的优质二手车提供融资。"
+        "title": "薪资打包租赁",
+        "description": "将汽车租赁、运营成本和维护费用打包到定期工资扣款中的税务优惠选择。"
       },
       "refinance": {
         "title": "车贷再融资",
@@ -176,7 +176,7 @@
     "repaymentCalculatorHeroTitle": "更有把握地规划还款",
     "repaymentCalculatorHeroDescription": "在申请前估算您的每月房贷还款额，了解什么适合您的预算。",
     "repaymentCalculatorHeroCtaPrimary": "开始计算",
-    "repaymentCalculatorHeroCtaSecondary": "获取完整估值",
+    "repaymentCalculatorHeroCtaSecondary": "获取免费估值",
     "repaymentCalculatorInputTitle": "输入您的贷款详情",
     "repaymentCalculatorInputSubtitle": "调整数值以查看不同利率和期限如何影响您的还款。",
     "repaymentCalculatorResultsTitle": "您的预估还款额",
@@ -219,7 +219,7 @@
     "stampDutyCalculator": "印花税计算器",
     "stampDutyCalculatorHeroEyebrow": "计算器",
     "stampDutyCalculatorHeroTitle": "估算您的印花税",
-    "stampDutyCalculatorHeroDescription": "澳洲各州的印花税规则不同，使用此工具查看新南威尔士、维多利亚、昆士兰等地区的估算值。",
+    "stampDutyCalculatorHeroDescription": "各州的印花税率不同且经常变化。我们提供官方政府计算器链接，以确保您获得新南威尔士、维多利亚、昆士兰等州最准确和最新的估算。",
     "stampDutyCalculatorHeroCtaPrimary": "立即计算",
     "stampDutyCalculatorHeroCtaSecondary": "联系经纪人",
     "stampDutyCalculatorInputTitle": "房产信息",

@@ -10,60 +10,11 @@ const heroImageSrc =
 
 const loanCategories = [
   {
-    title: 'Buyers',
-    loans: [
-      {
-        name: 'Standard variable rate home loan',
-        description: 'Best for first-time buyers; the most common type of home loan.',
-      },
-      {
-        name: 'Introductory home loan',
-        description: 'Save money with a lower rate during the initial phase (usually 12 months).',
-      },
-      {
-        name: 'Interest-only home loan',
-        description: 'Pay only interest on the loan, typically available for the first five years.',
-      },
-      {
-        name: 'Fixed-rate mortgage',
-        description: 'Lock in an interest rate for up to five years so you can budget with certainty.',
-      },
-      {
-        name: 'Split-rate loan',
-        description: 'Allocate your mortgage between fixed and variable rates for a set term.',
-      },
-      {
-        name: 'Guarantor home loan',
-        description: 'Have another property owner guarantee a portion of the loan to help with small or zero deposits.',
-      },
-      {
-        name: 'Non-conforming home loan',
-        description: 'Buy a property even with a higher-risk credit profile or irregular income.',
-      },
-      {
-        name: 'Low-doc loan',
-        description: 'Lower documentation requirements when you lack regular payslips or extensive credit history.',
-      },
-      {
-        name: 'Age & disability home loan',
-        description: 'Designed for borrowers who struggle to qualify because of age or physical disability.',
-      },
-      {
-        name: 'Construction home loan',
-        description: 'Pay less upfront when building a new home or completing renovations.',
-      },
-      {
-        name: 'Owner-occupier home loan',
-        description: 'Ideal when you plan to live in the property instead of renting it out.',
-      },
-    ],
-  },
-  {
     title: 'Investors',
     loans: [
       {
         name: 'Investment loan',
-        description: 'Rent out your property and benefit from Australia’s strong long-term real estate performance.',
+        description: "Rent out your property and benefit from Australia's strong long-term real estate performance.",
       },
       {
         name: 'Self-managed super fund (SMSF) home loan',
@@ -218,7 +169,7 @@ export default async function HomeLoanPage({ params }: { params: Promise<{ local
           <p className="mx-auto max-w-3xl text-center text-sm text-[#1f2943]/80">
             {t('homeLoanSolutionsPrompt')}
           </p>
-          <div className="mt-6 grid gap-6 md:grid-cols-3">
+          <div className="mt-6 grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
             {loanCategories.map((category) => {
               const featuredLoans = category.loans.slice(0, 5);
 

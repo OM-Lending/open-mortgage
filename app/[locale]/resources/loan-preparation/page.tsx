@@ -27,23 +27,10 @@ export default async function LoanPreparationPage({ params }: { params: Promise<
           <h3 className="text-xl font-semibold text-[#0d3250] mb-4">Required Documents</h3>
           <ul className="list-disc list-inside text-[#666666] mb-6 space-y-2">
             <li>Proof of identity (driver&apos;s license or passport)</li>
-            <li>Proof of income (payslips, tax returns, bank statements)</li>
-            <li>Proof of employment</li>
-            <li>Asset statements</li>
-            <li>Credit history report</li>
+            <li>Proof of income</li>
             <li>Property details (if purchasing)</li>
           </ul>
 
-          <h3 className="text-xl font-semibold text-[#0d3250] mb-4">Financial Preparation</h3>
-          <p className="text-[#666666] mb-4">
-            Before applying for a loan, ensure you have a clear understanding of your financial situation:
-          </p>
-          <ul className="list-disc list-inside text-[#666666] mb-6 space-y-2">
-            <li>Calculate your debt-to-income ratio</li>
-            <li>Review your credit score</li>
-            <li>Save for a deposit</li>
-            <li>Budget for additional costs (stamp duty, legal fees, etc.)</li>
-          </ul>
 
           <h3 className="text-xl font-semibold text-[#0d3250] mb-4">Tips for Success</h3>
           <ol className="list-decimal list-inside text-[#666666] mb-6 space-y-2">

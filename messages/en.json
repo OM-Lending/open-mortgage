@@ -71,12 +71,12 @@
     "carLoanSolutionsPrompt": "Explore our range of car financing options designed to get you moving.",
     "carLoanTypes": {
       "new": {
-        "title": "New Car Loans",
-        "description": "Competitive rates for brand new vehicles with flexible terms."
+        "title": "Personal Car Loan",
+        "description": "Flexible financing for your personal vehicle purchase with competitive rates and terms."
       },
       "used": {
-        "title": "Used Car Loans",
-        "description": "Finance for quality used cars from dealers or private sellers."
+        "title": "Novated Lease",
+        "description": "Salary packaging option that bundles your car lease, running costs, and maintenance into regular payments."
       },
       "refinance": {
         "title": "Car Loan Refinancing",
@@ -176,7 +176,7 @@
     "repaymentCalculatorHeroTitle": "Plan your repayments with confidence",
     "repaymentCalculatorHeroDescription": "Estimate your monthly mortgage repayments to understand what fits your budget before you apply.",
     "repaymentCalculatorHeroCtaPrimary": "Start calculating",
-    "repaymentCalculatorHeroCtaSecondary": "Get a full valuation",
+    "repaymentCalculatorHeroCtaSecondary": "Get a free valuation",
     "repaymentCalculatorInputTitle": "Enter your loan details",
     "repaymentCalculatorInputSubtitle": "Adjust the values to see how different rates and terms affect your repayments.",
     "repaymentCalculatorResultsTitle": "Your estimated repayments",
@@ -219,7 +219,7 @@
     "stampDutyCalculator": "Stamp Duty Calculator",
     "stampDutyCalculatorHeroEyebrow": "Calculators",
     "stampDutyCalculatorHeroTitle": "Estimate your stamp duty",
-    "stampDutyCalculatorHeroDescription": "Stamp duty varies across states. Use this guide for NSW, VIC, QLD, and beyond to understand the likely transfer duty.",
+    "stampDutyCalculatorHeroDescription": "Stamp duty rates vary across states and change frequently. We provide links to official government calculators to ensure you get the most accurate and up-to-date estimates for NSW, VIC, QLD, and other states.",
     "stampDutyCalculatorHeroCtaPrimary": "Calculate now",
     "stampDutyCalculatorHeroCtaSecondary": "Talk to a broker",
     "stampDutyCalculatorInputTitle": "Property details",

@@ -1,14 +1,64 @@
 import { getTranslations } from 'next-intl/server';
 import { Section } from '@/components/Section';
 import { Button } from '@/components/Button';
-import { StampDutyCalculator } from '@/components/StampDutyCalculator';
 import Link from 'next/link';
 import type { Metadata } from 'next';
+
+const stateCalculators = [
+  {
+    state: 'NSW',
+    name: 'New South Wales',
+    nameChinese: '新南威尔士州',
+    url: 'https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/transfer-duty',
+  },
+  {
+    state: 'VIC',
+    name: 'Victoria',
+    nameChinese: '维多利亚州',
+    url: 'https://www.e-business.sro.vic.gov.au/calculators/land-transfer-duty',
+  },
+  {
+    state: 'QLD',
+    name: 'Queensland',
+    nameChinese: '昆士兰州',
+    url: 'https://www.qro.qld.gov.au/calculators/transfer-duty',
+  },
+  {
+    state: 'SA',
+    name: 'South Australia',
+    nameChinese: '南澳大利亚州',
+    url: 'https://www.landservices.com.au/resources/fees-guides-forms/property-transfer-fee-calculator/',
+  },
+  {
+    state: 'WA',
+    name: 'Western Australia',
+    nameChinese: '西澳大利亚州',
+    url: 'https://www.wa.gov.au/service/financial-management/taxation-and-duty/calculate-your-transfer-duty',
+  },
+  {
+    state: 'TAS',
+    name: 'Tasmania',
+    nameChinese: '塔斯马尼亚州',
+    url: 'https://www.sro.tas.gov.au/property-transfer-duties',
+  },
+  {
+    state: 'ACT',
+    name: 'Australian Capital Territory',
+    nameChinese: '澳大利亚首都领地',
+    url: 'https://www.revenue.act.gov.au/duties/conveyance-duty',
+  },
+  {
+    state: 'NT',
+    name: 'Northern Territory',
+    nameChinese: '北领地',
+    url: 'https://nt.gov.au/property/buying-and-selling-a-home/settle-the-sale/stamp-duty-buying-or-selling-a-home/conveyance-calculator',
+  },
+];
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: 'Stamp Duty Calculator - Open Mortgage',
-    description: 'Estimate your property transfer duty and upfront costs',
+    description: 'Access official government stamp duty calculators for all Australian states',
     keywords: 'stamp duty calculator, property tax, transfer duty, home buyer costs',
   };
 }
@@ -16,6 +66,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function StampDutyCalculatorPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'resources' });
+  const isChinese = locale === 'zh';
 
   return (
     <>
@@ -34,10 +85,10 @@ export default async function StampDutyCalculatorPage({ params }: { params: Prom
             
           <div className="flex flex-wrap justify-center gap-4 pt-4">
             <Link
-              href="#calculator"
+              href="#calculators"
               className="inline-flex items-center justify-center rounded-full bg-[#0d3250] px-8 py-4 text-sm font-medium uppercase tracking-wide text-white transition hover:bg-[#1a4a70]"
             >
-              {t('stampDutyCalculatorHeroCtaPrimary')}
+              {isChinese ? '查看计算器' : 'View Calculators'}
             </Link>
             <Link
               href={`/${locale}/contact-us`}
@@ -45,14 +96,52 @@ export default async function StampDutyCalculatorPage({ params }: { params: Prom
             >
               {t('stampDutyCalculatorHeroCtaSecondary')}
             </Link>
-            </div>
-            </div>
+          </div>
+        </div>
       </Section>
             
-      <div id="calculator">
+      <div id="calculators">
         <Section className="bg-white">
           <div className="max-w-5xl mx-auto">
-            <StampDutyCalculator />
+            <h2 className="text-3xl font-bold text-[#0d3250] text-center mb-4">
+              {isChinese ? '官方印花税计算器' : 'Official Stamp Duty Calculators'}
+            </h2>
+            <p className="text-center text-[#666666] mb-8 max-w-2xl mx-auto">
+              {isChinese 
+                ? '选择您所在的州或领地，访问官方政府计算器以获取最准确的印花税估算。'
+                : 'Select your state or territory to access the official government calculator for the most accurate stamp duty estimate.'}
+            </p>
+            
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+              {stateCalculators.map((calc) => (
+                <a
+                  key={calc.state}
+                  href={calc.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-col items-center justify-center p-6 rounded-[28px] border-2 border-[#e3e7f5] bg-white shadow-sm transition hover:border-[#0d3250] hover:shadow-md group"
+                >
+                  <p className="text-2xl font-bold text-[#0d3250] mb-2">{calc.state}</p>
+                  <p className="text-sm text-[#666666] text-center">
+                    {isChinese ? calc.nameChinese : calc.name}
+                  </p>
+                  <div className="mt-3 text-xs text-[#0d3250] group-hover:underline flex items-center gap-1">
+                    {isChinese ? '访问计算器' : 'Visit Calculator'}
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </div>
+                </a>
+              ))}
+            </div>
+
+            <div className="mt-8 p-6 bg-[#f9fbff] rounded-[28px] border border-[#e3e7f5]">
+              <p className="text-sm text-[#666666] text-center">
+                {isChinese 
+                  ? '这些计算器由各州政府提供并维护，确保您获得最新和最准确的印花税信息。'
+                  : 'These calculators are provided and maintained by state governments to ensure you receive the most current and accurate stamp duty information.'}
+              </p>
+            </div>
           </div>
         </Section>
       </div>
@@ -66,8 +155,8 @@ export default async function StampDutyCalculatorPage({ params }: { params: Prom
               {t('stampDutyCalculatorCtaButton')}
             </Button>
           </Link>
-      </div>
-    </Section>
+        </div>
+      </Section>
     </>
   );
 }

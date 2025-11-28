@@ -48,10 +48,10 @@ export const Navigation = () => {
   ];
 
   const resourcesLinks = [
-    { href: `/${locale}/resources/repayment-calculator`, label: tResources('repaymentCalculator') },
-    { href: `/${locale}/resources/stamp-duty-calculator`, label: tResources('stampDutyCalculator') },
     { href: `/${locale}/resources/free-valuation`, label: tResources('freeValuation') },
     { href: `/${locale}/resources/loan-preparation`, label: tResources('loanPreparation') },
+    { href: `/${locale}/resources/repayment-calculator`, label: tResources('repaymentCalculator') },
+    { href: `/${locale}/resources/stamp-duty-calculator`, label: tResources('stampDutyCalculator') },
     { href: `/${locale}/resources/loan-borrowing-calculator`, label: tResources('loanBorrowingCalculator') },
   ];
 

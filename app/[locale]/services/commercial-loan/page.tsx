@@ -5,8 +5,7 @@ import { Button } from '@/components/Button';
 import { Section } from '@/components/Section';
 import type { Metadata } from 'next';
 
-const heroImageSrc =
-  'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80';
+const heroImageSrc = '/commercial-hero.png';
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -86,7 +85,7 @@ export default async function CommercialLoanPage({ params }: { params: Promise<{
             <div className="rounded-[32px] overflow-hidden shadow-[0_45px_120px_rgba(13,50,80,0.25)]">
               <Image
                 src={heroImageSrc}
-                alt="Modern office environment"
+                alt="Modern commercial office building"
                 width={1100}
                 height={700}
                 priority
