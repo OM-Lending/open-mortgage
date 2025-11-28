@@ -41,24 +41,32 @@ export default async function HomePage({
 
   // All lender images
   const lenderImages = [
+    { src: "/lenders/cr=w_389,h_129.webp", width: 389, height: 129 },
+    { src: "/lenders/cr=w_356,h_200.webp", width: 356, height: 200 },
+    { src: "/lenders/rs=w_289,h_200,cg_true.webp", width: 289, height: 200 },
+    { src: "/lenders/rs=w_1009,h_200,cg_true.webp", width: 1009, height: 200 },
+    { src: "/lenders/rs=h_100,cg_true,m.webp", width: 200, height: 100 },
+    { src: "/lenders/rs=w_360,h_200,cg_true.webp", width: 360, height: 200 },
+    { src: "/lenders/cr=w_667,h_200.webp", width: 667, height: 200 },
     { src: "/lenders/cr=w_256,h_200.webp", width: 256, height: 200 },
     { src: "/lenders/cr=w_301,h_167.webp", width: 301, height: 167 },
-    { src: "/lenders/cr=w_320,h_200.webp", width: 320, height: 200 },
-    { src: "/lenders/cr=w_356,h_200.webp", width: 356, height: 200 },
     { src: "/lenders/cr=w_388,h_169.webp", width: 388, height: 169 },
-    { src: "/lenders/cr=w_389,h_129.webp", width: 389, height: 129 },
+    {
+      src: "/lenders/rs=w_355,h_200,cg_true (4).webp",
+      width: 533,
+      height: 200,
+    },
+    {
+      src: "/lenders/rs=w_356,h_200,cg_true (1).webp",
+      width: 650,
+      height: 161,
+    },
     { src: "/lenders/cr=w_431,h_200.webp", width: 431, height: 200 },
     { src: "/lenders/cr=w_450,h_112.webp", width: 450, height: 112 },
     { src: "/lenders/cr=w_484,h_200.webp", width: 484, height: 200 },
-    { src: "/lenders/cr=w_533,h_200.webp", width: 533, height: 200 },
-    { src: "/lenders/cr=w_650,h_161.webp", width: 650, height: 161 },
-    { src: "/lenders/cr=w_667,h_200.webp", width: 667, height: 200 },
     { src: "/lenders/cr=w_787,h_200.webp", width: 787, height: 200 },
-    { src: "/lenders/rs=h_100,cg_true,m.webp", width: 200, height: 100 },
-    { src: "/lenders/rs=w_1009,h_200,cg_true.webp", width: 1009, height: 200 },
-    { src: "/lenders/rs=w_289,h_200,cg_true.webp", width: 289, height: 200 },
-    { src: "/lenders/rs=w_360,h_200,cg_true.webp", width: 360, height: 200 },
     { src: "/lenders/rs=w_371,h_136,cg_true.webp", width: 371, height: 136 },
+    { src: "/lenders/boq.png", width: 500, height: 200 },
   ];
 
   return (

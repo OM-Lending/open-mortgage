@@ -7,7 +7,7 @@
     "more": "More"
   },
   "services": {
-    "ourService": "Our Service",
+    "ourService": "Our Process",
     "homeLoan": "Home Loan",
     "homeLoanHeroEyebrow": "Home Loans",
     "homeLoanHeroTitle": "Own your next home with certainty",
@@ -256,6 +256,36 @@
     "freeValuation": "Free Valuation",
     "loanPreparation": "Loan Preparation",
     "loanBorrowingCalculator": "Loan Borrowing Calculator"
+  },
+  "loanProducts": {
+    "title": "Loan Products",
+    "subtitle": "We offer a comprehensive range of loan products to suit various needs and circumstances.",
+    "items": {
+      "residential": {
+        "title": "Residential Loan",
+        "description": "Flexible financing for buying your first home, upgrading, or investing in residential property."
+      },
+      "commercial": {
+        "title": "Commercial Loan",
+        "description": "Tailored solutions for purchasing office, retail, or industrial spaces for your business."
+      },
+      "construction": {
+        "title": "Construction Loan",
+        "description": "Progressive drawdowns to fund your building project or major renovation."
+      },
+      "smsf": {
+        "title": "SMSF Loan",
+        "description": "Leverage your self-managed super fund to invest in residential or commercial property."
+      },
+      "nonResidential": {
+        "title": "Non-Residential Loan",
+        "description": "Specialized lending for non-standard property types and unique investment purposes."
+      },
+      "assetFinance": {
+        "title": "Asset Finance & Equipment Loan",
+        "description": "Fund vehicles, machinery, and technology to keep your business moving."
+      }
+    }
   },
   "more": {
     "loanProducts": "Loan Products",

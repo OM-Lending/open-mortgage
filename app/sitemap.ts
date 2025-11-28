@@ -5,7 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://openmortgage.com';
   const routes = [
     '',
-    '/services',
+    '/our-process',
     '/services/home-loan',
     '/services/car-loan',
     '/services/commercial-loan',

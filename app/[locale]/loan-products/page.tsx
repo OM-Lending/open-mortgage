@@ -1,3 +1,4 @@
+import { getTranslations } from 'next-intl/server';
 import { Section } from '@/components/Section';
 import { Card } from '@/components/Card';
 import type { Metadata } from 'next';
@@ -10,62 +11,40 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function LoanProductsPage() {
+export default async function LoanProductsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'loanProducts' });
+
+  const products = [
+    'residential',
+    'commercial',
+    'construction',
+    'smsf',
+    'nonResidential',
+    'assetFinance',
+  ] as const;
 
   return (
-    <Section title="Loan Products" className="bg-white py-16">
+    <Section title={t('title')} className="bg-white py-16">
       <div className="max-w-4xl mx-auto">
         <p className="text-lg text-[#666666] mb-8 text-center">
-          We offer a comprehensive range of loan products to suit various needs and circumstances.
+          {t('subtitle')}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <Card title="Fixed Rate Loans">
-            <p className="text-[#666666] mb-4">
-              Lock in your interest rate for the entire loan term. Perfect for budgeting and peace of mind.
-            </p>
-            <ul className="list-disc list-inside text-[#666666] space-y-2">
-              <li>Stable monthly repayments</li>
-              <li>Protection from rate increases</li>
-              <li>Terms from 1 to 5 years</li>
-            </ul>
-          </Card>
-
-          <Card title="Variable Rate Loans">
-            <p className="text-[#666666] mb-4">
-              Interest rates that can change with market conditions. Often offer more flexibility.
-            </p>
-            <ul className="list-disc list-inside text-[#666666] space-y-2">
-              <li>Potential for lower rates</li>
-              <li>More flexible features</li>
-              <li>Offset account options</li>
-            </ul>
-          </Card>
-
-          <Card title="Interest Only Loans">
-            <p className="text-[#666666] mb-4">
-              Pay only the interest for a set period, reducing initial repayments.
-            </p>
-            <ul className="list-disc list-inside text-[#666666] space-y-2">
-              <li>Lower initial repayments</li>
-              <li>Popular for investment properties</li>
-              <li>Flexible terms available</li>
-            </ul>
-          </Card>
-
-          <Card title="Split Loans">
-            <p className="text-[#666666] mb-4">
-              Combine fixed and variable rates to balance stability and flexibility.
-            </p>
-            <ul className="list-disc list-inside text-[#666666] space-y-2">
-              <li>Best of both worlds</li>
-              <li>Customizable split ratios</li>
-              <li>Flexible repayment options</li>
-            </ul>
-          </Card>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {products.map((product) => (
+            <Card 
+              key={product} 
+              title={t(`items.${product}.title`)}
+              className="text-center hover:border-[#0d3250] min-h-[200px]"
+            >
+              <p className="text-[#666666] text-sm leading-relaxed">
+                {t(`items.${product}.description`)}
+              </p>
+            </Card>
+          ))}
         </div>
       </div>
     </Section>
   );
 }
-

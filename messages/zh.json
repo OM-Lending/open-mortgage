@@ -7,7 +7,7 @@
     "more": "更多"
   },
   "services": {
-    "ourService": "我们的服务",
+    "ourService": "我们的流程",
     "homeLoan": "房屋贷款",
     "homeLoanHeroEyebrow": "房贷专属",
     "homeLoanHeroTitle": "更有把握地拥抱下一套房",
@@ -256,6 +256,36 @@
     "freeValuation": "免费估值",
     "loanPreparation": "贷款准备",
     "loanBorrowingCalculator": "贷款额度计算器"
+  },
+  "loanProducts": {
+    "title": "贷款产品",
+    "subtitle": "我们提供全面的贷款产品，以满足您的各种需求和情况。",
+    "items": {
+      "residential": {
+        "title": "房屋贷款",
+        "description": "购买首套房、改善住房或投资住宅物业的灵活融资方案。"
+      },
+      "commercial": {
+        "title": "商业贷款",
+        "description": "为您的企业购买办公、零售或工业空间的定制解决方案。"
+      },
+      "construction": {
+        "title": "建筑贷款",
+        "description": "为您的建筑项目或大型翻新提供分阶段放款资金。"
+      },
+      "smsf": {
+        "title": "自管养老金贷款",
+        "description": "利用您的自管养老金投资住宅或商业物业。"
+      },
+      "nonResidential": {
+        "title": "非住宅贷款",
+        "description": "针对非标准住宅类型或用途的专业借贷。"
+      },
+      "assetFinance": {
+        "title": "资产融资与设备贷款",
+        "description": "为车辆、机械和技术提供资金，保持业务运转。"
+      }
+    }
   },
   "more": {
     "loanProducts": "贷款产品",

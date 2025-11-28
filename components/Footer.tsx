@@ -44,8 +44,13 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4">{tNav('services')}</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href={`/${locale}/services`} className="text-gray-300 hover:text-white">
+                <Link href={`/${locale}/our-process`} className="text-gray-300 hover:text-white">
                   {tServices('ourService')}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/loan-products`} className="text-gray-300 hover:text-white">
+                  {tMore('loanProducts')}
                 </Link>
               </li>
               <li>

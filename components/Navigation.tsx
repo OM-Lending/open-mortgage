@@ -41,7 +41,8 @@ export const Navigation = () => {
   }, []);
 
   const servicesLinks = [
-    { href: `/${locale}/services`, label: tServices('ourService') },
+    { href: `/${locale}/our-process`, label: tServices('ourService') },
+    { href: `/${locale}/loan-products`, label: tMore('loanProducts') },
     { href: `/${locale}/services/home-loan`, label: tServices('homeLoan') },
     { href: `/${locale}/services/car-loan`, label: tServices('carLoan') },
     { href: `/${locale}/services/commercial-loan`, label: tServices('commercialLoan') },
@@ -56,7 +57,6 @@ export const Navigation = () => {
   ];
 
   const moreLinks = [
-    { href: `/${locale}/loan-products`, label: tMore('loanProducts') },
     { href: `/${locale}/faq`, label: tMore('faq') },
     { href: `/${locale}/about-us`, label: tMore('aboutUs') },
     { href: `/${locale}/contact-us`, label: tMore('contactUs') },
