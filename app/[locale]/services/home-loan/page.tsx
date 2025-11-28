@@ -204,9 +204,12 @@ export default async function HomeLoanPage({ params }: { params: Promise<{ local
           <p className="text-xs tracking-[0.5em] text-[#a5c4ff]">{t('homeLoanCtaEyebrow')}</p>
           <h2 className="text-3xl font-black md:text-4xl">{t('homeLoanCtaTitle')}</h2>
           <p className="text-lg text-[#d5e2ff]/90">{t('homeLoanCtaDescription')}</p>
-          <Button variant="secondary" className="mt-2">
+          <Link
+            href="/contact-us"
+            className="mt-2 inline-block px-6 py-3 font-medium transition-colors duration-200 border-2 border-[#0d3250] bg-white text-[#0d3250] hover:bg-[#0d3250] hover:text-white"
+          >
             {t('homeLoanCtaButton')}
-          </Button>
+          </Link>
       </div>
     </Section>
     </>
