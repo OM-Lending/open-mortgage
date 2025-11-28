@@ -1,9 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Section } from '@/components/Section';
 import { Card } from '@/components/Card';
-import { Input } from '@/components/Input';
-import { Textarea } from '@/components/Textarea';
-import { Button } from '@/components/Button';
+import { ValuationForm } from '@/components/ValuationForm';
 import type { Metadata } from 'next';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -28,65 +26,14 @@ export default async function FreeValuationPage({ params }: { params: Promise<{ 
             and we&apos;ll get back to you with an accurate assessment.
           </p>
           
-          <form className="space-y-4">
-            <Input
-              type="text"
-              label={tCommon('name')}
-              placeholder="Enter your name"
-              name="name"
-              required
-            />
-            
-            <Input
-              type="email"
-              label={tCommon('email')}
-              placeholder="Enter your email"
-              name="email"
-              required
-            />
-            
-            <Input
-              type="tel"
-              label={tCommon('phone')}
-              placeholder="Enter your phone number"
-              name="phone"
-            />
-            
-            <Input
-              type="text"
-              label="Property Address"
-              placeholder="Enter property address"
-              name="address"
-              required
-            />
-            
-            <div className="mb-4">
-              <label className="block text-sm font-medium text-[#0d3250] mb-2">
-                Property Type
-              </label>
-              <select className="w-full px-4 py-2 border border-[#e0e0e0] bg-white text-[#0d3250] focus:outline-none focus:border-[#0d3250]">
-                <option>House</option>
-                <option>Apartment</option>
-                <option>Commercial</option>
-                <option>Land</option>
-              </select>
-            </div>
-            
-            <Textarea
-              label={tCommon('message')}
-              placeholder="Additional details about the property"
-              name="message"
-            />
-            
-            <div className="pt-4">
-              <Button type="submit" variant="primary" className="w-full">
-                Request Valuation
-              </Button>
-            </div>
-          </form>
+          <ValuationForm 
+            tName={tCommon('name')}
+            tEmail={tCommon('email')}
+            tPhone={tCommon('phone')}
+            tMessage={tCommon('message')}
+          />
         </Card>
       </div>
     </Section>
   );
 }
-
