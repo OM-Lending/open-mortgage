@@ -76,7 +76,7 @@ export default async function HomePage({
         title={tHome("title")}
         subtitle={tHome("subtitle")}
         ctaText={tHome("cta")}
-        ctaLink={`/${locale}/services`}
+        ctaLink={`/${locale}/our-process`}
         locale={locale}
       />
 
