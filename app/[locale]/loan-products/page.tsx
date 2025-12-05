@@ -24,6 +24,15 @@ export default async function LoanProductsPage({ params }: { params: Promise<{ l
     'assetFinance',
   ] as const;
 
+  const productImages: Record<(typeof products)[number], string> = {
+    residential: '/loan-products/residential-loan.webp',
+    commercial: '/loan-products/commercial-loan.webp',
+    construction: '/loan-products/construction-loan.webp',
+    smsf: '/loan-products/smsf-loan.webp',
+    nonResidential: '/loan-products/non-residential-loan.webp',
+    assetFinance: '/loan-products/asset-finance.webp',
+  };
+
   return (
     <Section title={t('title')} className="bg-white py-16">
       <div className="max-w-4xl mx-auto">
@@ -36,6 +45,8 @@ export default async function LoanProductsPage({ params }: { params: Promise<{ l
             <Card 
               key={product} 
               title={t(`items.${product}.title`)}
+              image={productImages[product]}
+              imageAlt={t(`items.${product}.title`)}
               className="text-center hover:border-[#0d3250] min-h-[200px]"
             >
               <p className="text-[#666666] text-sm leading-relaxed">

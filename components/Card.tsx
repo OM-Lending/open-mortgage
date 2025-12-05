@@ -21,9 +21,11 @@ export const Card: React.FC<CardProps> = ({
       className={`bg-white border border-[#e3e7f5] rounded-[32px] p-6 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 flex flex-col h-full min-h-[250px] shadow-sm ${className}`}
     >
       {title && (
-        <h3 className="text-xl font-semibold text-[#0d3250] mb-4 text-center">
-          {title}
-        </h3>
+        <div className="mb-4 min-h-[52px] flex items-center justify-center">
+          <h3 className="text-xl font-semibold text-[#0d3250] text-center">
+            {title}
+          </h3>
+        </div>
       )}
       {image && (
         <div className="mb-5 w-full aspect-video relative overflow-hidden rounded-2xl shadow-inner">

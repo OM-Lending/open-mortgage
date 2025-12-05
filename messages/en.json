@@ -611,6 +611,17 @@
     },
     "moreHelp": "Still have questions? We are here to help."
   },
+  "blogs": {
+    "listTitle": "Blogs",
+    "listIntro": "Stay informed with our latest articles, tips, and insights about mortgages and loans.",
+    "publishedOn": "Published:",
+    "backToBlogs": "← Back to Blogs",
+    "blogsSeoTitle": "Blogs - Open Mortgage",
+    "blogsSeoDescription": "Latest news, tips, and insights about mortgages and loans from Open Mortgage.",
+    "blogNotFoundTitle": "Blog Post Not Found - Open Mortgage",
+    "blogSeoTitleSuffix": " - Open Mortgage Blog",
+    "blogSeoDescription": "Read this mortgage and loan insight on the Open Mortgage blog."
+  },
   "footer": {
     "tagline": "Your trusted partner for mortgage solutions.",
     "emailLabel": "Email",

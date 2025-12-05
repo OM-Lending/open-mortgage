@@ -611,6 +611,17 @@
     },
     "moreHelp": "还有疑问吗？欢迎随时与我们联系。"
   },
+  "blogs": {
+    "listTitle": "博客",
+    "listIntro": "通过我们的最新文章、贴士和深度内容，及时了解房屋贷款与融资资讯。",
+    "publishedOn": "发布日期：",
+    "backToBlogs": "← 返回博客列表",
+    "blogsSeoTitle": "博客 - Open Mortgage",
+    "blogsSeoDescription": "了解房贷与贷款的最新资讯、实用贴士与深度分析，尽在 Open Mortgage 博客。",
+    "blogNotFoundTitle": "未找到博客文章 - Open Mortgage",
+    "blogSeoTitleSuffix": " - Open Mortgage 博客",
+    "blogSeoDescription": "在 Open Mortgage 博客中阅读本篇房贷与贷款相关文章。"
+  },
   "footer": {
     "tagline": "您可信赖的房贷解决方案合作伙伴。",
     "emailLabel": "邮箱",
