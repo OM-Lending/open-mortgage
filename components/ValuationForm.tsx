@@ -1,10 +1,11 @@
-'use client';
+ 'use client';
 
 import { useActionState } from 'react';
 import { submitValuationForm, ValuationState } from '@/app/actions/valuation';
 import { Input } from '@/components/Input';
 import { Textarea } from '@/components/Textarea';
 import { Button } from '@/components/Button';
+import { useTranslations } from 'next-intl';
 
 const initialState: ValuationState = {
   message: '',
@@ -21,6 +22,8 @@ interface ValuationFormProps {
 
 export function ValuationForm({ tName, tEmail, tPhone, tMessage }: ValuationFormProps) {
   const [state, formAction, isPending] = useActionState(submitValuationForm, initialState);
+  const tCommon = useTranslations('common');
+  const tResources = useTranslations('resources');
 
   return (
     <form action={formAction} className="space-y-4">
@@ -40,7 +43,7 @@ export function ValuationForm({ tName, tEmail, tPhone, tMessage }: ValuationForm
         <Input
           type="text"
           label={tName}
-          placeholder="Enter your name"
+          placeholder={tCommon('placeholders.name')}
           name="name"
           defaultValue=""
           aria-invalid={!!state.errors?.name}
@@ -54,7 +57,7 @@ export function ValuationForm({ tName, tEmail, tPhone, tMessage }: ValuationForm
         <Input
           type="email"
           label={tEmail}
-          placeholder="Enter your email"
+          placeholder={tCommon('placeholders.email')}
           name="email"
           defaultValue=""
           aria-invalid={!!state.errors?.email}
@@ -68,7 +71,7 @@ export function ValuationForm({ tName, tEmail, tPhone, tMessage }: ValuationForm
         <Input
           type="tel"
           label={tPhone}
-          placeholder="Enter your phone number"
+          placeholder={tCommon('placeholders.phone')}
           name="phone"
           defaultValue=""
         />
@@ -77,8 +80,8 @@ export function ValuationForm({ tName, tEmail, tPhone, tMessage }: ValuationForm
       <div>
         <Input
           type="text"
-          label="Property Address"
-          placeholder="Enter property address"
+          label={tResources('valuationAddressLabel')}
+          placeholder={tResources('valuationAddressPlaceholder')}
           name="address"
           defaultValue=""
           aria-invalid={!!state.errors?.address}
@@ -90,17 +93,17 @@ export function ValuationForm({ tName, tEmail, tPhone, tMessage }: ValuationForm
       
       <div className="mb-4">
         <label className="block text-sm font-medium text-[#0d3250] mb-2">
-          Property Type
+          {tResources('valuationPropertyTypeLabel')}
         </label>
         <select 
           name="propertyType"
           className="w-full px-4 py-2 border border-[#e0e0e0] bg-white text-[#0d3250] focus:outline-none focus:border-[#0d3250]"
           defaultValue="House"
         >
-          <option value="House">House</option>
-          <option value="Apartment">Apartment</option>
-          <option value="Commercial">Commercial</option>
-          <option value="Land">Land</option>
+          <option value="House">{tResources('valuationPropertyTypes.house')}</option>
+          <option value="Apartment">{tResources('valuationPropertyTypes.apartment')}</option>
+          <option value="Commercial">{tResources('valuationPropertyTypes.commercial')}</option>
+          <option value="Land">{tResources('valuationPropertyTypes.land')}</option>
         </select>
         {state.errors?.propertyType && (
           <p className="mt-1 text-sm text-red-600">{state.errors.propertyType[0]}</p>
@@ -110,7 +113,7 @@ export function ValuationForm({ tName, tEmail, tPhone, tMessage }: ValuationForm
       <div>
         <Textarea
           label={tMessage}
-          placeholder="Additional details about the property"
+          placeholder={tResources('valuationDetailsPlaceholder')}
           name="message"
           defaultValue=""
         />
@@ -123,7 +126,9 @@ export function ValuationForm({ tName, tEmail, tPhone, tMessage }: ValuationForm
           className="w-full"
           disabled={isPending}
         >
-          {isPending ? 'Submitting...' : 'Request Valuation'}
+          {isPending
+            ? tResources('valuationSubmitting')
+            : tResources('valuationSubmit')}
         </Button>
       </div>
     </form>

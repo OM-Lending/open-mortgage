@@ -1,49 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import { Button } from '@/components/Button';
 import { Section } from '@/components/Section';
 import type { Metadata } from 'next';
 
 const heroImageSrc =
   'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80';
 
-const loanCategories = [
-  {
-    title: 'Investors',
-    loans: [
-      {
-        name: 'Investment loan',
-        description: "Rent out your property and benefit from Australia's strong long-term real estate performance.",
-      },
-      {
-        name: 'Self-managed super fund (SMSF) home loan',
-        description: 'Use retirement savings to invest in property with potential tax advantages.',
-      },
-    ],
-  },
-  {
-    title: 'Home Owners',
-    loans: [
-      {
-        name: 'Refinancing home loan',
-        description: 'Pay out your current loan and restart with a better rate or lender.',
-      },
-      {
-        name: 'Line of credit home loan',
-        description: 'Access your equity via a credit line repaid either interest-only or principal + interest.',
-      },
-      {
-        name: 'Bridging home loan',
-        description: 'Finance a new purchase while you wait to sell your existing home; usually up to six months.',
-      },
-      {
-        name: 'Reverse mortgage',
-        description: 'Retirees and pensioners can access cash while keeping their home by using it as security.',
-      },
-    ],
-  },
-];
+const loanCategoryKeys = ['investors', 'homeOwners'] as const;
 
 type ProcessStepKey = 'step1' | 'step2' | 'step3' | 'step4' | 'step5' | 'step6';
 
@@ -56,10 +20,17 @@ const processSteps: ProcessStepKey[] = [
   'step6',
 ];
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'services' });
+
   return {
-    title: 'Home Loan - Open Mortgage',
-    description: 'Expert home loan services with competitive rates and flexible terms',
+    title: t('homeLoanSeoTitle'),
+    description: t('homeLoanSeoDescription'),
     keywords: 'home loan, mortgage, property loan, house loan',
   };
 }
@@ -98,7 +69,7 @@ export default async function HomeLoanPage({ params }: { params: Promise<{ local
             <p className="text-lg text-[#666666] leading-relaxed">{t('homeLoanHeroDescription')}</p>
             <div className="flex flex-wrap gap-4">
               <Link
-                href="/contact-us"
+                href={`/${locale}/contact-us`}
                 className="inline-flex items-center justify-center rounded-full bg-[#0d3250] px-6 py-3 text-sm font-medium uppercase tracking-wide text-white transition hover:bg-[#1a4a70]"
               >
                 {t('homeLoanHeroCtaPrimary')}
@@ -170,25 +141,33 @@ export default async function HomeLoanPage({ params }: { params: Promise<{ local
             {t('homeLoanSolutionsPrompt')}
           </p>
           <div className="mt-6 grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
-            {loanCategories.map((category) => {
-              const featuredLoans = category.loans.slice(0, 5);
+            {loanCategoryKeys.map((categoryKey) => {
+              const title = t(`homeLoanCategoryCards.${categoryKey}.title`);
+              const loanKeys =
+                categoryKey === 'investors'
+                  ? (['investmentLoan', 'smsfHomeLoan'] as const)
+                  : (['refinancing', 'lineOfCredit', 'bridging', 'reverseMortgage'] as const);
 
               return (
                 <article
-                  key={category.title}
+                  key={categoryKey}
                   className="flex h-full flex-col rounded-[28px] border border-[#e3e7f5] bg-white p-6 shadow-sm"
                 >
                   <header>
                     <p className="text-[0.65rem] tracking-[0.4em] uppercase text-[#0d3250]/50">
                       {t('homeLoanSolutionsCategoryLabel')}
                     </p>
-                    <h3 className="mt-3 text-2xl font-semibold text-[#0d3250]">{category.title}</h3>
+                    <h3 className="mt-3 text-2xl font-semibold text-[#0d3250]">{title}</h3>
                   </header>
                   <ul className="mt-6 space-y-4 flex-1">
-                    {featuredLoans.map((loan) => (
-                      <li key={loan.name} className="space-y-1">
-                        <p className="text-base font-semibold text-[#0d3250]">{loan.name}</p>
-                        <p className="text-sm text-[#4f4f4f] leading-relaxed">{loan.description}</p>
+                    {loanKeys.map((loanKey) => (
+                      <li key={loanKey} className="space-y-1">
+                        <p className="text-base font-semibold text-[#0d3250]">
+                          {t(`homeLoanCategoryCards.${categoryKey}.loans.${loanKey}.name`)}
+                        </p>
+                        <p className="text-sm text-[#4f4f4f] leading-relaxed">
+                          {t(`homeLoanCategoryCards.${categoryKey}.loans.${loanKey}.description`)}
+                        </p>
                       </li>
                     ))}
                   </ul>
@@ -205,7 +184,7 @@ export default async function HomeLoanPage({ params }: { params: Promise<{ local
           <h2 className="text-3xl font-black md:text-4xl">{t('homeLoanCtaTitle')}</h2>
           <p className="text-lg text-[#d5e2ff]/90">{t('homeLoanCtaDescription')}</p>
           <Link
-            href="/contact-us"
+            href={`/${locale}/contact-us`}
             className="mt-2 inline-block px-6 py-3 font-medium transition-colors duration-200 border-2 border-[#0d3250] bg-white text-[#0d3250] hover:bg-[#0d3250] hover:text-white"
           >
             {t('homeLoanCtaButton')}

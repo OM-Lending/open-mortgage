@@ -1,10 +1,11 @@
-'use client';
+ 'use client';
 
 import { useActionState } from 'react';
 import { submitContactForm, ContactState } from '@/app/actions/contact';
 import { Input } from '@/components/Input';
 import { Textarea } from '@/components/Textarea';
 import { Button } from '@/components/Button';
+import { useTranslations } from 'next-intl';
 
 const initialState: ContactState = {
   message: '',
@@ -21,6 +22,7 @@ interface ContactFormProps {
 
 export function ContactForm({ tName, tEmail, tPhone, tMessage, tSubmit }: ContactFormProps) {
   const [state, formAction, isPending] = useActionState(submitContactForm, initialState);
+  const tCommon = useTranslations('common');
 
   return (
     <form action={formAction} className="space-y-4">
@@ -40,7 +42,7 @@ export function ContactForm({ tName, tEmail, tPhone, tMessage, tSubmit }: Contac
         <Input
           type="text"
           label={tName}
-          placeholder="Enter your name"
+          placeholder={tCommon('placeholders.name')}
           name="name"
           defaultValue=""
           aria-invalid={!!state.errors?.name}
@@ -54,7 +56,7 @@ export function ContactForm({ tName, tEmail, tPhone, tMessage, tSubmit }: Contac
         <Input
           type="email"
           label={tEmail}
-          placeholder="Enter your email"
+          placeholder={tCommon('placeholders.email')}
           name="email"
           defaultValue=""
           aria-invalid={!!state.errors?.email}
@@ -68,7 +70,7 @@ export function ContactForm({ tName, tEmail, tPhone, tMessage, tSubmit }: Contac
         <Input
           type="tel"
           label={tPhone}
-          placeholder="Enter your phone number"
+          placeholder={tCommon('placeholders.phone')}
           name="phone"
           defaultValue=""
         />
@@ -77,7 +79,7 @@ export function ContactForm({ tName, tEmail, tPhone, tMessage, tSubmit }: Contac
       <div>
         <Textarea
           label={tMessage}
-          placeholder="Tell us how we can help"
+          placeholder={tCommon('contactForm.messagePlaceholder')}
           name="message"
           defaultValue=""
           aria-invalid={!!state.errors?.message}
@@ -93,7 +95,7 @@ export function ContactForm({ tName, tEmail, tPhone, tMessage, tSubmit }: Contac
         className="w-full"
         disabled={isPending}
       >
-        {isPending ? 'Sending...' : tSubmit}
+        {isPending ? tCommon('contactForm.sending') : tSubmit}
       </Button>
     </form>
   );

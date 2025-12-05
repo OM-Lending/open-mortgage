@@ -42,6 +42,44 @@
     "homeLoanCtaTitle": "Ready to build your mortgage story?",
     "homeLoanCtaDescription": "Book a call with our brokers or send us your property notes and we’ll deliver a straight path forward.",
     "homeLoanCtaButton": "Schedule a consultation",
+    "homeLoanSeoTitle": "Home Loan - Open Mortgage",
+    "homeLoanSeoDescription": "Expert home loan services with competitive rates and flexible terms.",
+    "homeLoanCategoryCards": {
+      "investors": {
+        "title": "Investors",
+        "loans": {
+          "investmentLoan": {
+            "name": "Investment loan",
+            "description": "Rent out your property and benefit from Australia's strong long-term real estate performance."
+          },
+          "smsfHomeLoan": {
+            "name": "Self-managed super fund (SMSF) home loan",
+            "description": "Use retirement savings to invest in property with potential tax advantages."
+          }
+        }
+      },
+      "homeOwners": {
+        "title": "Home Owners",
+        "loans": {
+          "refinancing": {
+            "name": "Refinancing home loan",
+            "description": "Pay out your current loan and restart with a better rate or lender."
+          },
+          "lineOfCredit": {
+            "name": "Line of credit home loan",
+            "description": "Access your equity via a credit line repaid either interest-only or principal & interest."
+          },
+          "bridging": {
+            "name": "Bridging home loan",
+            "description": "Finance a new purchase while you wait to sell your existing home; usually up to six months."
+          },
+          "reverseMortgage": {
+            "name": "Reverse mortgage",
+            "description": "Retirees and pensioners can access cash while keeping their home by using it as security."
+          }
+        }
+      }
+    },
     "carLoan": "Car Loan",
     "carLoanHeroEyebrow": "Car Loans",
     "carLoanHeroTitle": "Drive away sooner with the right finance",
@@ -322,7 +360,62 @@
       "assessmentRate": "Assessment rate (with 3% buffer)",
       "disclaimer": "This borrowing power estimate is a general guide only and does not take into account your full circumstances. It is not a loan offer or approval.",
       "noResult": "Adjust the fields on the left to see an estimate of your borrowing power."
-    }
+    },
+    "repaymentCalculatorSeoTitle": "Repayment Calculator - Open Mortgage",
+    "repaymentCalculatorSeoDescription": "Calculate your estimated monthly loan repayments.",
+    "stampDutyCalculatorSeoTitle": "Stamp Duty Calculator - Open Mortgage",
+    "stampDutyCalculatorSeoDescription": "Access official government stamp duty calculators for all Australian states.",
+    "freeValuationSeoTitle": "Free Valuation - Open Mortgage",
+    "freeValuationSeoDescription": "Get a free property valuation from our experts.",
+    "loanPreparationSeoTitle": "Loan Preparation - Open Mortgage",
+    "loanPreparationSeoDescription": "Prepare for your loan application with our concise document checklist and tips.",
+    "loanBorrowingCalculatorSeoTitle": "Loan Borrowing Calculator - Open Mortgage",
+    "loanBorrowingCalculatorSeoDescription": "Estimate how much you may be able to borrow based on your income and expenses.",
+    "freeValuationIntro": "Request a free property valuation from our expert team. Fill out the form below and we will get back to you with an accurate assessment.",
+    "loanBorrowingCalculatorIntro": "Calculate how much you can borrow based on your income and expenses. Enter your financial details below.",
+    "loanPreparationIntroTitle": "Preparing for Your Loan Application",
+    "loanPreparationIntroBody": "Being well-prepared can significantly speed up your loan application process. Here is what you will need to have ready.",
+    "loanPreparationRequiredDocumentsTitle": "Required Documents",
+    "loanPreparationRequiredDocuments": {
+      "identity": "Proof of identity (driver's license or passport)",
+      "income": "Proof of income",
+      "property": "Property details (if purchasing)"
+    },
+    "loanPreparationTipsTitle": "Tips for Success",
+    "loanPreparationTips": {
+      "tip1": "Organize all documents before starting your application",
+      "tip2": "Be honest about your financial situation",
+      "tip3": "Ask questions if you are unsure about anything",
+      "tip4": "Work with our experts to find the best loan option"
+    },
+    "loanPreparationConclusion": "Need help preparing your loan application? Contact us today and our team will guide you through the process.",
+    "stampDutyCalculatorCtaPrimaryAlt": "View Calculators",
+    "stampDutyCalculatorOfficialTitle": "Official Stamp Duty Calculators",
+    "stampDutyCalculatorOfficialIntro": "Select your state or territory to access the official government calculator for the most accurate stamp duty estimate.",
+    "stampDutyCalculatorOfficialDisclaimer": "These calculators are provided and maintained by state governments to ensure you receive the most current and accurate stamp duty information.",
+    "stampDutyCalculatorVisitCalculator": "Visit Calculator",
+    "stampDutyStates": {
+      "NSW": "New South Wales",
+      "VIC": "Victoria",
+      "QLD": "Queensland",
+      "SA": "South Australia",
+      "WA": "Western Australia",
+      "TAS": "Tasmania",
+      "ACT": "Australian Capital Territory",
+      "NT": "Northern Territory"
+    },
+    "valuationAddressLabel": "Property Address",
+    "valuationAddressPlaceholder": "Enter property address",
+    "valuationPropertyTypeLabel": "Property Type",
+    "valuationPropertyTypes": {
+      "house": "House",
+      "apartment": "Apartment",
+      "commercial": "Commercial",
+      "land": "Land"
+    },
+    "valuationDetailsPlaceholder": "Additional details about the property",
+    "valuationSubmitting": "Submitting...",
+    "valuationSubmit": "Request Valuation"
   },
   "loanProducts": {
     "title": "Loan Products",
@@ -422,6 +515,109 @@
     "name": "Name",
     "email": "Email",
     "phone": "Phone",
-    "message": "Message"
+    "message": "Message",
+    "yes": "Yes",
+    "no": "No",
+    "languageToggle": {
+      "ariaLabel": "Toggle language",
+      "toZh": "中文",
+      "toEn": "EN"
+    },
+    "placeholders": {
+      "name": "Enter your name",
+      "email": "Enter your email",
+      "phone": "Enter your phone number"
+    },
+    "contactForm": {
+      "messagePlaceholder": "Tell us how we can help",
+      "sending": "Sending..."
+    }
+  },
+  "about": {
+    "seoTitle": "About Us - Open Mortgage",
+    "seoDescription": "Learn about Open Mortgage and our commitment to helping you achieve your financial goals.",
+    "heroTitle": "About Open Mortgage",
+    "heroSubtitle": "Your trusted partner for mortgage and loan solutions",
+    "missionHeading": "Our Mission",
+    "missionBody": "At Open Mortgage, we are dedicated to helping individuals and businesses achieve their financial goals through expert mortgage and loan services. We believe that everyone deserves access to professional financial guidance and the best loan products available.",
+    "valuesHeading": "Our Values",
+    "valuesItems": {
+      "integrityTitle": "Integrity",
+      "integrityBody": "We conduct our business with honesty and transparency.",
+      "expertiseTitle": "Expertise",
+      "expertiseBody": "Our team consists of experienced professionals committed to ongoing education.",
+      "customerFocusTitle": "Customer Focus",
+      "customerFocusBody": "Your success is our priority. We tailor solutions to your unique needs.",
+      "innovationTitle": "Innovation",
+      "innovationBody": "We leverage technology and best practices to provide efficient service."
+    },
+    "whyHeading": "Why Choose Us",
+    "whyBody": "With years of experience in the mortgage industry, we have built strong relationships with multiple lenders, allowing us to find you the best rates and terms. Our team guides you through every step of the process, making your loan journey smooth and stress-free.",
+    "statCards": {
+      "expertTeamTitle": "Expert Team",
+      "expertTeamBody": "Experienced professionals dedicated to your success",
+      "bestRatesTitle": "Best Rates",
+      "bestRatesBody": "Access to competitive rates from multiple lenders",
+      "personalizedServiceTitle": "Personalized Service",
+      "personalizedServiceBody": "Tailored solutions for your unique financial situation"
+    }
+  },
+  "contact": {
+    "seoTitle": "Contact Us - Open Mortgage",
+    "seoDescription": "Get in touch with Open Mortgage for all your mortgage and loan needs.",
+    "title": "Contact Us",
+    "intro": "Have questions or ready to get started? We are here to help. Fill out the form below or contact us directly.",
+    "getInTouchHeading": "Get in Touch",
+    "infoHeading": "Contact Information",
+    "emailLabel": "Email",
+    "sydneyOfficeLabel": "Sydney Office",
+    "brisbaneOfficeLabel": "Brisbane Office",
+    "hobartOfficeLabel": "Hobart Office",
+    "businessHoursLabel": "Business Hours",
+    "businessHoursLine1": "Mon – Fri: 10:00 am – 06:00 pm",
+    "businessHoursLine2": "Sat: Closed",
+    "businessHoursLine3": "Sun: Closed"
+  },
+  "faq": {
+    "seoTitle": "FAQ - Open Mortgage",
+    "seoDescription": "Frequently asked questions about mortgages and loans.",
+    "title": "Frequently Asked Questions",
+    "intro": "Find answers to common questions about mortgages and loans.",
+    "items": {
+      "q1": {
+        "question": "What documents do I need to apply for a loan?",
+        "answer": "You will typically need proof of identity, proof of income (payslips, tax returns), bank statements, and details about the property you are purchasing. Our team can provide a complete checklist based on your specific situation."
+      },
+      "q2": {
+        "question": "How long does the loan approval process take?",
+        "answer": "The approval process typically takes 2–4 weeks, depending on the complexity of your application and how quickly you can provide required documents. Pre-approval can often be obtained within 24–48 hours."
+      },
+      "q3": {
+        "question": "What is the minimum deposit required?",
+        "answer": "Most lenders require a minimum deposit of 10–20% of the property value. However, some government programs may allow lower deposits for eligible first home buyers."
+      },
+      "q4": {
+        "question": "Can I get a loan with a low credit score?",
+        "answer": "While a higher credit score improves your chances, we work with various lenders who may consider applications with lower credit scores. The interest rate and terms may vary based on your credit profile."
+      },
+      "q5": {
+        "question": "What is the difference between fixed and variable rates?",
+        "answer": "Fixed rates remain constant for a set period, providing stability. Variable rates can change with market conditions, potentially offering lower initial rates but with less certainty. We can help you choose the option that best suits your needs."
+      },
+      "q6": {
+        "question": "Can I make extra repayments on my loan?",
+        "answer": "This depends on your loan type. Variable rate loans typically allow extra repayments without penalty. Fixed rate loans may have restrictions or fees for extra repayments. We can explain the options available with different loan products."
+      }
+    },
+    "moreHelp": "Still have questions? We are here to help."
+  },
+  "footer": {
+    "tagline": "Your trusted partner for mortgage solutions.",
+    "emailLabel": "Email",
+    "sydneyLabel": "Sydney",
+    "brisbaneLabel": "Brisbane",
+    "hobartLabel": "Hobart",
+    "hoursLabel": "Hours",
+    "hoursValue": "Mon–Fri 10:00 am – 06:00 pm · Sat/Sun Closed"
   }
 }

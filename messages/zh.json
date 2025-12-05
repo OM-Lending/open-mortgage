@@ -42,6 +42,44 @@
     "homeLoanCtaTitle": "准备开始您的房贷故事吗？",
     "homeLoanCtaDescription": "预约与我们的经纪人通话，或提交房产资料，我们会为您规划简明路径。",
     "homeLoanCtaButton": "安排咨询",
+    "homeLoanSeoTitle": "房屋贷款 - Open Mortgage",
+    "homeLoanSeoDescription": "提供具有竞争力利率与灵活条款的房屋贷款服务，为您的安家计划保驾护航。",
+    "homeLoanCategoryCards": {
+      "investors": {
+        "title": "投资者",
+        "loans": {
+          "investmentLoan": {
+            "name": "投资贷款",
+            "description": "将房产出租，分享澳大利亚长期稳健的房地产表现。"
+          },
+          "smsfHomeLoan": {
+            "name": "自管养老金（SMSF）房贷",
+            "description": "利用退休储蓄投资房产，并潜在享受相关税务优惠。"
+          }
+        }
+      },
+      "homeOwners": {
+        "title": "自住房及现有业主",
+        "loans": {
+          "refinancing": {
+            "name": "房贷再融资",
+            "description": "结清现有贷款，以更优惠的利率或更适合的机构重新起步。"
+          },
+          "lineOfCredit": {
+            "name": "循环信贷房贷",
+            "description": "通过循环额度释放房屋净值，可按仅付息或本息同还方式安排还款。"
+          },
+          "bridging": {
+            "name": "过渡性房贷",
+            "description": "在出售现有房产前，为购买新房提供过渡资金，通常最长可达六个月。"
+          },
+          "reverseMortgage": {
+            "name": "反向抵押贷款",
+            "description": "退休人士可在继续自住的前提下，以房产作抵押获取现金。"
+          }
+        }
+      }
+    },
     "carLoan": "汽车贷款",
     "carLoanHeroEyebrow": "汽车贷款",
     "carLoanHeroTitle": "合适的融资方案助您即刻启程",
@@ -322,7 +360,62 @@
       "assessmentRate": "评估利率（含 3% 安全缓冲）",
       "disclaimer": "本借款能力预估仅供一般参考，未考虑您的全部个人情况，并不构成贷款要约或审批结论。",
       "noResult": "请在左侧完善收入和支出信息，以查看预估借款额度。"
-    }
+    },
+    "repaymentCalculatorSeoTitle": "还款计算器 - Open Mortgage",
+    "repaymentCalculatorSeoDescription": "计算您预估的每月贷款还款金额。",
+    "stampDutyCalculatorSeoTitle": "印花税计算器 - Open Mortgage",
+    "stampDutyCalculatorSeoDescription": "访问澳大利亚各州和领地的官方印花税计算器。",
+    "freeValuationSeoTitle": "免费估值 - Open Mortgage",
+    "freeValuationSeoDescription": "向我们的专家申请免费房产估值。",
+    "loanPreparationSeoTitle": "贷款准备 - Open Mortgage",
+    "loanPreparationSeoDescription": "通过简明的资料清单和提示，为您的贷款申请做好准备。",
+    "loanBorrowingCalculatorSeoTitle": "贷款额度计算器 - Open Mortgage",
+    "loanBorrowingCalculatorSeoDescription": "根据您的收入和支出预估可借款额度。",
+    "freeValuationIntro": "向我们的专业团队申请免费房产估值。填写下方表单，我们会尽快为您提供评估结果。",
+    "loanBorrowingCalculatorIntro": "根据您的收入和支出来预估可借款额度。请在下方填写您的财务信息。",
+    "loanPreparationIntroTitle": "为贷款申请做好准备",
+    "loanPreparationIntroBody": "充分准备可以显著加快贷款审批进度。以下是您需要提前准备的关键信息和文件。",
+    "loanPreparationRequiredDocumentsTitle": "所需文件",
+    "loanPreparationRequiredDocuments": {
+      "identity": "身份证明（驾驶证或护照）",
+      "income": "收入证明",
+      "property": "房产信息（如在购房）"
+    },
+    "loanPreparationTipsTitle": "成功小贴士",
+    "loanPreparationTips": {
+      "tip1": "在开始申请前先整理好所有文件",
+      "tip2": "如实披露您的财务状况",
+      "tip3": "遇到不确定之处及时提问",
+      "tip4": "与我们的专家合作，为您匹配合适的贷款方案"
+    },
+    "loanPreparationConclusion": "需要帮助准备贷款申请吗？欢迎联系我们，我们的团队将全程为您提供指导。",
+    "stampDutyCalculatorCtaPrimaryAlt": "查看计算器",
+    "stampDutyCalculatorOfficialTitle": "官方印花税计算器",
+    "stampDutyCalculatorOfficialIntro": "选择您所在的州或领地，访问官方政府计算器以获取最准确的印花税估算。",
+    "stampDutyCalculatorOfficialDisclaimer": "这些计算器由各州和领地政府提供并维护，确保您获得最新和最准确的印花税信息。",
+    "stampDutyCalculatorVisitCalculator": "访问计算器",
+    "stampDutyStates": {
+      "NSW": "新南威尔士州",
+      "VIC": "维多利亚州",
+      "QLD": "昆士兰州",
+      "SA": "南澳大利亚州",
+      "WA": "西澳大利亚州",
+      "TAS": "塔斯马尼亚州",
+      "ACT": "澳大利亚首都领地",
+      "NT": "北领地"
+    },
+    "valuationAddressLabel": "房产地址",
+    "valuationAddressPlaceholder": "请输入房产地址",
+    "valuationPropertyTypeLabel": "房产类型",
+    "valuationPropertyTypes": {
+      "house": "独立屋",
+      "apartment": "公寓",
+      "commercial": "商业物业",
+      "land": "土地"
+    },
+    "valuationDetailsPlaceholder": "请补充说明房产的其他关键信息",
+    "valuationSubmitting": "正在提交...",
+    "valuationSubmit": "提交估值申请"
   },
   "loanProducts": {
     "title": "贷款产品",
@@ -422,6 +515,109 @@
     "name": "姓名",
     "email": "邮箱",
     "phone": "电话",
-    "message": "留言"
+    "message": "留言",
+    "yes": "是",
+    "no": "否",
+    "languageToggle": {
+      "ariaLabel": "切换语言",
+      "toZh": "中文",
+      "toEn": "EN"
+    },
+    "placeholders": {
+      "name": "请输入您的姓名",
+      "email": "请输入您的邮箱",
+      "phone": "请输入您的电话号码"
+    },
+    "contactForm": {
+      "messagePlaceholder": "请简单说明您需要哪方面的帮助",
+      "sending": "正在发送..."
+    }
+  },
+  "about": {
+    "seoTitle": "关于我们 - Open Mortgage",
+    "seoDescription": "了解 Open Mortgage，以及我们如何帮助您实现房产和财务目标。",
+    "heroTitle": "关于 Open Mortgage",
+    "heroSubtitle": "您值得信赖的房贷与融资合作伙伴",
+    "missionHeading": "我们的使命",
+    "missionBody": "在 Open Mortgage，我们致力于通过专业的房贷与贷款服务，帮助个人与企业实现财务目标。我们相信，每个人都应获得专业的财务建议以及优质的贷款产品。",
+    "valuesHeading": "我们的价值观",
+    "valuesItems": {
+      "integrityTitle": "诚信",
+      "integrityBody": "我们以诚实透明的方式开展业务。",
+      "expertiseTitle": "专业",
+      "expertiseBody": "我们的团队由经验丰富的专业人士组成，并持续学习与进修。",
+      "customerFocusTitle": "以客户为中心",
+      "customerFocusBody": "您的成功是我们的首要目标，我们会根据您的实际情况量身定制方案。",
+      "innovationTitle": "创新",
+      "innovationBody": "我们运用技术与行业最佳实践，为您提供高效便捷的服务。"
+    },
+    "whyHeading": "为什么选择我们",
+    "whyBody": "凭借多年房贷行业经验，我们与多家贷款机构建立了紧密合作关系，能够为您争取更优利率与条款。我们的团队会在每一步为您提供指导，让贷款过程更加顺畅、无压力。",
+    "statCards": {
+      "expertTeamTitle": "专业团队",
+      "expertTeamBody": "经验丰富的专业人士，全程为您护航",
+      "bestRatesTitle": "优惠利率",
+      "bestRatesBody": "对接多家贷款机构，为您寻找更佳利率",
+      "personalizedServiceTitle": "个性化服务",
+      "personalizedServiceBody": "根据您的财务状况定制专属解决方案"
+    }
+  },
+  "contact": {
+    "seoTitle": "联系我们 - Open Mortgage",
+    "seoDescription": "如需了解房贷或贷款方案，欢迎联系 Open Mortgage 团队。",
+    "title": "联系我们",
+    "intro": "有问题或准备开始申请？我们随时为您提供帮助。请填写下方表单，或直接与我们联系。",
+    "getInTouchHeading": "取得联系",
+    "infoHeading": "联系信息",
+    "emailLabel": "邮箱",
+    "sydneyOfficeLabel": "悉尼办公室",
+    "brisbaneOfficeLabel": "布里斯班办公室",
+    "hobartOfficeLabel": "霍巴特办公室",
+    "businessHoursLabel": "营业时间",
+    "businessHoursLine1": "周一至周五：上午 10:00 – 下午 06:00",
+    "businessHoursLine2": "周六：休息",
+    "businessHoursLine3": "周日：休息"
+  },
+  "faq": {
+    "seoTitle": "常见问题 - Open Mortgage",
+    "seoDescription": "关于房屋贷款与融资的常见问题解答。",
+    "title": "常见问题",
+    "intro": "在这里，您可以找到有关房屋贷款与融资的常见问题解答。",
+    "items": {
+      "q1": {
+        "question": "申请贷款需要准备哪些文件？",
+        "answer": "通常您需要准备身份证明、收入证明（工资单、报税表）、银行对账单以及所购房产的相关信息。根据您的具体情况，我们的团队可以为您提供一份完整的资料清单。"
+      },
+      "q2": {
+        "question": "贷款审批一般需要多长时间？",
+        "answer": "审批时间通常为 2–4 周，具体取决于申请的复杂程度以及您提供资料的及时性。预审批在部分情况下可于 24–48 小时内获得。"
+      },
+      "q3": {
+        "question": "最低首付款一般是多少？",
+        "answer": "大多数贷款机构通常要求房价 10–20% 作为最低首付款。但对于符合条件的首次购房者，一些政府项目可能允许更低的首付比例。"
+      },
+      "q4": {
+        "question": "信用评分较低还能贷款吗？",
+        "answer": "较高的信用评分通常更有利，但我们合作的多家贷款机构中，也有部分会考虑信用评分相对较低的申请人。利率与条款可能会根据您的信用情况有所不同。"
+      },
+      "q5": {
+        "question": "固定利率和浮动利率有什么区别？",
+        "answer": "固定利率在约定期限内保持不变，有助于锁定还款金额；浮动利率则会随市场变化调整，起初可能更低，但未来存在不确定性。我们可以根据您的需求帮助选择更适合的方案。"
+      },
+      "q6": {
+        "question": "我可以提前还款吗？",
+        "answer": "是否可以提前还款取决于您的贷款类型。浮动利率贷款通常允许无罚金提前还款；固定利率贷款则可能对提前还款有限制或需支付费用。我们可以为您详细说明不同产品的条款。"
+      }
+    },
+    "moreHelp": "还有疑问吗？欢迎随时与我们联系。"
+  },
+  "footer": {
+    "tagline": "您可信赖的房贷解决方案合作伙伴。",
+    "emailLabel": "邮箱",
+    "sydneyLabel": "悉尼",
+    "brisbaneLabel": "布里斯班",
+    "hobartLabel": "霍巴特",
+    "hoursLabel": "营业时间",
+    "hoursValue": "周一至周五 10:00 am – 06:00 pm · 周六/周日休息"
   }
 }

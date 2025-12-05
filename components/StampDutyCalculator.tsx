@@ -13,6 +13,7 @@ export const StampDutyCalculator = () => {
   const t = useTranslations("resources.stampDutyCalculatorInputs");
   const tResults = useTranslations("resources.stampDutyCalculatorResults");
   const tHeadings = useTranslations("resources");
+  const tCommon = useTranslations("common");
 
   const [state, setState] = useState<State>("NSW");
   const [propertyValue, setPropertyValue] = useState<string>("850000");
@@ -178,7 +179,9 @@ export const StampDutyCalculator = () => {
                             }`}
                         />
                     </button>
-                    <span className="text-sm text-[#666666]">{isFirstHomeBuyer ? "Yes" : "No"}</span>
+                    <span className="text-sm text-[#666666]">
+                      {isFirstHomeBuyer ? tCommon("yes") : tCommon("no")}
+                    </span>
                 </div>
             </div>
 
@@ -200,7 +203,9 @@ export const StampDutyCalculator = () => {
                             }`}
                         />
                     </button>
-                    <span className="text-sm text-[#666666]">{isForeignBuyer ? "Yes" : "No"}</span>
+                    <span className="text-sm text-[#666666]">
+                      {isForeignBuyer ? tCommon("yes") : tCommon("no")}
+                    </span>
                 </div>
             </div>
         </div>

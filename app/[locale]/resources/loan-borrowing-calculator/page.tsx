@@ -4,15 +4,26 @@ import { Card } from '@/components/Card';
 import { BorrowingCalculator } from '@/components/BorrowingCalculator';
 import type { Metadata } from 'next';
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'resources' });
+
   return {
-    title: 'Loan Borrowing Calculator - Open Mortgage',
-    description: 'Calculate how much you can borrow for your loan',
+    title: t('loanBorrowingCalculatorSeoTitle'),
+    description: t('loanBorrowingCalculatorSeoDescription'),
     keywords: 'borrowing calculator, loan capacity calculator, borrowing power',
   };
 }
 
-export default async function LoanBorrowingCalculatorPage({ params }: { params: Promise<{ locale: string }> }) {
+export default async function LoanBorrowingCalculatorPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'resources' });
 
@@ -21,8 +32,7 @@ export default async function LoanBorrowingCalculatorPage({ params }: { params: 
       <div className="max-w-5xl mx-auto">
         <Card>
           <p className="text-[#666666] mb-6">
-            Calculate how much you can borrow based on your income and expenses. 
-            Enter your financial details below.
+            {t('loanBorrowingCalculatorIntro')}
           </p>
           <BorrowingCalculator />
         </Card>
