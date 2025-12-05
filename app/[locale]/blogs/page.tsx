@@ -17,6 +17,13 @@ type LocaleKey = "en" | "zh";
 const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
   en: [
     {
+      slug: "choosing-the-right-mortgage-broker",
+      title: "Choosing the Right Mortgage Broker",
+      excerpt:
+        "Key questions to ask and factors to consider when selecting a broker to guide your home loan.",
+      date: "2024-01-20",
+    },
+    {
       slug: "understanding-mortgage-rates",
       title: "Understanding Mortgage Rates",
       excerpt:
@@ -40,6 +47,13 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
   ],
   zh: [
     {
+      slug: "choosing-the-right-mortgage-broker",
+      title: "如何选择合适的房贷经纪人",
+      excerpt:
+        "了解挑选房贷经纪人时需要考虑的关键因素和必问问题，帮助您找到真正站在您立场的一位伙伴。",
+      date: "2024-01-20",
+    },
+    {
       slug: "understanding-mortgage-rates",
       title: "如何看懂房贷利率",
       excerpt:
@@ -56,8 +70,7 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
     {
       slug: "tips-for-loan-approval",
       title: "提升贷款获批率的小贴士",
-      excerpt:
-        "从信用记录到资料准备，多维度提升您的贷款通过率。",
+      excerpt: "从信用记录到资料准备，多维度提升您的贷款通过率。",
       date: "2024-01-05",
     },
   ],
@@ -126,5 +139,3 @@ export default async function BlogsPage({
     </Section>
   );
 }
-
-

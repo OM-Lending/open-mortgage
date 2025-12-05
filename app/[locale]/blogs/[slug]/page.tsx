@@ -14,6 +14,31 @@ type LocaleKey = "en" | "zh";
 
 const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
   en: {
+    "choosing-the-right-mortgage-broker": {
+      title: "Choosing the Right Mortgage Broker",
+      date: "2024-01-20",
+      content: `
+        <h2>Why Your Choice of Broker Matters</h2>
+        <p>A good mortgage broker does more than compare interest rates. The right broker will understand your goals, explain complex products in plain language, and advocate for you with lenders from application through to settlement.</p>
+
+        <h3>1. Check Experience and Licensing</h3>
+        <p>Ask how long they have been in the industry, what qualifications they hold, and which regulators or industry bodies they are registered with. An experienced, properly licensed broker is more likely to anticipate hurdles before they arise.</p>
+
+        <h3>2. Understand Their Lender Panel</h3>
+        <p>No broker works with every lender, but they should have access to a broad panel that includes major banks and specialist lenders. Ask which lenders they regularly use and why, and whether they can explain the differences between them for your situation.</p>
+
+        <h3>3. Ask How They Are Paid</h3>
+        <p>Most brokers are paid by the lender, not by you directly, but it is important to understand whether there are any additional fees. A transparent broker will clearly outline any upfront or ongoing costs and provide this information in writing.</p>
+
+        <h3>4. Look for Clear Communication</h3>
+        <p>You should feel comfortable asking questions at every stage. Choose a broker who responds promptly, explains options in simple terms, and sets realistic expectations about timing, documentation, and possible outcomes.</p>
+
+        <h3>5. Assess Their Support After Settlement</h3>
+        <p>The relationship should not end when your loan settles. A strong broker will review your loan regularly, help you understand rate changes, and discuss refinancing opportunities when it makes sense.</p>
+
+        <p>By taking the time to ask these questions and compare options, you can partner with a broker who understands your needs and supports your long-term property and financial goals.</p>
+      `,
+    },
     "understanding-mortgage-rates": {
       title: "Understanding Mortgage Rates",
       date: "2024-01-15",
@@ -83,6 +108,31 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
     },
   },
   zh: {
+    "choosing-the-right-mortgage-broker": {
+      title: "如何选择合适的房贷经纪人",
+      date: "2024-01-20",
+      content: `
+        <h2>为什么选择经纪人很重要？</h2>
+        <p>优秀的房贷经纪人不只是帮您对比利率。合适的经纪人会理解您的购房目标，用简单清晰的语言解释复杂产品，并在申请到放款的全过程中代表您与各家贷款机构沟通。</p>
+
+        <h3>1. 了解经纪人的经验与资质</h3>
+        <p>您可以询问他们从业时间、专业资格，以及受哪家监管机构或行业协会监管。经验丰富、具备正式牌照的经纪人，更能提前识别潜在问题并为您做好准备。</p>
+
+        <h3>2. 关注他们合作的贷款机构范围</h3>
+        <p>没有任何一位经纪人可以覆盖所有银行，但他们应当接触到足够广泛的贷款机构，包括主要银行与非银行机构。可以问问他们常用哪些机构、原因是什么，以及这些选择对您的具体情况意味着什么。</p>
+
+        <h3>3. 弄清经纪人的收入来源</h3>
+        <p>多数经纪人的佣金由贷款机构支付，而不是直接向客户收费，但了解是否有额外费用依然很重要。透明的经纪人会清楚说明任何前期或持续费用，并以书面形式提供。</p>
+
+        <h3>4. 观察沟通是否清晰顺畅</h3>
+        <p>在整个申请过程中，您都应该可以放心提问。选择一位能够及时回复、用通俗方式解释选项，并对时间表、所需文件以及可能结果给出现实预期的经纪人。</p>
+
+        <h3>5. 看重成交后的持续服务</h3>
+        <p>优质的经纪服务不会在贷款放款后结束。一位真正站在您立场的经纪人，会定期帮您回顾现有贷款，解释利率变化，并在合适时机讨论再融资等选择。</p>
+
+        <p>通过提前准备这些问题并认真比较不同经纪人，您可以找到一位理解您需求、并在长期房产与财务规划中持续支持您的合作伙伴。</p>
+      `,
+    },
     "understanding-mortgage-rates": {
       title: "看懂房贷利率",
       date: "2024-01-15",
