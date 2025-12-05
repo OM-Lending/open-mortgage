@@ -618,6 +618,9 @@
     "brisbaneLabel": "布里斯班",
     "hobartLabel": "霍巴特",
     "hoursLabel": "营业时间",
-    "hoursValue": "周一至周五 10:00 am – 06:00 pm · 周六/周日休息"
+    "hoursValue": "周一至周五 10:00 am – 06:00 pm · 周六/周日休息",
+    "wechatLabel": "微信",
+    "wechatDescription": "扫描二维码，通过微信与我们联系。",
+    "wechatAlt": "Open Mortgage 微信二维码"
   }
 }

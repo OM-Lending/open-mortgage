@@ -618,6 +618,9 @@
     "brisbaneLabel": "Brisbane",
     "hobartLabel": "Hobart",
     "hoursLabel": "Hours",
-    "hoursValue": "Mon–Fri 10:00 am – 06:00 pm · Sat/Sun Closed"
+    "hoursValue": "Mon–Fri 10:00 am – 06:00 pm · Sat/Sun Closed",
+    "wechatLabel": "WeChat",
+    "wechatDescription": "Scan the QR code to connect with us on WeChat.",
+    "wechatAlt": "Open Mortgage WeChat QR code"
   }
 }
