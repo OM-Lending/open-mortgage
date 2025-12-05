@@ -102,7 +102,7 @@ export default async function BlogsPage({
               <h3 className="text-xl font-semibold text-[#0d3250] mb-3">
                 {post.title}
               </h3>
-              <p className="text-[#666666] mb-4 flex-grow">{post.excerpt}</p>
+              <p className="text-[#666666] mb-4 grow">{post.excerpt}</p>
               <div className="text-sm text-[#666666] mb-4">
                 {blogsT("publishedOn")}{" "}
                 {new Date(post.date).toLocaleDateString(
