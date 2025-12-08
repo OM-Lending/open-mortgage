@@ -13,3 +13,5 @@ Blog content under `app/[locale]/blogs` currently does not fully participate in 
 - Affected code: `app/[locale]/blogs/page.tsx`, `app/[locale]/blogs/[slug]/page.tsx`, and any shared components or utilities used to render blog content and metadata.
 
 
+
+

@@ -13,3 +13,5 @@
 - [ ] 3.3 Run `openspec validate localize-blog-content --strict` once the CLI is available and adjust the spec delta if any validation issues are reported.
 
 
+
+

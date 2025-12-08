@@ -22,3 +22,5 @@ The system SHALL provide equivalent English and Chinese content coverage for blo
 - **AND** any navigation labels, breadcrumbs, or language toggle elements shown on blog pages MUST respect the active locale in the same way as other localized pages.
 
 
+
+
