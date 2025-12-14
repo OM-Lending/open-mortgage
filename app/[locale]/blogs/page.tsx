@@ -50,7 +50,7 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
       excerpt:
         "Choosing the right car loan can save you thousands of dollars in interest and fees. ",
       date: "2025-02-04",
-    },   
+    },
     {
       slug: "comparison-rate-vs-standard-variable-rate",
       title: "Comparison Rate vs. Standard Variable Rate (SVR)",
@@ -64,7 +64,7 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
       excerpt:
         "many borrowers are finding it increasingly difficult to refinance their existing loans, especially those with higher loan amounts. This phenomenon has been coined as Mortgage Prisoners.",
       date: "2025-02-17",
-    },  
+    },
     {
       slug: "bridging-loans",
       title: "Bridging Loans: Should You Buy or Sell First When Moving Homes?",
@@ -78,7 +78,7 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
       excerpt:
         "A couple, already homeowners with an existing mortgage, faced financial strain due to rising interest rates.",
       date: "2025-02-26",
-    },   
+    },
     {
       slug: "Offset-account-vs-redraw-facility",
       title: "Offset Account vs. Redraw Facility",
@@ -95,7 +95,8 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
     },
     {
       slug: "final-inspection-before-property-settlement",
-      title: "Final Inspection Before Property Settlement! Did You Get It Right",
+      title:
+        "Final Inspection Before Property Settlement! Did You Get It Right",
       excerpt:
         "How important is the final inspection before property settlement? If it has been a few months since you first exchanged contracts, anything could have happened in the meantime",
       date: "2025-03-13",
@@ -120,10 +121,11 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
       excerpt:
         "Buy a Home with a 90% Loan—No LMI? These Professionals in Australia Are in Luck!",
       date: "2025-04-04",
-    },     
+    },
     {
       slug: "default-payments-amidst-continuous-interest-rate-hike",
-      title: "Be Aware of Default Payments Amidst Continuous Interest Rate Hike",
+      title:
+        "Be Aware of Default Payments Amidst Continuous Interest Rate Hike",
       excerpt:
         "For those with home loans, take note! With recent interest rate hikes from banks, monthly repayment pressure has been growing, and many people are experiencing default payments—failure to pay their home loans on time.",
       date: "2025-04-07",
@@ -134,14 +136,14 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
       excerpt:
         "When applying for a loan in Australia, different banks and financial institutions may have slightly varied processes, but they all generally follow a common principle: the 5C Loan Approval Principle.",
       date: "2025-06-10",
-    },  
+    },
     {
       slug: "fbaa-calls-for-a-review-of-the-home-loan",
-      title: "FBAA Calls for a Review of the Home Loan \"Buffer\"",
+      title: 'FBAA Calls for a Review of the Home Loan "Buffer"',
       excerpt:
-        "FBAA Calls for a Review of the Home Loan \"Buffer\" – What Does It Mean for You?Thinking of buying a home or applying for a mortgage? Then you need to know about the loan buffer – a key factor affecting your borrowing power!",
+        'FBAA Calls for a Review of the Home Loan "Buffer" – What Does It Mean for You?Thinking of buying a home or applying for a mortgage? Then you need to know about the loan buffer – a key factor affecting your borrowing power!',
       date: "2025-07-01",
-    },   
+    },
     {
       slug: "how-to-balance-family-and-career-in-australia",
       title: "How to Balance Family and Career in Australia",
@@ -172,7 +174,8 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
     },
     {
       slug: "boost-your-borrowing-power",
-      title: "Boost Your Borrowing Power by 20% Without Increasing Your Income!",
+      title:
+        "Boost Your Borrowing Power by 20% Without Increasing Your Income!",
       excerpt:
         "Recently, Australian citizens and permanent residents (PR) can access the First Home Guarantee (FHBG) scheme. With as little as a 5% deposit, you could own your first home without needing to pay thousands in Lenders Mortgage Insurance (LMI).",
       date: "2025-11-11",
@@ -183,7 +186,7 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
       excerpt:
         "Buying property under a trust structure can offer long-term benefits like asset protection, tax efficiency, and strategic financial planning — but when it comes to getting the loan approved, the process is often far from simple.",
       date: "2025-12-05",
-    },    
+    },
   ],
   zh: [
     {
@@ -216,13 +219,15 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
     {
       slug: "loan-process-revealed",
       title: "贷款流程大揭秘 (Loan Process Revealed)",
-      excerpt: "有很多新贷款的小伙伴一定都遇到过这样的问题：第一次做贷款，对整体的流程什么的都不懂，被动的跟着broker或者银行走是不是很没有安全感？今天，小编就很贴心的为大家准备了贷款的全部流程以及所需的材料，快跟我一起来看一下吧!",
+      excerpt:
+        "有很多新贷款的小伙伴一定都遇到过这样的问题：第一次做贷款，对整体的流程什么的都不懂，被动的跟着broker或者银行走是不是很没有安全感？今天，小编就很贴心的为大家准备了贷款的全部流程以及所需的材料，快跟我一起来看一下吧!",
       date: "2025-04-07",
     },
     {
       slug: "company-depreciation-can-support-loan",
       title: "自雇人士看过来~公司折旧也是可以support我们的贷款",
-      excerpt: " 自己做生意的话在贷款的时候有什么要注意的呢？今天，小编就专门为自雇人士带来一个小福利，给大家讲讲自己开公司有哪些小tips可以增加咱们的贷款能力。",
+      excerpt:
+        " 自己做生意的话在贷款的时候有什么要注意的呢？今天，小编就专门为自雇人士带来一个小福利，给大家讲讲自己开公司有哪些小tips可以增加咱们的贷款能力。",
       date: "2025-05-02",
     },
     {
@@ -277,8 +282,7 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
     {
       slug: "why-prepaying-interest",
       title: "为什么要提前⽀付利息？",
-      excerpt:
-        "这是⼀些合格投资者⼝袋⾥有更多钱的⽅法！",
+      excerpt: "这是⼀些合格投资者⼝袋⾥有更多钱的⽅法！",
       date: "2025-10-20",
     },
   ],

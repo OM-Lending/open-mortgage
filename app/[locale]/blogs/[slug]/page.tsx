@@ -16,7 +16,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
   en: {
     "choosing-the-right-mortgage-broker": {
       title: "Choosing the Right Mortgage Broker",
-      date: "2024-01-20",
+      date: "2025-01-20",
       content: `
         <h2>Why Your Choice of Broker Matters</h2>
         <p>A good mortgage broker does more than compare interest rates. The right broker will understand your goals, explain complex products in plain language, and advocate for you with lenders from application through to settlement.</p>
@@ -354,7 +354,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
 
         <p>If you need <strong>expert guidance</strong> tailored to your financial situation, contact our mortgage brokers today! We can help you find the most competitive loan options and secure the best rates for your home loan.</p>
 
-        <p>Visit our website for more details: <a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+        <p>Visit our website for more details: <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
       `,
     },
     "bridging-loans": {
@@ -452,7 +452,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
         <p>Every financial situation is unique. Before committing to a <strong>bridging loan</strong>, consult a mortgage broker to evaluate your options. They can help you find the best financing solution based on your income, loan eligibility, and market conditions.</p>
 
         <p>By understanding the pros and cons of selling first vs. buying first, you can make an informed decision that aligns with your financial goals and lifestyle needs.</p>
-        <p>Visit our website for more details: <a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+        <p>Visit our website for more details: <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
       `,
     },
     "can-parents-apply-for-a-home-loan": {
@@ -559,7 +559,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
 
         <p>
         Visit our website for more details: 
-        <a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+        <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
       `,
     },
     "Offset-account-vs-redraw-facility": {
@@ -638,7 +638,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
 
       <p>If you're planning to turn your home into an <strong>investment property</strong>, an Offset Account is often the better option to maintain tax deductibility on interest payments. Always consult a <strong>mortgage broker or financial advisor</strong> for personalized advice.</p>
 
-      <p>Visit our website for more details: <a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+      <p>Visit our website for more details: <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
       `,
     },
     "fixed-rate-expiring-high-interest-rates": {
@@ -728,13 +728,14 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
 
         <p>
         Visit our website for more details: 
-        <a href="https://openmortgage.au" target="_blank">openmortgage.au</a>
+        <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a>
         </p>
 
       `,
     },
     "final-inspection-before-property-settlement": {
-      title: "Final Inspection Before Property Settlement! Did You Get It Right",
+      title:
+        "Final Inspection Before Property Settlement! Did You Get It Right",
       date: "2025-03-13",
       content: `
         <h2>Introduction</h2>
@@ -825,7 +826,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
         </p>
 
         <p>
-        Visit our website for more details: <a href="https://openmortgage.au" target="_blank">openmortgage.au</a>
+        Visit our website for more details: <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a>
         </p>
       `,
     },
@@ -951,7 +952,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
         Their <strong>$1.35 million loan was approved</strong>, allowing them to purchase their dream home <strong>without the financial burden of LMI</strong>.
         </p>
 
-        <p>Visit our website for more details: <a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+        <p>Visit our website for more details: <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
 
       `,
     },
@@ -1046,7 +1047,8 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
       `,
     },
     "default-payments-amidst-continuous-interest-rate-hike": {
-      title: "Be Aware of Default Payments Amidst Continuous Interest Rate Hike",
+      title:
+        "Be Aware of Default Payments Amidst Continuous Interest Rate Hike",
       date: "2025-04-07",
       content: `
         <h2>Causes of Default Payments</h2>
@@ -1125,7 +1127,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
         Visit our website to learn more: <a href="https://openmortgage.au">openmortgage.au</a>
         </p>
       `,
-    },    
+    },
     "how-banks-approve-loans-in-australia": {
       title: "How Banks Approve Loans in Australia?",
       date: "2025-06-10",
@@ -1208,12 +1210,12 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
 
           <p><strong>SEO Keywords:</strong> loan approval Australia, 5C loan principle, credit score, borrowing capacity, collateral, debt-to-income ratio, loan terms, financial stability.</p>
 
-          <p>Visit our website to learn more: <a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+          <p>Visit our website to learn more: <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
         </div>
       `,
     },
     "fbaa-calls-for-a-review-of-the-home-loan": {
-      title: "FBAA Calls for a Review of the Home Loan \"Buffer\"",
+      title: 'FBAA Calls for a Review of the Home Loan "Buffer"',
       date: "2025-07-01",
       content: `
         <div>
@@ -1280,7 +1282,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
           </p>
 
           <p>
-            Visit Our Website to Learn More: <a href="https://openmortgage.au" target="_blank">openmortgage.au</a>
+            Visit Our Website to Learn More: <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a>
           </p>
         </div>        
       `,
@@ -1332,7 +1334,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
           <p>Worried you can’t get a home loan while on maternity leave? <strong>Think again.</strong> With the right preparation and documentation, <strong>you can welcome a new baby and buy your dream home at the same time</strong>.</p>
           <p>Thanks to Parental Leave Pay and bank policies that support working mothers, financial freedom and family life can go hand in hand.</p>
 
-          <p>Visit our website to learn more: <a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+          <p>Visit our website to learn more: <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
         </section>
 
       `,
@@ -1585,7 +1587,8 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
       `,
     },
     "boost-your-borrowing-power": {
-      title: "Boost Your Borrowing Power by 20% Without Increasing Your Income!",
+      title:
+        "Boost Your Borrowing Power by 20% Without Increasing Your Income!",
       date: "2025-11-11",
       content: `
         <h2>Find Out If You Qualify for the New Streamlined Refinance Policy</h2>
@@ -1847,7 +1850,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
         <h3>小贴士</h3>
         <p>以上就是常规贷款的全部流程啦，其实整个流程中您需要配合的就是最初的几步，完整无论我们提供给您的个人信息以及清楚的告知我们您的诉求。之后的具体审核和材料的整理都要我们来进行，您可 <strong>全程无忧</strong>。当然具体 case 会根据 case by case 可能部分人的贷款会比较复杂，但是无变下离其宗，整体的贷款步骤通常就是这样。欢迎大家积极来收敛，后续的时间将时可以拿出来看看自己进行到哪步了。</p>
 
-        <p>浏览我们的网站以获取更多详情：<a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+        <p>浏览我们的网站以获取更多详情：<a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
       `,
     },
     "company-depreciation-can-support-loan": {
@@ -1924,7 +1927,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
         欢迎大家联系我们，后续小编也会带来更多贷款知识分享给大家。
         </p>
 
-        <p>浏览我们的网页以获取更多详情：<a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+        <p>浏览我们的网页以获取更多详情：<a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
       `,
     },
     "incomes-can-help-us-increase-our-loan-capacity": {
@@ -2024,7 +2027,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
 
         <p>收入是影响借贷能力的重要因素，建议申请前务必请专业 broker 做准确评估。</p>
 
-        <p>更多详情请访问：<a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+        <p>更多详情请访问：<a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
 
       `,
     },
@@ -2104,7 +2107,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
         <li><b>选择多样性：</b> 选择一个提供多种贷款选择的贷款中介，可以让借款人有更多的选择，以便选择最适合他们的贷款。</li>
         </ol>
 
-        <p>浏览我们的网站以获取更多详情： <a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+        <p>浏览我们的网站以获取更多详情： <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
 
       `,
     },
@@ -2179,10 +2182,11 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
 
       `,
     },
-    "taking-on-multiple-jobs-to-further-enhance-ones-ability-to-take-out-loans": {
-      title: "如何用多份工作来进一步增加自己的贷款能力？",
-      date: "2025-08-13",
-      content: `
+    "taking-on-multiple-jobs-to-further-enhance-ones-ability-to-take-out-loans":
+      {
+        title: "如何用多份工作来进一步增加自己的贷款能力？",
+        date: "2025-08-13",
+        content: `
         <div>
           <p>Double Job Income快来了瞭一下! 如果自己本身不是“qr”,“病”,“残”,“孕”等符合福利金的群体，有没有别的方式来增加我们的借贷能力呢?</p>
 
@@ -2213,11 +2217,11 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
           <h3>小贴士</h3>
           <p>通过多方面工作带来的加自己的收入已经成功如分析的前梦梦计算中。在澳洲有3份工的伙伴们也比比皆是。无论你是全职或是兼职是临时工或着合同工，记得准备好相关文件与资料就好。</p>
 
-          <p>浏览我们的网站以获取更多详情： <a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+          <p>浏览我们的网站以获取更多详情： <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
         </div>
 
       `,
-    },
+      },
     "get-a-loan-without-having-to-pay-LMI": {
       title: "如何贷款100% 还不用付LMI",
       date: "2025-09-07",
@@ -2259,7 +2263,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
 
         <p>浏览我们的网站以获取更多详情：<a href="https://openmortgage.au">openmortgage.au</a></p>
       `,
-    },    
+    },
     "choose-fixed-or-floating-mortgage-in-Australia?": {
       title: "澳洲房贷该选固定还是该选浮动？",
       date: "2025-09-19",
@@ -2289,13 +2293,13 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
 
         <p>如果大家对利率的选择有什么疑问，或者不确定自己该选择哪种贷款产品，欢迎随时联系专业的贷款Broker。</p>
 
-        <p>如需获取更多贷款资讯，欢迎浏览我们的网站： <a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+        <p>如需获取更多贷款资讯，欢迎浏览我们的网站： <a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
 
       `,
     },
     "do-you-know-common-debt-reducer": {
       title: "如何最大化贷款能力？Common Debt Reducer 你了解吗?",
-      date: "2024-10-13",
+      date: "2025-10-13",
       content: `
         <p>假设你和他人（如伴侣、朋友、家人亲戚、同事等）有一笔写在两人名下的房屋贷款，现在你想要以个人名义单独申请一笔新的房屋贷款。那银行会如何对你个人的债务做出怎样的评估呢？这就涉及到“共同债务减少者”(Common Debt Reducer, CDR) 的概念。今天小编就带大家了解一下什么是‘CDR’，以及如何使用此政策改善第二套房贷款。</p>
 
@@ -2330,7 +2334,7 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
     },
     "why-prepaying-interest": {
       title: "为什么要提前⽀付利息？",
-      date: "2024-10-20",
+      date: "2025-10-20",
       content: `
         <h2>什么是预付利息？</h2>
         <p>提前支付全个月利息的固定利率投资贷款的一种选择。它可以让您先支付下一年的利息，并允许您将其作为今年的税收减免项目。一般来说，预付利息比每月或是息息风及时小，因为银行会提供相对比较低的预付贷款类型利率。</p>
@@ -2347,10 +2351,10 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
 
         <p>欢迎拨打 1800 870 101 咨询我们的随问 / 专家，获取更全面服务。</p>
 
-        <p>浏览我们的网站以获取更多详情：<a href="https://openmortgage.au" target="_blank">openmortgage.au</a></p>
+        <p>浏览我们的网站以获取更多详情：<a href="https://openmortgage.au" target="_blank" rel="noopener noreferrer">openmortgage.au</a></p>
       `,
     },
-/*
+    /*
     "": {
       title: "",
       date: "2025-05-27",
