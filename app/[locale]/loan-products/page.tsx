@@ -1,6 +1,5 @@
 import { getTranslations } from 'next-intl/server';
-import { Section } from '@/components/Section';
-import { Card } from '@/components/Card';
+import { LoanProductsShowcase } from '@/components/LoanProductsShowcase';
 import type { Metadata } from 'next';
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -32,30 +31,24 @@ export default async function LoanProductsPage({ params }: { params: Promise<{ l
     nonResidential: '/loan-products/non-residential-loan.webp',
     assetFinance: '/loan-products/asset-finance.webp',
   };
+  const productLinks: Partial<Record<(typeof products)[number], string>> = {
+    residential: `/${locale}/services/home-loan`,
+    commercial: `/${locale}/services/commercial-loan`,
+    assetFinance: `/${locale}/services/car-loan`,
+  };
+  const productItems = products.map((product) => ({
+    id: product,
+    title: t(`items.${product}.title`),
+    description: t(`items.${product}.description`),
+    image: productImages[product],
+    href: productLinks[product],
+  }));
 
   return (
-    <Section title={t('title')} className="bg-white py-16">
-      <div className="max-w-4xl mx-auto">
-        <p className="text-lg text-[#666666] mb-8 text-center">
-          {t('subtitle')}
-        </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {products.map((product) => (
-            <Card 
-              key={product} 
-              title={t(`items.${product}.title`)}
-              image={productImages[product]}
-              imageAlt={t(`items.${product}.title`)}
-              className="text-center hover:border-[#0d3250] min-h-[200px]"
-            >
-              <p className="text-[#666666] text-sm leading-relaxed">
-                {t(`items.${product}.description`)}
-              </p>
-            </Card>
-          ))}
-        </div>
-      </div>
-    </Section>
+    <LoanProductsShowcase
+      title={t('title')}
+      subtitle={t('subtitle')}
+      products={productItems}
+    />
   );
 }

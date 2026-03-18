@@ -19,7 +19,7 @@ export const Hero: React.FC<HeroProps> = ({
   ctaLink,
 }) => {
   return (
-    <section className="relative w-full h-[90vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <section className="relative flex min-h-[440px] w-full items-center justify-center overflow-hidden h-[78vh]">
       {/* Video Background */}
       <video
         autoPlay
@@ -39,7 +39,7 @@ export const Hero: React.FC<HeroProps> = ({
       {/* Content */}
       <div className="relative z-20 container mx-auto px-4 text-center">
         <h1
-          className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white mb-6 leading-tight"
+          className="mb-5 text-3xl font-black leading-tight text-white md:text-4xl lg:text-5xl xl:text-6xl"
           style={{
             fontFamily: "var(--font-montserrat), sans-serif",
             fontWeight: 900,
@@ -47,12 +47,14 @@ export const Hero: React.FC<HeroProps> = ({
         >
           {title}
         </h1>
-        <p
-          className="text-lg md:text-xl lg:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed"
-          style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
-        >
-          {subtitle}
-        </p>
+        {subtitle ? (
+          <p
+            className="mx-auto mb-8 max-w-3xl text-lg font-semibold leading-relaxed text-gray-100 md:text-2xl lg:text-3xl"
+            style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
+          >
+            {subtitle}
+          </p>
+        ) : null}
         <Link href={ctaLink}>
           <Button variant="primary" className="px-8 py-4 text-lg rounded-full">
             {ctaText}

@@ -12,18 +12,18 @@ export const Header = () => {
   return (
     <header className="bg-[#0d3250] text-white shadow-md">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20 relative">
+        <div className="relative flex h-16 items-center justify-between">
           <Link href={`/${locale}`} className="flex items-center">
              <Image
                src="/logo.webp"
                alt="Open Mortgage"
                width={180}
                height={54}
-               className="h-10 w-auto md:h-12 object-contain"
+               className="h-8 w-auto object-contain md:h-9"
                priority
              />
           </Link>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <Navigation />
             <LanguageToggle />
           </div>
@@ -32,4 +32,3 @@ export const Header = () => {
     </header>
   );
 };
-

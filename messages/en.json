@@ -11,36 +11,36 @@
     "homeLoan": "Home Loan",
     "homeLoanHeroEyebrow": "Home Loans",
     "homeLoanHeroTitle": "Own your next home with certainty",
-    "homeLoanHeroDescription": "Open Mortgage combines local expertise with broad lender access to match you with the loan that fits your goals.",
+    "homeLoanHeroDescription": "Open Mortgage combines local market expertise, lender policy knowledge, and disciplined case management to build a home loan strategy that fits your timeline, cash flow, and long-term property goals. We guide you from initial assessment through to settlement so each decision is clear and commercially sound.",
     "homeLoanHeroCtaPrimary": "Talk to a broker",
     "homeLoanHeroCtaSecondary": "Review loan options",
     "homeLoanBenefitsTitle": "We build plans that move you forward",
-    "homeLoanBenefitsSubtitle": "Every application is unique, so we tailor the strategy and paperwork to your timeline.",
+    "homeLoanBenefitsSubtitle": "From first-home purchases to portfolio expansion, we structure each application with practical strategy, complete documentation, and active lender engagement.",
     "homeLoanBenefits": {
       "items": {
         "tailored": {
           "title": "Tailored borrowing plans",
-          "description": "We layer deposit alternatives, product mix, and offset strategies into a clear pathway."
+          "description": "We design your borrowing plan around deposit position, repayment comfort, offset strategy, and future plans, so your structure works now and remains sustainable later."
         },
         "strategic": {
           "title": "Strategic lender matching",
-          "description": "We negotiate with our panel of banks and non-bank lenders to balance rates, fees, and flexibility."
+          "description": "We compare lender policy, pricing, turnaround times, and product flexibility to shortlist options that genuinely fit your scenario rather than a generic rate-first approach."
         },
         "holistic": {
           "title": "Holistic support",
-          "description": "From valuation to settlement, we keep you informed and advocate for your approval."
+          "description": "Beyond submission, we coordinate valuation, credit queries, and milestone follow-ups, keeping you informed at every stage until funds are settled."
         }
       }
     },
     "homeLoanProcessTitle": "How we guide every home loan",
-    "homeLoanProcessSubtitle": "You stay in control while we manage the details, paperwork, and lender relationships.",
+    "homeLoanProcessSubtitle": "You retain full visibility while we manage documentation quality, lender communication, and timing across each approval milestone.",
     "homeLoanSolutionsTitle": "Solutions for every borrower",
-    "homeLoanSolutionsSubtitle": "Pick the pathway that matches your story. We simplify the options and highlight what matters.",
+    "homeLoanSolutionsSubtitle": "Whether you are buying, refinancing, or investing, we align product features with your objectives, risk profile, and servicing capacity.",
     "homeLoanSolutionsCategoryLabel": "Category",
-    "homeLoanSolutionsPrompt": "Explore the full range of home loan products or reach out for a tailored recommendation.",
+    "homeLoanSolutionsPrompt": "Explore the major home loan pathways below. If your circumstances are more complex, we can prepare a tailored recommendation with lender-specific guidance.",
     "homeLoanCtaEyebrow": "One conversation, countless possibilities",
     "homeLoanCtaTitle": "Ready to build your mortgage story?",
-    "homeLoanCtaDescription": "Book a call with our brokers or send us your property notes and we’ll deliver a straight path forward.",
+    "homeLoanCtaDescription": "Speak with our brokers for a structured assessment, lender-fit strategy, and a practical action plan tailored to your property goals.",
     "homeLoanCtaButton": "Schedule a consultation",
     "homeLoanSeoTitle": "Home Loan - Open Mortgage",
     "homeLoanSeoDescription": "Expert home loan services with competitive rates and flexible terms.",
@@ -50,11 +50,11 @@
         "loans": {
           "investmentLoan": {
             "name": "Investment loan",
-            "description": "Rent out your property and benefit from Australia's strong long-term real estate performance."
+            "description": "Finance your investment property with structures that balance yield, tax considerations, and cash-flow resilience over the medium to long term."
           },
           "smsfHomeLoan": {
             "name": "Self-managed super fund (SMSF) home loan",
-            "description": "Use retirement savings to invest in property with potential tax advantages."
+            "description": "Use your self-managed super fund to acquire property through compliant lending structures, with guidance on lender policy and documentation expectations."
           }
         }
       },
@@ -63,19 +63,19 @@
         "loans": {
           "refinancing": {
             "name": "Refinancing home loan",
-            "description": "Pay out your current loan and restart with a better rate or lender."
+            "description": "Replace your current facility to pursue sharper pricing, better features, or a more suitable lender policy as your circumstances evolve."
           },
           "lineOfCredit": {
             "name": "Line of credit home loan",
-            "description": "Access your equity via a credit line repaid either interest-only or principal & interest."
+            "description": "Access available equity through a flexible credit limit, suitable for staged expenses, renovations, or liquidity management when used with discipline."
           },
           "bridging": {
             "name": "Bridging home loan",
-            "description": "Finance a new purchase while you wait to sell your existing home; usually up to six months."
+            "description": "Secure short-term funding while transitioning between properties, with careful planning around sale timing, interest costs, and exit strategy."
           },
           "reverseMortgage": {
             "name": "Reverse mortgage",
-            "description": "Retirees and pensioners can access cash while keeping their home by using it as security."
+            "description": "For eligible retirees, release equity from your home while continuing to live in it, with clear guidance on costs, compounding, and long-term implications."
           }
         }
       }
@@ -83,127 +83,127 @@
     "carLoan": "Car Loan",
     "carLoanHeroEyebrow": "Car Loans",
     "carLoanHeroTitle": "Drive away sooner with the right finance",
-    "carLoanHeroDescription": "We help you find competitive car loan rates and flexible terms so you can get on the road faster.",
+    "carLoanHeroDescription": "We arrange vehicle and asset finance solutions for individuals and businesses, focusing on affordability, approval efficiency, and long-term value. From selecting the right structure to final settlement, we help you make informed financing decisions.",
     "carLoanHeroCtaPrimary": "Get a quote",
     "carLoanHeroCtaSecondary": "View loan types",
     "carLoanBenefitsTitle": "Why choose our car loans",
-    "carLoanBenefitsSubtitle": "Fast approvals and tailored options to suit your budget and lifestyle.",
+    "carLoanBenefitsSubtitle": "Whether for personal mobility or business operations, we tailor each facility to your repayment capacity, usage profile, and cash-flow needs.",
     "carLoanBenefits": {
       "items": {
         "speed": {
           "title": "Fast Approvals",
-          "description": "Get approved quickly so you don't miss out on your dream car."
+          "description": "We streamline pre-assessment and documentation so suitable applications can move quickly, helping you secure your vehicle or asset without unnecessary delay."
         },
         "flexibility": {
           "title": "Flexible Terms",
-          "description": "Choose repayment options that fit your budget and financial goals."
+          "description": "Choose from financing structures and repayment schedules that better suit your income pattern, operating costs, and preferred ownership outcomes."
         },
         "competitive": {
           "title": "Competitive Rates",
-          "description": "Access low interest rates from a wide network of trusted lenders."
+          "description": "We compare multiple lenders to find strong combinations of interest rate, fees, and loan features, not just headline pricing."
         }
       }
     },
     "carLoanSolutionsTitle": "Car Loan Options",
-    "carLoanSolutionsSubtitle": "Whether it's for business or personal use, we have a loan solution for you.",
-    "carLoanSolutionsPrompt": "Explore our range of car financing options designed to get you moving.",
+    "carLoanSolutionsSubtitle": "From personal vehicles to business-use assets, we match loan structures to how the asset is used and how repayments are managed.",
+    "carLoanSolutionsPrompt": "Explore common vehicle and asset finance options below. For fleet, complex income, or restructuring scenarios, contact us for tailored guidance.",
     "carLoanTypes": {
       "new": {
         "title": "Personal Car Loan",
-        "description": "Flexible financing for your personal vehicle purchase with competitive rates and terms."
+        "description": "Finance private vehicle purchases with flexible terms, clear repayment planning, and features that support both convenience and cost control."
       },
       "used": {
         "title": "Novated Lease",
-        "description": "Salary packaging option that bundles your car lease, running costs, and maintenance into regular payments."
+        "description": "Structure novated lease arrangements that package lease payments and running costs efficiently, with visibility over total ownership expenses."
       },
       "refinance": {
         "title": "Car Loan Refinancing",
-        "description": "Refinance your existing car loan to get a better rate or lower payments."
+        "description": "Refinance existing vehicle facilities to improve rates, reduce repayments, or consolidate terms in line with your current financial position."
       },
       "business": {
         "title": "Business Car Loans",
-        "description": "Tax-effective vehicle financing solutions for business owners."
+        "description": "Access business vehicle and asset finance designed for operational continuity, tax planning coordination, and manageable cash-flow impact."
       }
     },
     "carLoanCtaEyebrow": "Start your journey today",
     "carLoanCtaTitle": "Ready to get behind the wheel?",
-    "carLoanCtaDescription": "Contact us to discuss your car loan needs and get a personalized quote.",
+    "carLoanCtaDescription": "Talk to our team about your vehicle or asset funding plans and receive a practical recommendation tailored to your budget and objectives.",
     "carLoanCtaButton": "Enquire Now",
     "commercialLoan": "Commercial Loan",
     "commercialLoanHeroEyebrow": "Commercial Loans",
     "commercialLoanHeroTitle": "Fuel your business growth",
-    "commercialLoanHeroDescription": "Tailored financing solutions designed to support your business ambitions and operational needs.",
+    "commercialLoanHeroDescription": "We structure commercial finance facilities that support business growth, asset acquisition, and working-capital stability. Our approach balances borrowing capacity, deal feasibility, and lender policy alignment so your funding strategy remains practical and scalable.",
     "commercialLoanHeroCtaPrimary": "Talk to an expert",
     "commercialLoanHeroCtaSecondary": "View solutions",
     "commercialLoanBenefitsTitle": "Empowering your business",
-    "commercialLoanBenefitsSubtitle": "Strategic financing options to help you manage cash flow and seize opportunities.",
+    "commercialLoanBenefitsSubtitle": "From acquisition to expansion, we help business owners secure funding with stronger structuring, clearer documentation, and active lender negotiation.",
     "commercialLoanBenefits": {
       "items": {
         "growth": {
           "title": "Business Growth",
-          "description": "Access capital to expand operations, hire staff, or enter new markets."
+          "description": "Fund expansion initiatives such as new sites, strategic hires, and operational scale-up with financing structured to match business cash-flow cycles."
         },
         "cashflow": {
           "title": "Cash Flow Management",
-          "description": "Flexible solutions to smooth out revenue fluctuations and cover operational costs."
+          "description": "Use tailored facilities to manage seasonal fluctuations, supplier commitments, and short-term liquidity needs without disrupting operations."
         },
         "tax": {
           "title": "Tax Efficiency",
-          "description": "Structure your loans to maximize potential tax benefits for your business."
+          "description": "Where appropriate, we help align lending structures with your broader advisory strategy so financing outcomes support tax and balance-sheet objectives."
         }
       }
     },
     "commercialLoanSolutionsTitle": "Commercial Financing Solutions",
-    "commercialLoanSolutionsSubtitle": "From property to equipment, we have the right loan for your business needs.",
-    "commercialLoanSolutionsPrompt": "Browse our comprehensive range of commercial loan products.",
+    "commercialLoanSolutionsSubtitle": "Our solutions are designed for owner-occupiers, investors, and growing enterprises that require flexible and commercially realistic funding.",
+    "commercialLoanSolutionsPrompt": "Review the common commercial finance pathways below, or contact us for complex scenarios involving multiple entities, assets, or staged funding.",
     "commercialLoanTypes": {
       "property": {
         "title": "Commercial Property",
-        "description": "Purchase or refinance office, retail, or industrial property."
+        "description": "Purchase or refinance office, retail, industrial, or mixed-use assets with lending structures tailored to tenancy profile, valuation, and cash flow."
       },
       "equipment": {
         "title": "Equipment Finance",
-        "description": "Upgrade machinery, vehicles, or technology without tying up capital."
+        "description": "Acquire vehicles, machinery, or specialist equipment through funding options that preserve working capital and align with asset life cycles."
       },
       "lineOfCredit": {
         "title": "Business Line of Credit",
-        "description": "Flexible access to funds for day-to-day expenses and opportunities."
+        "description": "Maintain flexible access to capital for day-to-day operations, project ramp-up, and opportunity-driven expenses with controlled repayment management."
       },
       "development": {
         "title": "Development Finance",
-        "description": "Funding for residential or commercial property development projects."
+        "description": "Secure staged funding for residential or commercial development projects, with close attention to feasibility, valuation, and milestone drawdowns."
       }
     },
     "commercialLoanCtaEyebrow": "Let's talk business",
     "commercialLoanCtaTitle": "Ready to take the next step?",
-    "commercialLoanCtaDescription": "Connect with our commercial lending specialists to structure a deal that works for you.",
+    "commercialLoanCtaDescription": "Connect with our commercial lending specialists to map funding options, structure terms, and move your project forward with confidence.",
     "commercialLoanCtaButton": "Contact Us",
     "ourProcess": {
       "title": "Our Process",
       "steps": {
         "step1": {
           "title": "Search & Shortlist",
-          "description": "Discover us through our website and social media. Access blog posts, articles, and resources with valuable mortgage insights. We update interest rates weekly, allowing you to search and shortlist home loans."
+          "description": "At this stage, our team reviews blog posts, market updates, and resource content to track lending trends, rate movements, and product changes. We then filter and shortlist suitable loan directions based on your deposit position, repayment preferences, and risk profile. You receive a clear, curated set of options rather than having to compare everything yourself."
         },
         "step2": {
           "title": "Expert Consultation",
-          "description": "Reach out for personalised advice and answers to your questions. Schedule a meeting with one of our experienced brokers to discuss your financial needs and goals."
+          "description": "Book a one-on-one session with an experienced broker to review your income, liabilities, savings, and long-term goals in detail. We clarify borrowing capacity, likely approval conditions, and lender policy fit based on your scenario. You will leave this consultation with a clear strategy, required document checklist, and next-step timeline."
         },
         "step3": {
           "title": "Application",
-          "description": "Ready to proceed? Complete and submit your application online. We'll handle all the paperwork for you."
+          "description": "Once you are ready, we help you complete and submit the application with a structured, credit-ready package. Our team reviews supporting documents for consistency, addresses potential assessment questions early, and prepares a strong submission narrative. This reduces back-and-forth and helps lenders assess your file more efficiently."
         },
         "step4": {
           "title": "Tracking & Updating",
-          "description": "Stay informed with regular updates about your application status. We'll manage correspondence with the lender and keep you updated throughout the process."
+          "description": "After submission, we actively monitor progress and manage communication with the lender, credit assessor, and any third parties involved. You receive regular status updates, clear explanations of outstanding requirements, and guidance on any additional documents. Our focus is to keep the process moving while minimizing uncertainty and delays."
         },
         "step5": {
           "title": "Closing",
-          "description": "We'll prepare all the necessary documents for you to review and sign. Receive your loan funds and complete your mortgage transaction smoothly."
+          "description": "When formal approval is issued, we coordinate the closing stage and walk you through key loan terms, repayment setup, and settlement requirements. We assist with document review and signing to ensure accuracy before funds are released. The goal is a smooth settlement experience with full clarity on your obligations from day one."
         },
         "step6": {
           "title": "Post-Closing",
-          "description": "Our support continues even after closing. We offer ongoing assistance with tax, accounting, and insurance, and help you explore refinancing options or additional financial services as your needs evolve."
+          "description": "Our support continues after settlement through regular loan health checks and strategic reviews as your circumstances change. We help you assess refinancing opportunities, equity release options, and structure adjustments when rates or goals shift. Where relevant, we also connect you with trusted partners for tax, accounting, and insurance coordination."
         }
       }
     }
@@ -374,20 +374,61 @@
     "freeValuationIntro": "Request a free property valuation from our expert team. Fill out the form below and we will get back to you with an accurate assessment.",
     "loanBorrowingCalculatorIntro": "Calculate how much you can borrow based on your income and expenses. Enter your financial details below.",
     "loanPreparationIntroTitle": "Preparing for Your Loan Application",
-    "loanPreparationIntroBody": "Being well-prepared can significantly speed up your loan application process. Here is what you will need to have ready.",
+    "loanPreparationIntroBody": "A strong loan application is built before submission. When your documents are complete, your financial story is consistent, and your timeline is clear, lenders can assess your case faster and with fewer follow-up requests. This preparation guide helps you understand what to collect, what to verify, and how to present your profile with confidence.",
+    "loanPreparationTimelineTitle": "Recommended Preparation Timeline",
+    "loanPreparationTimeline": {
+      "stage1": {
+        "label": "Week 1",
+        "title": "Discovery & Financial Snapshot",
+        "description": "Clarify your borrowing goal, target budget, and repayment comfort. Capture a snapshot of your income, living costs, current debts, and available savings so your strategy starts with realistic numbers."
+      },
+      "stage2": {
+        "label": "Week 1-2",
+        "title": "Document Collection & Verification",
+        "description": "Gather identity, income, asset, and liability documents. Check names, addresses, and account details are consistent across records to reduce delays caused by mismatched information."
+      },
+      "stage3": {
+        "label": "Week 2-3",
+        "title": "Application Structuring",
+        "description": "Review lender fit, policy requirements, and product features with your broker. Organize supporting notes for any non-standard items such as variable income, recent job change, or existing commitments."
+      },
+      "stage4": {
+        "label": "Before Submission",
+        "title": "Final Quality Check",
+        "description": "Run a final review of all forms and attachments before lodgement. A complete and coherent package improves first-pass assessment quality and can shorten turnaround time."
+      }
+    },
     "loanPreparationRequiredDocumentsTitle": "Required Documents",
     "loanPreparationRequiredDocuments": {
       "identity": "Proof of identity (driver's license or passport)",
       "income": "Proof of income",
-      "property": "Property details (if purchasing)"
+      "property": "Property details (if purchasing)",
+      "expenses": "Evidence of living expenses and recurring household costs",
+      "liabilities": "Current liabilities (credit cards, personal loans, HECS/HELP, buy-now-pay-later, and other commitments)"
+    },
+    "loanPreparationChecklistTitle": "What We Review After You Prepare the Documents",
+    "loanPreparationChecklist": {
+      "item1": "Once you send us your documents, we check that everything is clear, complete, and still within the lender's recency requirements.",
+      "item2": "After you provide payslips, tax returns, and bank statements, we review whether the income figures in the application line up properly.",
+      "item3": "You only need to give us an accurate picture of your debts and monthly commitments, and we will help confirm that nothing is understated or missed.",
+      "item4": "If there are unusual transactions, large one-off deposits, or recent financial changes, we help turn your background notes into a lender-ready explanation.",
+      "item5": "Before lodgement, we walk you through the proposed loan structure, repayment impact, and likely settlement costs so you can proceed with clarity."
     },
     "loanPreparationTipsTitle": "Tips for Success",
     "loanPreparationTips": {
-      "tip1": "Organize all documents before starting your application",
-      "tip2": "Be honest about your financial situation",
-      "tip3": "Ask questions if you are unsure about anything",
-      "tip4": "Work with our experts to find the best loan option"
+      "tip1": "Keep your savings and spending pattern stable before application where possible.",
+      "tip2": "Disclose your full financial situation early, including debts that may seem small.",
+      "tip3": "Ask for clarification on product features, fixed vs variable trade-offs, and policy conditions.",
+      "tip4": "Work with a broker to align lender selection, structure design, and submission timing."
     },
+    "loanPreparationCommonMistakesTitle": "Common Mistakes to Avoid",
+    "loanPreparationCommonMistakes": {
+      "mistake1": "Submitting incomplete documents, then losing momentum through repeated requests for missing items.",
+      "mistake2": "Under-declaring expenses or liabilities, which can trigger reassessment and reduce credibility.",
+      "mistake3": "Applying with a lender whose policy does not fit your income type or ownership structure.",
+      "mistake4": "Changing jobs, taking new credit, or making unusual transactions without discussing impact first."
+    },
+    "loanPreparationFinalCtaTitle": "Need a Structured Review Before You Apply?",
     "loanPreparationConclusion": "Need help preparing your loan application? Contact us today and our team will guide you through the process.",
     "stampDutyCalculatorCtaPrimaryAlt": "View Calculators",
     "stampDutyCalculatorOfficialTitle": "Official Stamp Duty Calculators",
@@ -429,6 +470,10 @@
         "title": "Commercial Loan",
         "description": "Tailored solutions for purchasing office, retail, or industrial spaces for your business."
       },
+      "car": {
+        "title": "Car Loan",
+        "description": "Flexible vehicle finance options for personal or business use, with structures tailored to your cash flow."
+      },
       "construction": {
         "title": "Construction Loan",
         "description": "Progressive drawdowns to fund your building project or major renovation."
@@ -454,14 +499,77 @@
     "contactUs": "Contact Us"
   },
   "home": {
-    "title": "Open Mortgage Solutions",
-    "subtitle": "Your trusted partner for smart financing solutions.",
-    "cta": "Get Started",
+    "title": "Open Mortgage",
+    "subtitle": "Open Your Dream Home",
+    "cta": "Free Valuation",
     "learnMore": "Learn More",
     "servicesTitle": "Our Services",
     "resourcesTitle": "Resources",
     "servicesAndResourcesTitle": "Services & Resources",
     "trustTitle": "Why Choose Us",
+    "professional": {
+      "title": "A more rigorous lending advisory experience",
+      "subtitle": "We combine structured planning, lender policy insight, and disciplined execution so your application is clear, bank-ready, and strategically positioned.",
+      "stats": {
+        "coverage": {
+          "value": "End-to-end",
+          "label": "Advisory coverage"
+        },
+        "comparison": {
+          "value": "Multi-lender",
+          "label": "Panel comparison"
+        },
+        "submission": {
+          "value": "Credit-aware",
+          "label": "Submission quality"
+        },
+        "support": {
+          "value": "Post-settlement",
+          "label": "Ongoing support"
+        }
+      },
+      "pillars": {
+        "strategy": {
+          "title": "Borrowing Strategy",
+          "description": "We map your target, timeline, and cash-flow position into a practical borrowing structure before paperwork begins."
+        },
+        "credit": {
+          "title": "Credit Positioning",
+          "description": "We assess serviceability, liabilities, and lender policy fit to reduce avoidable credit friction in assessment."
+        },
+        "execution": {
+          "title": "Execution Discipline",
+          "description": "From document collection to lender follow-up, we manage milestones and keep every stakeholder aligned through to settlement."
+        }
+      }
+    },
+    "journey": {
+      "title": "A transparent client journey",
+      "subtitle": "Every stage has a clear objective, expected deliverables, and practical next actions.",
+      "stepLabel": "Step {number}",
+      "steps": {
+        "discovery": {
+          "title": "Discovery & Positioning",
+          "description": "We clarify your goals, borrowing profile, and constraints to establish a realistic approval pathway."
+        },
+        "structuring": {
+          "title": "Structuring & Lender Selection",
+          "description": "We compare lender policy, pricing, and product features to shortlist options that actually fit your scenario."
+        },
+        "application": {
+          "title": "Application & Credit Management",
+          "description": "We prepare a complete submission package, anticipate key credit questions, and coordinate responses quickly."
+        },
+        "settlement": {
+          "title": "Settlement & Ongoing Review",
+          "description": "After approval, we guide settlement and continue reviewing your loan structure as rates and life plans change."
+        }
+      },
+      "ctaTitle": "Ready for a more professional mortgage process?",
+      "ctaDescription": "Share your current scenario and we will give you a structured action plan with clear recommendations.",
+      "ctaPrimary": "Book a strategy call",
+      "ctaSecondary": "See our process"
+    },
     "welcome": {
       "title": "Welcome to Open Mortgage",
       "content": "At Open Mortgage, we are committed to providing exceptional financial solutions tailored to your unique needs. With years of experience in the mortgage industry, our team of experts is dedicated to helping you achieve your property and financial goals."
@@ -506,7 +614,8 @@
     "lenders": {
       "title": "Our Lenders",
       "description": "We partner with leading financial institutions to provide you with the best loan options."
-    }
+    },
+    "metaDescription": "Open Mortgage provides structured lending advice, lender matching, and end-to-end support from assessment to settlement."
   },
   "common": {
     "readMore": "Read More",
@@ -536,8 +645,53 @@
   "about": {
     "seoTitle": "About Us - Open Mortgage",
     "seoDescription": "Learn about Open Mortgage and our commitment to helping you achieve your financial goals.",
-    "heroTitle": "About Open Mortgage",
-    "heroSubtitle": "Your trusted partner for mortgage and loan solutions",
+    "heroTitle": "Open Mortgage, Open Your Dream Home!",
+    "heroSubtitle": "A trusted mortgage and finance partner focused on clear advice, strong lender access, and long-term client support.",
+    "brandQuote": "Open Mortgage is committed to integrity, exceptional customer service, and ensuring a secure and simplified journey towards financial settlement and beyond.",
+    "whoWeAreHeading": "Who We Are",
+    "whoWeAreBody": "Open Mortgage is your trusted partner in achieving financial stability and growth. We support individuals, families, investors, and businesses with lending solutions tailored to their goals and circumstances. Through integrity, professionalism, and careful case management, we help clients move forward with clarity and confidence at every stage of the finance journey.",
+    "servicesHeading": "Our Services",
+    "servicesItems": {
+      "residential": {
+        "title": "Residential Loan",
+        "description": "Support for first-home buyers, upgraders, refinancers, and investors seeking practical and well-structured home loan solutions."
+      },
+      "commercial": {
+        "title": "Commercial Loan",
+        "description": "Flexible funding solutions for commercial property, business expansion, and cash-flow management across a wide range of industries."
+      },
+      "construction": {
+        "title": "Construction Loan",
+        "description": "Progress payment structures for new builds and major renovations, with guidance through staged funding requirements."
+      },
+      "smsf": {
+        "title": "SMSF Loan",
+        "description": "Specialist support for borrowers using self-managed super fund structures to invest in residential or commercial property."
+      },
+      "nonResidential": {
+        "title": "Non-Residential Loan",
+        "description": "Finance options for specialised property types and scenarios that fall outside standard residential lending policy."
+      },
+      "assetFinance": {
+        "title": "Asset Finance & Equipment Loan",
+        "description": "Funding for vehicles, machinery, and equipment that helps businesses preserve working capital and keep operating efficiently."
+      }
+    },
+    "offersHeading": "What We Offer",
+    "offersItems": {
+      "consultation": {
+        "title": "Free Loan Consultation",
+        "description": "Receive a structured review of your borrowing position, current loan health, and the options available based on your goals."
+      },
+      "rateReview": {
+        "title": "Free Rate Review",
+        "description": "We compare your current rate and loan features against market options to identify whether a better structure or lender is available."
+      },
+      "valuation": {
+        "title": "Free Property Valuation",
+        "description": "Understand your property's current market position for refinancing, equity release, purchase planning, or long-term strategy."
+      }
+    },
     "missionHeading": "Our Mission",
     "missionBody": "At Open Mortgage, we are dedicated to helping individuals and businesses achieve their financial goals through expert mortgage and loan services. We believe that everyone deserves access to professional financial guidance and the best loan products available.",
     "valuesHeading": "Our Values",
@@ -553,6 +707,32 @@
     },
     "whyHeading": "Why Choose Us",
     "whyBody": "With years of experience in the mortgage industry, we have built strong relationships with multiple lenders, allowing us to find you the best rates and terms. Our team guides you through every step of the process, making your loan journey smooth and stress-free.",
+    "whyItems": {
+      "customerFirst": {
+        "title": "Customer-First Approach",
+        "description": "We take time to understand your circumstances and deliver solutions that are practical, efficient, and aligned with your long-term goals."
+      },
+      "ongoingSupport": {
+        "title": "Ongoing Customer Support",
+        "description": "Our service does not stop at settlement. We continue to provide updates, reviews, and guidance as your financial needs evolve."
+      },
+      "trustedPartner": {
+        "title": "Lifelong Trusted Partnership",
+        "description": "We aim to build lasting relationships by providing reliable guidance and a positive finance experience across every stage of life."
+      },
+      "professionalTeam": {
+        "title": "Professional & Passionate Team",
+        "description": "Our experienced team is committed to delivering clear advice, dependable service, and careful attention to detail in every application."
+      },
+      "onlineResources": {
+        "title": "Extensive Online Resources",
+        "description": "Through calculators, guides, and educational content, we help clients understand options before making important borrowing decisions."
+      },
+      "complexPlans": {
+        "title": "Experienced in Complex Plans",
+        "description": "We support clients with specialised scenarios, including non-standard income, refinancing strategy, and more complex lending structures."
+      }
+    },
     "statCards": {
       "expertTeamTitle": "Expert Team",
       "expertTeamBody": "Experienced professionals dedicated to your success",
@@ -560,7 +740,8 @@
       "bestRatesBody": "Access to competitive rates from multiple lenders",
       "personalizedServiceTitle": "Personalized Service",
       "personalizedServiceBody": "Tailored solutions for your unique financial situation"
-    }
+    },
+    "ctaText": "Talk to Our Team"
   },
   "contact": {
     "seoTitle": "Contact Us - Open Mortgage",
@@ -586,27 +767,43 @@
     "items": {
       "q1": {
         "question": "What documents do I need to apply for a loan?",
-        "answer": "You will typically need proof of identity, proof of income (payslips, tax returns), bank statements, and details about the property you are purchasing. Our team can provide a complete checklist based on your specific situation."
+        "answer": "Most lenders will ask for proof of identity, income evidence such as recent payslips or tax returns, bank statements, details of existing debts, and information about the property you are buying or refinancing. If you are self-employed, receive bonus or commission income, or hold assets through a trust or company, extra documents are usually required. Preparing complete and consistent documents upfront helps reduce lender follow-up requests and can improve assessment speed."
       },
       "q2": {
         "question": "How long does the loan approval process take?",
-        "answer": "The approval process typically takes 2–4 weeks, depending on the complexity of your application and how quickly you can provide required documents. Pre-approval can often be obtained within 24–48 hours."
+        "answer": "Timing depends on the lender, the quality of your application, valuation turnaround, and whether additional documents are requested. In straightforward cases, pre-approval may be issued within a few business days, while full approval can take one to several weeks. More complex applications, including self-employed income, multiple borrowers, or non-standard properties, usually take longer because the lender needs more detailed verification."
       },
       "q3": {
         "question": "What is the minimum deposit required?",
-        "answer": "Most lenders require a minimum deposit of 10–20% of the property value. However, some government programs may allow lower deposits for eligible first home buyers."
+        "answer": "Many borrowers aim for a 20% deposit because this can help avoid lender's mortgage insurance (LMI), but some lenders will consider lower deposits depending on your profile and the product. A smaller deposit is possible in some cases, especially for eligible first home buyers using government support schemes, but approval conditions can be stricter and total costs may be higher. The right deposit level depends on your cash position, borrowing capacity, and whether keeping extra savings for buffers and upfront costs is more important than reducing the loan-to-value ratio."
       },
       "q4": {
         "question": "Can I get a loan with a low credit score?",
-        "answer": "While a higher credit score improves your chances, we work with various lenders who may consider applications with lower credit scores. The interest rate and terms may vary based on your credit profile."
+        "answer": "A lower credit score does not always mean automatic decline, but it can affect which lenders are available, how much you can borrow, and what pricing or conditions apply. Lenders usually look beyond the score itself and consider the reason for missed payments, how recent they were, whether debts are now up to date, and how stable your current financial position is. If there have been prior credit issues, presenting a clear explanation and stronger supporting documents can make a meaningful difference."
       },
       "q5": {
         "question": "What is the difference between fixed and variable rates?",
-        "answer": "Fixed rates remain constant for a set period, providing stability. Variable rates can change with market conditions, potentially offering lower initial rates but with less certainty. We can help you choose the option that best suits your needs."
+        "answer": "A fixed rate gives you repayment certainty for a set period, which can make budgeting easier, but it often comes with limits on extra repayments, redraw flexibility, or break costs if you exit early. A variable rate can move up or down with market conditions and may offer more flexible features such as offset accounts, redraw, or unlimited extra repayments. Some borrowers also choose a split loan so they can keep part of the balance fixed for certainty and part variable for flexibility."
       },
       "q6": {
         "question": "Can I make extra repayments on my loan?",
-        "answer": "This depends on your loan type. Variable rate loans typically allow extra repayments without penalty. Fixed rate loans may have restrictions or fees for extra repayments. We can explain the options available with different loan products."
+        "answer": "It depends on the product features and whether your loan is fixed or variable. Variable loans commonly allow extra repayments and may also include redraw or offset features, while fixed loans often cap how much extra you can repay each year and may charge break or early repayment costs if limits are exceeded. Before choosing a loan, it is worth checking whether flexibility features matter to you, especially if you expect bonuses, irregular income, or faster debt reduction."
+      },
+      "q7": {
+        "question": "What affects how much I can borrow?",
+        "answer": "Borrowing capacity is usually based on your income, existing debts, living expenses, number of dependants, loan term, and the lender's assessment rate. In Australia, lenders generally assess home loans using a buffer above the actual interest rate, following APRA guidance, which means the bank tests whether you could still afford repayments if rates rise. Credit card limits, personal loans, HECS or HELP debts, and buy-now-pay-later commitments can all reduce borrowing power even if the balances are low."
+      },
+      "q8": {
+        "question": "What is pre-approval and is it guaranteed?",
+        "answer": "Pre-approval is an indication that a lender is willing to consider lending to you based on the information reviewed so far, but it is not the same as unconditional approval. It is usually still subject to checks such as valuation, final document review, confirmation of employment and liabilities, and the lender's full credit assessment. Because circumstances can change between pre-approval and purchase, it should be treated as helpful guidance rather than a guarantee."
+      },
+      "q9": {
+        "question": "Can I use superannuation to help buy my first home?",
+        "answer": "Eligible first home buyers may be able to use the First Home Super Saver scheme to withdraw certain voluntary super contributions, subject to ATO rules and release limits. This can help with building a deposit, but it does not replace the need to satisfy normal lender servicing and approval requirements. Whether this strategy suits you depends on timing, contribution history, and your overall cash-flow plan."
+      },
+      "q10": {
+        "question": "What should I do if I am worried about meeting repayments?",
+        "answer": "If you think you may struggle with repayments, contact your lender as early as possible rather than waiting until you miss multiple payments. Many lenders have hardship support processes that may include short-term repayment changes or other assistance, depending on your circumstances. Acting early usually gives you more options and may help reduce credit damage, legal escalation, and avoidable fees."
       }
     },
     "moreHelp": "Still have questions? We are here to help."
@@ -615,6 +812,8 @@
     "listTitle": "Blogs",
     "listIntro": "Stay informed with our latest articles, tips, and insights about mortgages and loans.",
     "publishedOn": "Published:",
+    "searchPlaceholder": "Search blog titles",
+    "searchEmpty": "No blogs matched your search keyword.",
     "backToBlogs": "← Back to Blogs",
     "blogsSeoTitle": "Blogs - Open Mortgage",
     "blogsSeoDescription": "Latest news, tips, and insights about mortgages and loans from Open Mortgage.",

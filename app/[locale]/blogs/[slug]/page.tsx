@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import { getBlogDisplayDate } from "@/lib/blogDisplayDates";
 
 type BlogPost = {
   title: string;
@@ -14,6 +15,127 @@ type LocaleKey = "en" | "zh";
 
 const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
   en: {
+    "reported-cba-mortgage-fraud-review-impact-on-home-buyers": {
+      title:
+        "What the Reported CBA Mortgage Fraud Review Could Mean for Home Buyers",
+      date: "2026-03-07",
+      content: `
+        <h2>A fraud review can change credit settings even before the full facts are settled</h2>
+        <p>Public reporting in March 2026 suggested that Commonwealth Bank had referred a group of mortgages for investigation after an internal review identified potentially fraudulent documentation across a material volume of loans. While the precise outcome of those investigations may take time, the practical issue for borrowers is more immediate: when a major lender finds weaknesses in document verification, credit settings across the market often become more conservative.</p>
+
+        <h3>Why this matters to ordinary borrowers</h3>
+        <p>Most buyers will not be affected because they have done anything wrong. They may be affected because lenders respond to this type of event by tightening verification standards. That can mean slower turnaround times, more detailed questions about income and living expenses, and closer scrutiny of deposits, bank statements, and source-of-funds evidence.</p>
+
+        <h3>Who may feel the impact most</h3>
+        <ul>
+          <li><strong>Self-employed borrowers:</strong> Applications supported by BAS, accountant letters, or non-standard documentation may face deeper review.</li>
+          <li><strong>Borrowers with overseas funds:</strong> Large deposits arriving from overseas may require clearer evidence of origin and transfer trail.</li>
+          <li><strong>Complex structures:</strong> Trust, company, and multi-entity applications may be pushed into manual assessment more often.</li>
+          <li><strong>Time-sensitive buyers:</strong> If your finance clause or settlement timetable is tight, slower approval speed becomes a real risk.</li>
+        </ul>
+
+        <h3>Will this make borrowing harder?</h3>
+        <p>In the short term, it may make borrowing slower and more document-heavy rather than impossible. The likely market response is not a blanket shutdown of credit, but a stronger emphasis on clean files, consistent evidence, and a clearer audit trail. Borrowers with straightforward PAYG income may notice only modest changes. Borrowers with more complex profiles may notice significantly more questions.</p>
+
+        <h3>Could it affect property prices?</h3>
+        <p>Not necessarily in a broad or immediate way. Tighter verification can remove weaker or inflated demand from the market, but housing prices are still driven by wider fundamentals such as supply, population growth, financing costs, and location-specific demand. If there is any effect, it is more likely to show up first in higher-risk segments than across the whole market at once.</p>
+
+        <h3>What borrowers should do now</h3>
+        <ul>
+          <li>Prepare stronger supporting documents before applying, not after the lender asks.</li>
+          <li>Keep your bank statements, payroll records, tax documents, and source-of-funds trail consistent.</li>
+          <li>Allow more time for approval if your income or asset structure is not straightforward.</li>
+          <li>Choose a lender whose policy actually fits your scenario rather than applying based on rate alone.</li>
+        </ul>
+
+        <p>The practical takeaway is simple: if lenders are becoming more cautious, borrowers need cleaner files and better preparation. For many buyers, the biggest risk is not rejection itself, but entering a purchase timeline without leaving enough room for stricter credit review.</p>
+      `,
+    },
+    "how-to-respond-to-rba-rate-hike-fixed-or-variable": {
+      title: "RBA Rate Hike: Should You Fix Your Home Loan Rate?",
+      date: "2026-02-04",
+      content: `
+        <h2>The cash rate moved higher again</h2>
+        <p>On 3 February 2026, the Reserve Bank of Australia increased the cash rate target by 25 basis points, lifting it from 3.60% to 3.85%, with the change taking effect on 4 February 2026. For borrowers, that puts the focus back on three practical questions: how much repayments may rise, how borrowing capacity may change, and whether fixing the rate still makes sense.</p>
+
+        <h3>If you are on a variable rate</h3>
+        <p>For borrowers on variable-rate home loans, the immediate issue is higher monthly repayments as lenders pass through some or all of the increase. The timing differs by lender, but the practical step is the same: review your updated repayment amount early and check whether your current monthly budget still works once the higher rate takes effect.</p>
+
+        <h3>If you are planning to buy now</h3>
+        <p>Higher rates usually reduce borrowing power because lenders assess your ability to repay at a stress-tested rate above the product rate. For some buyers that only narrows the range of properties they can target. For others, it may change the timing of their purchase or the size of deposit required to keep the transaction comfortable.</p>
+
+        <h3>Should you fix your rate?</h3>
+        <p>There is no universal answer. A fixed rate may suit borrowers who value repayment certainty more than flexibility and expect rates to remain elevated. But by early February 2026, many lenders had already repriced fixed products higher in anticipation of tighter inflation and further policy risk. In practice, that meant borrowers were often comparing the certainty of a mid-5% fixed rate with the flexibility of remaining variable.</p>
+
+        <h3>Do not overlook offset and redraw</h3>
+        <p>For borrowers with savings, offset and redraw can materially reduce interest cost. This matters because many fixed-rate products either do not include a full offset account or apply tighter restrictions to extra repayments and access to funds. Before fixing, you need to compare product features, not just the headline rate.</p>
+
+        <h3>A practical framework</h3>
+        <ul>
+          <li><strong>Review your new repayment level:</strong> Confirm how much your lender has increased your repayment and when it starts.</li>
+          <li><strong>Recalculate your borrowing power:</strong> Especially if you are still shopping for property or planning to refinance.</li>
+          <li><strong>Compare fixed versus variable on features, not just price:</strong> Look at offset access, redraw rules, extra repayment limits, and break-cost risk.</li>
+          <li><strong>Keep a liquidity buffer:</strong> In a rising-rate environment, available cash matters as much as the nominal rate.</li>
+        </ul>
+
+        <p>The key point is that a rate hike does not mean every borrower should automatically fix. It means your structure should be reviewed more carefully, with your own cash flow and flexibility needs at the centre of the decision.</p>
+      `,
+    },
+    "are-unlimited-trust-loans-over-in-australia": {
+      title: "Are 'Unlimited' Trust Loans in Australia Becoming Harder to Do?",
+      date: "2026-02-13",
+      content: `
+        <h2>Trust borrowing has not disappeared, but major-bank access is narrowing</h2>
+        <p>Trust and company borrowing for property purchases has become harder to place with several major banks. Based on lender policy settings and market feedback circulating in February 2026, a number of large lenders were either restricting new trust applications, applying tighter leverage limits, or narrowing eligibility to specific customer segments.</p>
+
+        <h3>Why major banks are tightening</h3>
+        <p>From a lender's perspective, trust and company structures can create additional complexity around control, income verification, guarantees, liability tracing, and legal recourse. In a more risk-sensitive credit environment, banks naturally favour cleaner files with simpler ownership structures and easier servicing analysis.</p>
+
+        <h3>What this means for borrowers</h3>
+        <ul>
+          <li><strong>Major-bank options may be fewer:</strong> Especially for newly established trust structures with no broader banking relationship.</li>
+          <li><strong>Income and document review may be deeper:</strong> Trust deeds, company documents, tax returns, financials, and servicing support may all be scrutinised more closely.</li>
+          <li><strong>LVR expectations may be tighter:</strong> Some policies may cap leverage below what would be available in a standard personal application.</li>
+          <li><strong>Personal guarantees often still matter:</strong> Even when the property sits in a trust or company structure.</li>
+        </ul>
+
+        <h3>Does this mean trust borrowing is over?</h3>
+        <p>No. It means trust lending is becoming more specialised. Second-tier banks and non-bank lenders may still consider trust and company structures where the borrower profile, asset, and servicing position make sense. The trade-off is that these deals now require better lender matching, clearer commercial reasoning, and stronger preparation.</p>
+
+        <h3>An important distinction</h3>
+        <p>The tightening discussed here mainly relates to buying property in the name of a trust or company and borrowing within that ownership structure. That is different from a borrower buying in a personal name while using income from a trading company or trust to support servicing. Those are related, but they are not the same credit scenario.</p>
+
+        <p>The practical conclusion is not that trust lending is finished. It is that trust lending now depends far more on structure, guarantees, documents, and lender fit than a simple major-bank rate comparison.</p>
+      `,
+    },
+    "what-to-do-if-bank-loan-is-declined-non-bank-lenders": {
+      title:
+        "What to Do If Your Bank Loan Is Declined: Understanding Non-Bank Lenders",
+      date: "2025-03-21",
+      content: `
+        <h2>A bank decline does not always mean your property plans are over</h2>
+        <p>Many borrowers hear “bank declined” and immediately assume their profile is too weak to proceed. In practice, a major bank is only one part of the Australian lending market. For self-employed borrowers, clients with non-standard income, or those whose application falls outside mainstream credit settings, a non-bank lender may offer a more suitable pathway.</p>
+
+        <h3>What is a non-bank lender?</h3>
+        <p>Unlike traditional banks, which mainly lend using depositor funds, non-bank lenders typically use wholesale funding, investor capital, or capital-market structures. They still operate within Australia's regulatory framework and remain subject to responsible lending and consumer-protection standards.</p>
+
+        <h3>Why some borrowers use non-bank lenders</h3>
+        <p>The attraction is not simply “borrowing more”. It is often about finding an approval model that better fits the borrower's actual situation. Some non-bank lenders can be more flexible with alt-doc income, self-employed scenarios, recent credit events, or more complex structures, provided the overall risk story remains supportable.</p>
+
+        <h3>Does that make them risky?</h3>
+        <p>Not automatically. A non-bank loan may still be secured by property, governed by formal loan documents, and assessed within a regulated lending framework. The real question is whether the product is suitable for your cash flow, repayment plan, and medium-term exit strategy.</p>
+
+        <h3>What to do after a bank decline</h3>
+        <ul>
+          <li>Find out why the loan was declined before submitting elsewhere.</li>
+          <li>Separate policy mismatch from actual affordability issues.</li>
+          <li>Rebuild the file with clearer supporting documents where needed.</li>
+          <li>Match the application to a lender whose policy genuinely fits the profile.</li>
+        </ul>
+
+        <p>A decline is not a result to panic over. It is a signal that lender fit, file presentation, or structure needs to be reconsidered. For some borrowers, a non-bank lender is not a fallback of last resort, but the correct option for the scenario.</p>
+      `,
+    },
     "choosing-the-right-mortgage-broker": {
       title: "Choosing the Right Mortgage Broker",
       date: "2025-01-20",
@@ -1728,6 +1850,142 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
   },
 
   zh: {
+    "reported-cba-mortgage-fraud-review-impact-on-home-buyers": {
+      title: "CBA自曝10亿房贷造假？普通买房人会受什么影响？",
+      date: "2026-03-07",
+      content: `
+        <h2>CBA 疑似问题房贷风波，为什么会影响普通买房人？</h2>
+        <p>上周，澳洲四大银行之一的 CBA 向警方和监管机构报案。根据公开报道，CBA 在一轮内部贷款组合回溯审查中发现，大约 10 亿澳元的房贷可能涉及欺诈。这类事件的最终调查结果仍有待确认，但它已经足以引发整个市场对贷款审核标准的重新关注。</p>
+
+        <h3>事情大概是怎么发生的</h3>
+        <p>CBA 对过去几年已经批出的部分贷款做了重新核查。初看这些申请时，材料似乎都非常完整，包括收入证明、公司流水和资产文件。但在更深入的审查中，部分文件被怀疑存在伪造或失实问题，例如虚假的收入证明、异常的 bank statement、空壳公司结构，甚至可能涉及 AI 生成文件。</p>
+
+        <p>同时，还有报道提到，部分贷款的首付款资金来自海外，而且金额较大，因此外界也担心个别案例可能不仅是骗贷问题，还可能涉及更复杂的资金来源审查。</p>
+
+        <h3>这会对普通买房人有什么影响</h3>
+        <p>对普通借款人来说，最现实的影响通常不是“突然贷不到款”，而是银行和其他贷款机构在未来一段时间内更谨慎。未来 6 到 12 个月，借款人很可能会看到以下变化：</p>
+        <ul>
+          <li><strong>贷款审核更严格：</strong>收入、存款来源和文件一致性会被看得更细。</li>
+          <li><strong>复杂收入申请更难：</strong>自雇、非标准收入、海外资金和结构性持有的案例更容易被人工复核。</li>
+          <li><strong>审批周期变长：</strong>更多申请可能需要人工复核，而不只是标准系统审批。</li>
+          <li><strong>补件要求增加：</strong>材料不完整、解释不足或资金流不清楚的情况，更容易被要求补充说明。</li>
+        </ul>
+
+        <h3>房价会不会因此下跌</h3>
+        <p>短期来看，未必会立刻出现全面下跌。因为这次事件本质上不是购房需求突然消失，而是市场开始清理不真实或不合规的融资需求。当审核趋严后，部分“假需求”会减少，但真正有购买能力的买家仍然存在。</p>
+
+        <p>中期来看，市场更可能出现分化。高风险公寓区域、投资客比例较高的区域，成交量和价格弹性可能会更明显；而基本面较稳、真实自住需求强的区域，未必会因为这类事件而出现系统性下跌。</p>
+
+        <h3>普通借款人现在更应该做什么</h3>
+        <ul>
+          <li>确保收入、存款和资金来源文件真实、完整、前后对应。</li>
+          <li>如果首付款涉及海外转账或家庭支持，提前准备清晰的来源说明。</li>
+          <li>复杂收入、自雇或信托结构申请，更要提前做 lender matching，而不是只看利率。</li>
+          <li>给审批预留更充足的时间，不要把 finance timeline 压得太紧。</li>
+        </ul>
+
+        <p>简单来说，银行未来只会更谨慎，而不会更宽松。对真正合规的买家来说，这不是无法买房，而是需要用更完整、更清晰的方式去准备贷款申请。</p>
+      `,
+    },
+    "how-to-respond-to-rba-rate-hike-fixed-or-variable": {
+      title: "RBA加息如何应对，要固定利率吗？",
+      date: "2026-02-04",
+      content: `
+        <h2>利率上升后，借款人最需要做的是重新评估结构</h2>
+        <p>澳洲央行在最新一次决议中加息 0.25%，现金利率由 3.60% 上调至 3.85%。对已经有房贷，或者正在准备买房的人来说，这次加息带来的影响主要集中在三件事上：月供会上升多少、贷款能力会变化多少，以及现在要不要考虑固定利率。</p>
+
+        <h3>如果你的房贷是浮动利率</h3>
+        <p>当现金利率上升后，多数银行会跟进调整浮动利率，月供也会随之增加。对借款人来说，最重要的不是只知道“加息了”，而是尽快确认自己实际每月要多还多少，并重新检查现有现金流是否还能覆盖生活开支与还款安排。</p>
+
+        <h3>如果你现在打算买房</h3>
+        <p>加息通常会压缩 borrowing capacity，因为 lender 会按更高的测试利率重新评估你的还款能力。对部分买家来说，可能只是额度小幅下降；但对预算本来就比较紧的借款人来说，这可能会直接影响选房范围和可接受价格带。</p>
+
+        <h3>现在要不要固定利率</h3>
+        <p>这没有统一答案。固定利率的最大价值是帮助借款人锁定预算、减少后续月供波动。如果你更看重稳定性，而且预计未来利率仍可能维持高位，那么固定利率可以成为一个值得考虑的选项。</p>
+
+        <p>但需要注意的是，银行往往会提前把市场预期反映进固定利率产品里。也就是说，在本次加息发生前后，不少 lender 已经提前上调了 fixed rate。对借款人而言，真正要比较的不是“固定还是浮动谁更便宜”，而是固定后是否真的更适合你的现金流和风险承受能力。</p>
+
+        <h3>别忽略 redraw 和 offset</h3>
+        <p>如果你本身有一定存款，那么 redraw 和 offset 的使用价值会更高。尤其是 offset account，往往能直接降低计息本金，帮助你在高利率环境下更有效地节省利息。</p>
+
+        <p>但很多固定利率产品并不会同时提供完整的 offset，或者会对额外还款和取款灵活性做更多限制。所以在考虑固定利率前，一定要把产品功能一起比较，而不只是看表面利率。</p>
+
+        <h3>更实用的应对方式</h3>
+        <ul>
+          <li>先确认自己的月供实际上升了多少，而不是只看新闻标题。</li>
+          <li>如果近期准备买房，先重算 borrowing capacity，再决定预算。</li>
+          <li>比较 fixed 和 variable 时，把 offset、redraw、提前还款限制和 break cost 一起看。</li>
+          <li>尽量保留流动资金，在高利率周期里，现金缓冲比表面利率更重要。</li>
+        </ul>
+
+        <p>加息本身不会自动决定你该不该固定利率，但它确实意味着现在更需要重新审视自己的贷款结构，而不是沿用过去低利率时期的思路。</p>
+      `,
+    },
+    "are-unlimited-trust-loans-over-in-australia": {
+      title: "Trust 无限贷的时代结束了吗？",
+      date: "2026-02-13",
+      content: `
+        <h2>Major banks 收紧 Trust 贷款，并不代表 Trust 结构无法融资</h2>
+        <p>最近一段时间，澳洲几家主要银行对 Trust 和 company 名下贷款的态度明显变得更保守。根据市场上的政策变化和 broker 反馈，部分 major banks 对新客户的 trust loan 申请更严格，或者只接受特定类型的客户与结构。</p>
+
+        <h3>为什么大家会觉得“无限贷”越来越难</h3>
+        <p>以前不少投资者把 Trust 结构贷款理解成一种相对灵活的扩张方式，但在当前环境下，major banks 对这类申请的筛选更明显了。原因并不难理解：Trust 或 company 结构本身就比个人名下借款复杂，银行需要看更多文件，也要更清楚地判断控制权、收益分配、担保责任和真实还款来源。</p>
+
+        <h3>当前常见的市场变化</h3>
+        <ul>
+          <li>有的 major bank 更偏向已有往来客户，而不是全新 trust 申请。</li>
+          <li>有的 lender 会限制 LVR，或者要求更强的担保支持。</li>
+          <li>有的 lender 仍然可以做，但会明显加强对 trust 文件、收入和结构合理性的审核。</li>
+          <li>部分 second-tier bank 和 non-bank lender 仍然保留更灵活的接受度。</li>
+        </ul>
+
+        <h3>这是不是等于 Trust 贷款做不了了</h3>
+        <p>不是。更准确的说法是：Trust 贷款没有消失，但 major banks 的路径变窄了。过去那种“结构复杂也先递上去试试”的方式，现在成功率会明显下降。越是复杂的结构，越需要提前规划，而不是等到交房前才开始找路。</p>
+
+        <h3>有一个很重要的区别</h3>
+        <p>这里说的收紧，主要是指房产买在 Trust 或 company 名下，再用该结构去申请贷款的场景。这和房子买在个人名下、但申请时使用 trust 或 trading company 的收入来支持 serviceability，是两种不同的审批逻辑。很多 borrower 容易把这两类情况混在一起，实际上 lender policy 往往完全不同。</p>
+
+        <h3>现在更适合怎么做</h3>
+        <ul>
+          <li>先确认房产是否真的必须买在 Trust 或 company 名下。</li>
+          <li>提前准备 trust deed、company 文件、税表、财务报表和担保信息。</li>
+          <li>不要默认 major bank 一定是最佳路径，要同时考虑 second-tier 和 non-bank。</li>
+          <li>在正式申请前先把结构和 lender matching 做对，再谈额度和利率。</li>
+        </ul>
+
+        <p>所以，Trust “无限贷”的时代未必是彻底结束了，而是进入了一个更讲究结构、材料和 lender 匹配的阶段。</p>
+      `,
+    },
+    "what-to-do-if-bank-loan-is-declined-non-bank-lenders": {
+      title: "Bank 贷款被拒怎么办？了解 Non-bank lenders",
+      date: "2025-03-21",
+      content: `
+        <h2>买房贷款，不只有 bank 一条路</h2>
+        <p>现在越来越多 broker 会帮客户同时比较 bank 和 non-bank lender。对一些收入结构不标准、材料形式不同，或者刚好不符合 major bank policy 的借款人来说，non-bank 并不是“次一级选择”，而是更适合该场景的融资路径。</p>
+
+        <h3>什么是 non-bank lender</h3>
+        <p>传统 bank 主要使用储户资金放贷，而 non-bank lender 通常通过投资人资金、批发融资或资本市场安排提供贷款。它们在澳洲同样需要遵守相关监管框架和消费者保护要求，并不是脱离监管体系的机构。</p>
+
+        <h3>为什么越来越多人会考虑 non-bank</h3>
+        <p>最核心的原因，是它们在某些场景下的审批逻辑更灵活。现实中很多借款人的收入并不完全符合标准 PAYG 模式，尤其是自雇、收入波动、材料结构复杂或刚好不符合某家银行固定模型的客户。</p>
+
+        <h3>常见适用场景</h3>
+        <ul>
+          <li><strong>审批更灵活：</strong>部分 non-bank 不只看标准工资和报税收入，也会结合现金流、资产和整体经营情况来判断。</li>
+          <li><strong>Alt-doc 贷款：</strong>对自雇人士来说，如果暂时没有完整两年财报，某些 non-bank 可能接受 BAS、银行流水或会计证明等形式。</li>
+          <li><strong>结构更灵活：</strong>相较于偏标准化的主流银行产品，non-bank 在一些复杂结构中的适配空间更大。</li>
+          <li><strong>对信用记录的要求不完全相同：</strong>如果借款人曾有信用瑕疵，但原因可解释、目前财务状况稳定，部分 non-bank 仍可能考虑。</li>
+        </ul>
+
+        <h3>这是不是代表 non-bank 风险更高</h3>
+        <p>很多客户一听到“基金借钱”就会本能觉得风险高，但在澳洲市场里，这种理解并不准确。贷款本身仍可能有房产抵押、正式合同和完整法律文件，关键不是 lender 名称本身，而是这个产品是否真的适合你的现金流和后续计划。</p>
+
+        <h3>真正应该怎么理解 non-bank</h3>
+        <p>non-bank 不是为了替代 bank，而是在某些复杂场景下，为借款人提供另一条可执行路径。对于自雇、收入复杂、投资者、曾被 bank 拒绝，或者希望提升 borrowing power 的客户来说，它可能是非常重要的工具。</p>
+
+        <p>最重要的不是一味追求“哪里能批”，而是先搞清楚自己为什么被 bank 拒绝，再去判断 non-bank 是否是下一步更合适的方向。</p>
+      `,
+    },
     "choosing-the-right-mortgage-broker": {
       title: "如何选择合适的房贷经纪人",
       date: "2025-01-20",
@@ -2182,11 +2440,10 @@ const blogPostsByLocale: Record<LocaleKey, Record<string, BlogPost>> = {
 
       `,
     },
-    "taking-on-multiple-jobs-to-further-enhance-ones-ability-to-take-out-loans":
-      {
-        title: "如何用多份工作来进一步增加自己的贷款能力？",
-        date: "2025-08-13",
-        content: `
+    "taking-on-multiple-jobs-to-further-enhance-ones-ability-to-take-out-loans": {
+      title: "如何用多份工作来进一步增加自己的贷款能力？",
+      date: "2025-08-13",
+      content: `
         <div>
           <p>Double Job Income快来了瞭一下! 如果自己本身不是“qr”,“病”,“残”,“孕”等符合福利金的群体，有没有别的方式来增加我们的借贷能力呢?</p>
 
@@ -2402,6 +2659,7 @@ export default async function BlogPostPage({
   }
 
   const t = await getTranslations({ locale: lang, namespace: "blogs" });
+  const publishedDate = getBlogDisplayDate(slug, post.date);
 
   return (
     <Section className="bg-white py-16">
@@ -2419,7 +2677,7 @@ export default async function BlogPostPage({
           </h1>
           <div className="text-[#666666] mb-8">
             {t("publishedOn")}{" "}
-            {new Date(post.date).toLocaleDateString(
+            {new Date(publishedDate).toLocaleDateString(
               lang === "zh" ? "zh-CN" : "en-AU",
               {
                 year: "numeric",

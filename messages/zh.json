@@ -11,36 +11,36 @@
     "homeLoan": "房屋贷款",
     "homeLoanHeroEyebrow": "房贷专属",
     "homeLoanHeroTitle": "更有把握地拥抱下一套房",
-    "homeLoanHeroDescription": "Open Mortgage 结合本地经验与丰富贷款渠道，为您匹配契合目标的方案。",
+    "homeLoanHeroDescription": "Open Mortgage 结合本地市场经验、贷款机构政策理解与严格流程管理，为您制定契合时间安排、现金流与长期置业目标的房贷方案。从初步评估到最终交割，我们会全程陪同，让每一步决策都更清晰、更稳妥。",
     "homeLoanHeroCtaPrimary": "与专家通话",
     "homeLoanHeroCtaSecondary": "查看贷款选项",
     "homeLoanBenefitsTitle": "我们打造助您前行的计划",
-    "homeLoanBenefitsSubtitle": "每份申请都独一无二，我们会根据时间节点与需求定制策略与文书。",
+    "homeLoanBenefitsSubtitle": "无论是首次置业、改善居住还是投资扩张，我们都会以结构化策略、完整资料准备和主动沟通推进审批。",
     "homeLoanBenefits": {
       "items": {
         "tailored": {
           "title": "量身贷款方案",
-          "description": "我们整合首付款替代、产品组合与余额策略，呈现清晰路径。"
+          "description": "我们会结合首付结构、还款承受能力、Offset 账户使用习惯和未来规划，设计更可执行且可持续的借贷方案。"
         },
         "strategic": {
           "title": "战略性贷款方匹配",
-          "description": "我们与银行及非银行贷款机构谈判，平衡利率、费用与灵活性。"
+          "description": "我们从政策匹配、利率成本、审批时效和产品灵活性多维比较，筛选真正适合您情况的贷款机构与产品。"
         },
         "holistic": {
           "title": "全流程支持",
-          "description": "从估值到交割，我们保持透明并积极争取您的批准。"
+          "description": "不止于提交申请，我们还会协调估值、跟进审批问询与关键节点，确保您全程信息透明、进度可控。"
         }
       }
     },
     "homeLoanProcessTitle": "我们引导每个房贷流程",
-    "homeLoanProcessSubtitle": "您保持掌控，我们处理细节、文件与贷款机构互动。",
+    "homeLoanProcessSubtitle": "您始终掌握全局，我们负责把控资料质量、机构沟通与关键时间节点，稳步推进审批进程。",
     "homeLoanSolutionsTitle": "面向每类借款人的方案",
-    "homeLoanSolutionsSubtitle": "选择与您故事契合的路径，我们简化选项并突显关键。",
+    "homeLoanSolutionsSubtitle": "无论是购房、再融资还是投资，我们都会将产品特性与您的目标、风险偏好和还款能力精准匹配。",
     "homeLoanSolutionsCategoryLabel": "类别",
-    "homeLoanSolutionsPrompt": "浏览完整房贷产品组合，或联系我们获取更贴近您需求的建议。",
+    "homeLoanSolutionsPrompt": "您可先了解下方常见房贷路径；若情况更复杂，我们可提供带有机构政策建议的定制化方案。",
     "homeLoanCtaEyebrow": "一次对话，无限可能",
     "homeLoanCtaTitle": "准备开始您的房贷故事吗？",
-    "homeLoanCtaDescription": "预约与我们的经纪人通话，或提交房产资料，我们会为您规划简明路径。",
+    "homeLoanCtaDescription": "与我们的顾问沟通，获取结构化评估、机构匹配建议与可执行的下一步行动方案。",
     "homeLoanCtaButton": "安排咨询",
     "homeLoanSeoTitle": "房屋贷款 - Open Mortgage",
     "homeLoanSeoDescription": "提供具有竞争力利率与灵活条款的房屋贷款服务，为您的安家计划保驾护航。",
@@ -50,11 +50,11 @@
         "loans": {
           "investmentLoan": {
             "name": "投资贷款",
-            "description": "将房产出租，分享澳大利亚长期稳健的房地产表现。"
+            "description": "为投资型物业提供融资结构设计，在收益目标、税务考量与现金流稳定性之间取得更优平衡。"
           },
           "smsfHomeLoan": {
             "name": "自管养老金（SMSF）房贷",
-            "description": "利用退休储蓄投资房产，并潜在享受相关税务优惠。"
+            "description": "通过合规的 SMSF 融资结构进行物业投资，并针对机构政策与材料要求提供清晰指导。"
           }
         }
       },
@@ -63,19 +63,19 @@
         "loans": {
           "refinancing": {
             "name": "房贷再融资",
-            "description": "结清现有贷款，以更优惠的利率或更适合的机构重新起步。"
+            "description": "通过再融资争取更合适的利率、功能或政策匹配，使贷款结构随您的生活与财务阶段同步优化。"
           },
           "lineOfCredit": {
             "name": "循环信贷房贷",
-            "description": "通过循环额度释放房屋净值，可按仅付息或本息同还方式安排还款。"
+            "description": "通过循环额度灵活使用已积累净值，可用于阶段性开支、翻新或流动性管理，并保持还款可控。"
           },
           "bridging": {
             "name": "过渡性房贷",
-            "description": "在出售现有房产前，为购买新房提供过渡资金，通常最长可达六个月。"
+            "description": "在换房过渡期提供短期融资支持，并结合出售时间、利息成本与退出安排进行风险控制。"
           },
           "reverseMortgage": {
             "name": "反向抵押贷款",
-            "description": "退休人士可在继续自住的前提下，以房产作抵押获取现金。"
+            "description": "为符合条件的退休人士提供以房养老资金方案，在保留居住权的同时清晰评估费用与长期影响。"
           }
         }
       }
@@ -83,127 +83,127 @@
     "carLoan": "汽车贷款",
     "carLoanHeroEyebrow": "汽车贷款",
     "carLoanHeroTitle": "合适的融资方案助您即刻启程",
-    "carLoanHeroDescription": "我们助您寻找极具竞争力的车贷利率和灵活条款，让您更快上路。",
+    "carLoanHeroDescription": "我们提供面向个人与企业的车辆及资产融资方案，重点关注负担能力、审批效率与长期使用价值。从结构选择到放款交割，我们帮助您做出更稳健的融资决策。",
     "carLoanHeroCtaPrimary": "获取报价",
     "carLoanHeroCtaSecondary": "查看贷款类型",
     "carLoanBenefitsTitle": "为什么选择我们的车贷",
-    "carLoanBenefitsSubtitle": "快速审批与定制选项，契合您的预算和生活方式。",
+    "carLoanBenefitsSubtitle": "无论是个人出行还是业务运营，我们都会根据还款能力、使用场景与现金流特征进行定制化匹配。",
     "carLoanBenefits": {
       "items": {
         "speed": {
           "title": "快速审批",
-          "description": "快速获得批准，不错过您的心仪座驾。"
+          "description": "通过前置评估与资料预审提升申请质量，让符合条件的申请更快进入审批并完成放款。"
         },
         "flexibility": {
           "title": "灵活条款",
-          "description": "选择适合您预算和财务目标的还款方案。"
+          "description": "提供多样化融资结构与还款节奏选择，更贴合您的收入周期、运营成本和持有计划。"
         },
         "competitive": {
           "title": "优惠利率",
-          "description": "从广泛的值得信赖的贷款机构网络中获取低利率。"
+          "description": "基于多机构比对，不只关注名义利率，也综合评估费用、条款和功能匹配度。"
         }
       }
     },
     "carLoanSolutionsTitle": "车贷选项",
-    "carLoanSolutionsSubtitle": "无论是商业用途还是个人使用，我们都有适合您的贷款方案。",
-    "carLoanSolutionsPrompt": "探索我们旨在助您前行的车贷融资选项。",
+    "carLoanSolutionsSubtitle": "从个人车辆到企业资产，我们会根据资产用途和还款管理方式匹配更合适的融资结构。",
+    "carLoanSolutionsPrompt": "您可先了解下方常见车辆与资产融资路径；若涉及车队、复杂收入或重组需求，我们可提供定制建议。",
     "carLoanTypes": {
       "new": {
         "title": "个人汽车贷款",
-        "description": "为您的个人车辆购买提供灵活融资，利率优惠，条款灵活。"
+        "description": "为个人购车提供灵活期限与清晰还款规划，在便利性与总成本控制之间取得平衡。"
       },
       "used": {
         "title": "薪资打包租赁",
-        "description": "将汽车租赁、运营成本和维护费用打包到定期工资扣款中的税务优惠选择。"
+        "description": "通过薪资打包租赁等方式整合租赁与用车成本，帮助您更清楚地管理总体持有开支。"
       },
       "refinance": {
         "title": "车贷再融资",
-        "description": "对现有车贷进行再融资，以获得更优利率或降低还款额。"
+        "description": "对现有车贷进行再融资，以争取更优利率、降低月供或优化当前融资结构。"
       },
       "business": {
         "title": "商业车贷",
-        "description": "为企业主提供具有税务效益的车辆融资方案。"
+        "description": "为企业车辆与设备提供融资支持，兼顾运营连续性、财务规划协同与现金流可控性。"
       }
     },
     "carLoanCtaEyebrow": "今天就开始您的旅程",
     "carLoanCtaTitle": "准备好握紧方向盘了吗？",
-    "carLoanCtaDescription": "联系我们讨论您的车贷需求，获取个性化报价。",
+    "carLoanCtaDescription": "欢迎联系我们讨论您的车辆或资产融资计划，我们将提供贴合预算与目标的可执行建议。",
     "carLoanCtaButton": "立即咨询",
     "commercialLoan": "商业贷款",
     "commercialLoanHeroEyebrow": "商业贷款",
     "commercialLoanHeroTitle": "助推您的业务增长",
-    "commercialLoanHeroDescription": "量身定制的融资方案，旨在支持您的商业雄心和运营需求。",
+    "commercialLoanHeroDescription": "我们为企业提供更具策略性的商业融资方案，覆盖扩张、资产购置与营运资金管理。通过平衡借贷能力、交易可行性和机构政策匹配，帮助您建立可执行、可扩展的资金安排。",
     "commercialLoanHeroCtaPrimary": "咨询专家",
     "commercialLoanHeroCtaSecondary": "查看方案",
     "commercialLoanBenefitsTitle": "赋能您的企业",
-    "commercialLoanBenefitsSubtitle": "战略性融资选项，助您管理现金流并把握机遇。",
+    "commercialLoanBenefitsSubtitle": "从收购到扩张，我们通过更扎实的结构设计、资料准备与谈判支持，提升企业融资效率与确定性。",
     "commercialLoanBenefits": {
       "items": {
         "growth": {
           "title": "业务增长",
-          "description": "获取资金用于扩展运营、招聘员工或进入新市场。"
+          "description": "为新网点拓展、团队扩充和产能提升提供融资支持，并使还款节奏更贴合企业经营现金流。"
         },
         "cashflow": {
           "title": "现金流管理",
-          "description": "灵活的解决方案，用于平滑收入波动并支付运营成本。"
+          "description": "通过灵活额度或分层融资安排，应对季节性波动、供应商账期与短期流动性需求，保障运营稳定。"
         },
         "tax": {
           "title": "税务效益",
-          "description": "构建您的贷款结构，以最大化企业的潜在税务优惠。"
+          "description": "在合适情况下，我们会配合您的综合财务规划，优化融资结构与税务、资产负债目标之间的协同。"
         }
       }
     },
     "commercialLoanSolutionsTitle": "商业融资方案",
-    "commercialLoanSolutionsSubtitle": "从房产到设备，我们有适合您业务需求的贷款。",
-    "commercialLoanSolutionsPrompt": "浏览我们全面的商业贷款产品系列。",
+    "commercialLoanSolutionsSubtitle": "面向自用业主、投资者与成长型企业，提供更灵活且更符合商业现实的融资方案。",
+    "commercialLoanSolutionsPrompt": "您可先查看下方常见商业融资路径；如涉及多主体、复杂资产或分阶段放款，我们可提供定制建议。",
     "commercialLoanTypes": {
       "property": {
         "title": "商业房产",
-        "description": "购买或再融资办公室、零售或工业房产。"
+        "description": "用于购置或再融资办公、零售、工业及混合用途资产，并结合租约结构、估值与现金流特点进行匹配。"
       },
       "equipment": {
         "title": "设备融资",
-        "description": "升级机械、车辆或技术，而无需占用资金。"
+        "description": "为车辆、机械设备和专业资产提供融资，在不占用过多营运资金的前提下支持业务升级。"
       },
       "lineOfCredit": {
         "title": "商业信用额度",
-        "description": "灵活获取资金，用于日常开支和机遇。"
+        "description": "为日常运营、项目启动和机会型支出提供可循环资金支持，并保持还款管理的灵活性。"
       },
       "development": {
         "title": "开发融资",
-        "description": "为住宅或商业房产开发项目提供资金。"
+        "description": "为住宅或商业开发项目提供阶段性放款支持，重点关注可行性、估值管理与工程节点控制。"
       }
     },
     "commercialLoanCtaEyebrow": "让我们谈谈业务",
     "commercialLoanCtaTitle": "准备好迈出下一步了吗？",
-    "commercialLoanCtaDescription": "联系我们的商业借贷专家，构建适合您的交易。",
+    "commercialLoanCtaDescription": "联系我们的商业融资专家，系统梳理资金路径、条款结构与推进节奏，稳健落地您的项目计划。",
     "commercialLoanCtaButton": "联系我们",
     "ourProcess": {
       "title": "我们的流程",
       "steps": {
         "step1": {
           "title": "搜索与筛选",
-          "description": "通过我们的网站和社交媒体了解我们。访问博客文章、资讯和资源，获取有价值的抵押贷款见解。我们每周更新利率，让您能够搜索和筛选房屋贷款。"
+          "description": "在这个阶段，我们会先通过博客文章、市场资讯和资源内容持续跟踪贷款趋势、利率变化与产品特点。然后由我们的顾问团队结合您的首付情况、还款偏好和风险承受能力，先行完成筛选与比对。最终我们会把整理好的候选方案清单提交给您，帮助您更高效地进入下一步。"
         },
         "step2": {
           "title": "专家咨询",
-          "description": "联系我们获取个性化建议和问题解答。与我们经验丰富的经纪人预约会议，讨论您的财务需求和目标。"
+          "description": "与资深贷款顾问进行一对一沟通，详细梳理您的收入、负债、储蓄和中长期目标。我们会基于您的实际情况评估借贷能力、预判审批关键点，并匹配更合适的贷款机构政策。咨询结束后，您将获得明确策略、资料清单和下一步时间安排。"
         },
         "step3": {
           "title": "申请",
-          "description": "准备继续了吗？在线完成并提交您的申请。我们将为您处理所有文书工作。"
+          "description": "确认方案后，我们会协助您完成线上申请，并整理成结构清晰、便于审批的提交材料。团队会提前检查资料一致性，预先处理可能被问到的重点问题，并优化申请呈现逻辑。这样可以减少反复补件，提高审批效率。"
         },
         "step4": {
           "title": "跟踪与更新",
-          "description": "通过定期更新了解您的申请状态。我们将管理与贷款机构的通信，并在整个过程中随时向您更新。"
+          "description": "提交后，我们会持续跟进审批进度，并统一管理与贷款机构、审批人员及相关第三方的沟通。您将定期收到状态更新、补件说明和下一步建议，随时掌握流程动态。我们的重点是降低不确定性，尽量减少等待和延误。"
         },
         "step5": {
           "title": "成交",
-          "description": "我们将为您准备所有必要的文件供您审查和签署。接收您的贷款资金，顺利完成您的抵押贷款交易。"
+          "description": "在正式批复后，我们会协助您进入成交阶段，逐项确认贷款条款、还款安排和交割要求。我们会支持您完成文件审阅与签署，确保关键信息准确无误后再进入放款。目标是让交割过程顺畅、透明，并让您充分理解后续责任。"
         },
         "step6": {
           "title": "成交后服务",
-          "description": "即使在成交后，我们的支持仍在继续。我们提供税务、会计和保险方面的持续协助，并帮助您根据需求变化探索再融资选项或其他金融服务。"
+          "description": "交割完成后，我们仍会持续提供贷后支持，并根据市场与您个人阶段变化进行贷款健康复盘。我们会协助评估再融资时机、可用净值和结构调整方案，帮助您长期优化融资成本。若有需要，也可对接税务、会计与保险合作伙伴提供协同支持。"
         }
       }
     }
@@ -374,20 +374,61 @@
     "freeValuationIntro": "向我们的专业团队申请免费房产估值。填写下方表单，我们会尽快为您提供评估结果。",
     "loanBorrowingCalculatorIntro": "根据您的收入和支出来预估可借款额度。请在下方填写您的财务信息。",
     "loanPreparationIntroTitle": "为贷款申请做好准备",
-    "loanPreparationIntroBody": "充分准备可以显著加快贷款审批进度。以下是您需要提前准备的关键信息和文件。",
+    "loanPreparationIntroBody": "一份高质量的贷款申请，关键在于提交之前的准备。只要资料完整、财务信息一致、时间安排清晰，贷款机构通常能更快完成评估，减少反复补件。此页面将帮助您明确要准备什么、如何核对，以及怎样更专业地呈现您的借贷情况。",
+    "loanPreparationTimelineTitle": "建议准备时间线",
+    "loanPreparationTimeline": {
+      "stage1": {
+        "label": "第1周",
+        "title": "目标梳理与财务盘点",
+        "description": "先明确借贷目标、预算区间和还款承受能力，并整理当前收入、支出、负债与储蓄情况，为后续方案建立可执行基础。"
+      },
+      "stage2": {
+        "label": "第1-2周",
+        "title": "资料收集与一致性核对",
+        "description": "系统收集身份、收入、资产与负债资料，检查姓名、地址、账户信息是否一致，减少因信息不匹配导致的审批延迟。"
+      },
+      "stage3": {
+        "label": "第2-3周",
+        "title": "申请结构与机构匹配",
+        "description": "结合贷款机构政策、产品条款和审批偏好，确定更适合您的申请路径。对于非标准收入或近期财务变化，提前准备说明材料。"
+      },
+      "stage4": {
+        "label": "提交前",
+        "title": "最终质量检查",
+        "description": "在正式提交前对申请表与附件做最后复核，确保材料完整、逻辑一致。高质量提交通常有助于提升首轮审批通过效率。"
+      }
+    },
     "loanPreparationRequiredDocumentsTitle": "所需文件",
     "loanPreparationRequiredDocuments": {
       "identity": "身份证明（驾驶证或护照）",
       "income": "收入证明",
-      "property": "房产信息（如在购房）"
+      "property": "房产信息（如在购房）",
+      "expenses": "日常生活支出与家庭固定开销证明",
+      "liabilities": "现有负债信息（信用卡、个人贷款、学贷、分期付款及其他持续性负担）"
+    },
+    "loanPreparationChecklistTitle": "资料准备完成后，我们会为您复核",
+    "loanPreparationChecklist": {
+      "item1": "您只需把现有资料准备齐全，我们会先检查文件是否清晰、完整，并是否满足贷款机构对时效性的要求。",
+      "item2": "您准备好工资单、报税资料和银行流水后，我们会核对申请中的收入数据是否前后一致。",
+      "item3": "您如实提供负债和每月固定支出信息即可，我们会协助确认申报口径是否完整，避免低报或漏报。",
+      "item4": "如有异常流水、大额一次性交易或近期财务变化，您提供背景说明后，我们会帮您整理成更适合提交的解释材料。",
+      "item5": "在正式递交前，我们会陪您确认贷款结构、每月还款影响及交割阶段可能产生的费用，让您清楚再提交。"
     },
     "loanPreparationTipsTitle": "成功小贴士",
     "loanPreparationTips": {
-      "tip1": "在开始申请前先整理好所有文件",
-      "tip2": "如实披露您的财务状况",
-      "tip3": "遇到不确定之处及时提问",
-      "tip4": "与我们的专家合作，为您匹配合适的贷款方案"
+      "tip1": "申请前尽量保持储蓄和消费行为稳定，避免不必要的资金波动。",
+      "tip2": "尽早完整披露财务状况，包括金额较小但持续存在的负债。",
+      "tip3": "对产品条款、固定或浮动利率差异、政策限制等问题主动确认。",
+      "tip4": "与顾问协同安排机构筛选、结构设计和提交时机，提高整体成功率。"
     },
+    "loanPreparationCommonMistakesTitle": "常见错误与风险点",
+    "loanPreparationCommonMistakes": {
+      "mistake1": "资料不完整就提交，导致后续频繁补件、审批节奏被打断。",
+      "mistake2": "低报支出或遗漏负债，引发重新评估并影响申请可信度。",
+      "mistake3": "未结合政策适配直接选择贷款机构，导致路径不匹配。",
+      "mistake4": "申请期内更换工作、增加新负债或出现异常交易且未提前沟通。"
+    },
+    "loanPreparationFinalCtaTitle": "提交前想做一次专业复核？",
     "loanPreparationConclusion": "需要帮助准备贷款申请吗？欢迎联系我们，我们的团队将全程为您提供指导。",
     "stampDutyCalculatorCtaPrimaryAlt": "查看计算器",
     "stampDutyCalculatorOfficialTitle": "官方印花税计算器",
@@ -429,6 +470,10 @@
         "title": "商业贷款",
         "description": "为您的企业购买办公、零售或工业空间的定制解决方案。"
       },
+      "car": {
+        "title": "汽车贷款",
+        "description": "提供适用于个人或商业用途的灵活车贷方案，并根据您的现金流进行结构化设计。"
+      },
       "construction": {
         "title": "建筑贷款",
         "description": "为您的建筑项目或大型翻新提供分阶段放款资金。"
@@ -454,14 +499,77 @@
     "contactUs": "联系我们"
   },
   "home": {
-    "title": "Open Mortgage Solutions",
-    "subtitle": "您值得信赖的智能融资解决方案合作伙伴。",
-    "cta": "开始使用",
+    "title": "Open Mortgage",
+    "subtitle": "Open Your Dream Home",
+    "cta": "免费估价",
     "learnMore": "了解更多",
     "servicesTitle": "我们的服务",
     "resourcesTitle": "资源",
     "servicesAndResourcesTitle": "服务与资源",
     "trustTitle": "为什么选择我们",
+    "professional": {
+      "title": "更专业、更严谨的贷款咨询体验",
+      "subtitle": "我们通过结构化规划、贷款机构政策匹配和全过程执行管理，让您的申请更清晰、更符合审批逻辑。",
+      "stats": {
+        "coverage": {
+          "value": "全流程",
+          "label": "咨询覆盖"
+        },
+        "comparison": {
+          "value": "多机构",
+          "label": "方案比对"
+        },
+        "submission": {
+          "value": "重信用",
+          "label": "申请质量"
+        },
+        "support": {
+          "value": "持续服务",
+          "label": "贷后支持"
+        }
+      },
+      "pillars": {
+        "strategy": {
+          "title": "借贷策略规划",
+          "description": "在提交材料前，我们先结合您的目标、时间与现金流，制定可执行的借贷路径。"
+        },
+        "credit": {
+          "title": "信用与政策匹配",
+          "description": "我们评估还款能力、负债结构和机构政策匹配度，尽量降低审批过程中的不必要阻力。"
+        },
+        "execution": {
+          "title": "流程执行管理",
+          "description": "从资料整理到与贷款机构跟进，我们管理每个关键节点，确保流程稳定推进至交割。"
+        }
+      }
+    },
+    "journey": {
+      "title": "透明清晰的客户流程",
+      "subtitle": "每一步都有明确目标、交付内容与下一步动作，让您全程有掌控感。",
+      "stepLabel": "第 {number} 步",
+      "steps": {
+        "discovery": {
+          "title": "需求梳理与定位",
+          "description": "我们先明确您的目标、借贷画像和限制条件，建立可落地的审批路径。"
+        },
+        "structuring": {
+          "title": "方案设计与机构筛选",
+          "description": "基于政策、利率与产品细则比对，筛选真正适配您情况的贷款方案。"
+        },
+        "application": {
+          "title": "申请提交与审批跟进",
+          "description": "我们整理完整申请材料，预判重点审核问题，并高效协调补件与反馈。"
+        },
+        "settlement": {
+          "title": "交割与贷后复盘",
+          "description": "在获批后协助您完成交割，并在利率或人生阶段变化时持续评估贷款结构。"
+        }
+      },
+      "ctaTitle": "准备好体验更专业的房贷流程了吗？",
+      "ctaDescription": "告诉我们您的当前情况，我们会提供结构化建议和清晰的行动方案。",
+      "ctaPrimary": "预约策略咨询",
+      "ctaSecondary": "查看完整流程"
+    },
     "welcome": {
       "title": "欢迎来到 Open Mortgage",
       "content": "在 Open Mortgage，我们致力于为您提供量身定制的卓越金融解决方案。凭借多年的抵押贷款行业经验，我们的专家团队致力于帮助您实现房产和财务目标。"
@@ -506,7 +614,8 @@
     "lenders": {
       "title": "我们的贷款机构",
       "description": "我们与领先的金融机构合作，为您提供最佳的贷款选择。"
-    }
+    },
+    "metaDescription": "Open Mortgage 为您提供专业贷款咨询、结构规划与从评估到交割的全程支持。"
   },
   "common": {
     "readMore": "阅读更多",
@@ -536,8 +645,53 @@
   "about": {
     "seoTitle": "关于我们 - Open Mortgage",
     "seoDescription": "了解 Open Mortgage，以及我们如何帮助您实现房产和财务目标。",
-    "heroTitle": "关于 Open Mortgage",
-    "heroSubtitle": "您值得信赖的房贷与融资合作伙伴",
+    "heroTitle": "Open Mortgage, Open Your Dream Home!",
+    "heroSubtitle": "您值得信赖的房贷与融资合作伙伴，为您提供清晰建议、丰富机构渠道与长期支持。",
+    "brandQuote": "Open Mortgage 始终坚持诚信、卓越客户服务，并致力于为客户带来更安全、更简化的融资与交割体验，服务不止于成交。",
+    "whoWeAreHeading": "我们是谁",
+    "whoWeAreBody": "Open Mortgage 是您实现财务稳定与增长过程中值得信赖的合作伙伴。我们为个人、家庭、投资者和企业提供贴合目标与实际情况的贷款解决方案。凭借诚信、专业和严谨的流程管理，我们帮助客户在融资旅程的每个阶段都更清晰、更有把握地前进。",
+    "servicesHeading": "我们的服务",
+    "servicesItems": {
+      "residential": {
+        "title": "房屋贷款",
+        "description": "为首次置业、换房升级、再融资及投资客户提供结构清晰、落地性强的房贷方案。"
+      },
+      "commercial": {
+        "title": "商业贷款",
+        "description": "面向商业物业购置、企业扩张及现金流管理，提供更灵活的融资支持。"
+      },
+      "construction": {
+        "title": "建筑贷款",
+        "description": "针对新建项目和大型翻新需求，提供分阶段放款结构与流程指导。"
+      },
+      "smsf": {
+        "title": "SMSF 贷款",
+        "description": "为通过自管养老金结构投资住宅或商业物业的客户提供专业贷款支持。"
+      },
+      "nonResidential": {
+        "title": "非住宅贷款",
+        "description": "适用于不属于标准住宅政策范围内的物业类型和更特殊的借贷场景。"
+      },
+      "assetFinance": {
+        "title": "资产融资与设备贷款",
+        "description": "为车辆、设备和机械提供融资，帮助企业保留营运资金并提升运作效率。"
+      }
+    },
+    "offersHeading": "我们提供什么",
+    "offersItems": {
+      "consultation": {
+        "title": "免费贷款咨询",
+        "description": "围绕您的借贷情况、现有贷款健康度和目标，提供结构化初步评估与方向建议。"
+      },
+      "rateReview": {
+        "title": "免费利率评估",
+        "description": "将您当前贷款利率与市场常见方案进行比较，帮助判断是否有更优结构或更合适的机构。"
+      },
+      "valuation": {
+        "title": "免费房产估值",
+        "description": "帮助您了解房产当前市场位置，适用于再融资、净值释放、购房规划或长期布局。"
+      }
+    },
     "missionHeading": "我们的使命",
     "missionBody": "在 Open Mortgage，我们致力于通过专业的房贷与贷款服务，帮助个人与企业实现财务目标。我们相信，每个人都应获得专业的财务建议以及优质的贷款产品。",
     "valuesHeading": "我们的价值观",
@@ -553,6 +707,32 @@
     },
     "whyHeading": "为什么选择我们",
     "whyBody": "凭借多年房贷行业经验，我们与多家贷款机构建立了紧密合作关系，能够为您争取更优利率与条款。我们的团队会在每一步为您提供指导，让贷款过程更加顺畅、无压力。",
+    "whyItems": {
+      "customerFirst": {
+        "title": "以客户为先",
+        "description": "我们会先理解您的真实情况，再提供高效、务实且契合长期目标的融资方案。"
+      },
+      "ongoingSupport": {
+        "title": "持续客户支持",
+        "description": "我们的服务不会在成交时结束，后续仍会持续提供更新、复盘与建议。"
+      },
+      "trustedPartner": {
+        "title": "长期可信赖伙伴",
+        "description": "我们希望通过稳定可靠的服务，成为客户人生不同阶段都愿意持续合作的融资伙伴。"
+      },
+      "professionalTeam": {
+        "title": "专业且有热情的团队",
+        "description": "经验丰富的顾问团队将以清晰建议、可靠执行和细致跟进支持每一份申请。"
+      },
+      "onlineResources": {
+        "title": "丰富线上资源",
+        "description": "通过计算器、指南和教育内容，帮助客户在做出借贷决策前先理解关键选项。"
+      },
+      "complexPlans": {
+        "title": "擅长复杂贷款场景",
+        "description": "针对非标准收入、再融资规划以及更复杂的融资结构，我们也具备丰富处理经验。"
+      }
+    },
     "statCards": {
       "expertTeamTitle": "专业团队",
       "expertTeamBody": "经验丰富的专业人士，全程为您护航",
@@ -560,7 +740,8 @@
       "bestRatesBody": "对接多家贷款机构，为您寻找更佳利率",
       "personalizedServiceTitle": "个性化服务",
       "personalizedServiceBody": "根据您的财务状况定制专属解决方案"
-    }
+    },
+    "ctaText": "联系顾问团队"
   },
   "contact": {
     "seoTitle": "联系我们 - Open Mortgage",
@@ -586,27 +767,43 @@
     "items": {
       "q1": {
         "question": "申请贷款需要准备哪些文件？",
-        "answer": "通常您需要准备身份证明、收入证明（工资单、报税表）、银行对账单以及所购房产的相关信息。根据您的具体情况，我们的团队可以为您提供一份完整的资料清单。"
+        "answer": "大多数贷款机构通常会要求提供身份证明、收入证明（如工资单、报税资料）、银行流水、现有负债信息，以及拟购买或再融资房产的相关资料。如果您属于自雇人士、收入包含奖金或佣金，或者资产通过公司或信托持有，通常还需要补充更多文件。提前准备完整且彼此一致的资料，往往有助于减少补件次数并提升审批效率。"
       },
       "q2": {
         "question": "贷款审批一般需要多长时间？",
-        "answer": "审批时间通常为 2–4 周，具体取决于申请的复杂程度以及您提供资料的及时性。预审批在部分情况下可于 24–48 小时内获得。"
+        "answer": "审批时间取决于贷款机构、申请材料质量、房产估值速度，以及是否需要额外补件。对于资料齐全且情况较简单的申请，预审批有时可在几个工作日内完成，而正式审批可能需要一到数周。若涉及自雇收入、多位借款人或非标准物业，审批通常会更久，因为贷款机构需要进行更深入的核查。"
       },
       "q3": {
-        "question": "最低首付款一般是多少？",
-        "answer": "大多数贷款机构通常要求房价 10–20% 作为最低首付款。但对于符合条件的首次购房者，一些政府项目可能允许更低的首付比例。"
+        "question": "最低首付一般是多少？",
+        "answer": "很多借款人会以 20% 首付为目标，因为这样通常更有机会避免支付贷款机构按揭保险（LMI）。不过，部分贷款机构也会在特定条件下接受更低首付，尤其是符合条件的首次置业者配合政府支持计划时。首付比例并没有绝对统一答案，关键要结合您的现金储备、借贷能力，以及是否需要保留更多资金应对印花税、律师费和应急缓冲。"
       },
       "q4": {
         "question": "信用评分较低还能贷款吗？",
-        "answer": "较高的信用评分通常更有利，但我们合作的多家贷款机构中，也有部分会考虑信用评分相对较低的申请人。利率与条款可能会根据您的信用情况有所不同。"
+        "answer": "信用评分较低并不一定意味着无法获批，但通常会影响可选择的贷款机构、可贷额度以及利率和条款。贷款机构通常不会只看分数本身，还会关注逾期原因、发生时间、目前是否已恢复正常，以及您当前的收入和财务稳定性。如果过去有信用问题，提供清晰解释并配合更完整的支持文件，往往会更有帮助。"
       },
       "q5": {
         "question": "固定利率和浮动利率有什么区别？",
-        "answer": "固定利率在约定期限内保持不变，有助于锁定还款金额；浮动利率则会随市场变化调整，起初可能更低，但未来存在不确定性。我们可以根据您的需求帮助选择更适合的方案。"
+        "answer": "固定利率的优点是一定期限内还款额相对稳定，更利于预算管理，但往往会限制额外还款、redraw 灵活性，提前退出也可能产生 break cost。浮动利率会随市场变化而调整，月供存在波动，但通常在 offset、redraw 和额外还款方面更灵活。有些借款人也会选择 split loan，把一部分做固定、一部分做浮动，在稳定性和灵活性之间取得平衡。"
       },
       "q6": {
         "question": "我可以提前还款吗？",
-        "answer": "是否可以提前还款取决于您的贷款类型。浮动利率贷款通常允许无罚金提前还款；固定利率贷款则可能对提前还款有限制或需支付费用。我们可以为您详细说明不同产品的条款。"
+        "answer": "是否可以提前还款，主要取决于贷款产品功能以及您的贷款是固定还是浮动。浮动利率贷款通常允许更自由地额外还款，有时还会配合 redraw 或 offset 功能；固定利率贷款则常常对每年额外还款金额设上限，超出后可能产生费用。在选择产品前，最好先确认这些灵活性功能是否符合您的资金安排，特别是当您有奖金、波动收入或想更快降贷时。"
+      },
+      "q7": {
+        "question": "哪些因素会影响我的可贷款额度？",
+        "answer": "可贷款额度通常会受到收入水平、现有负债、生活开支、家属人数、贷款年限以及贷款机构评估利率的影响。在澳洲，贷款机构一般会按照 APRA 指引，在实际利率基础上加入一定缓冲来测试您的还款能力，也就是评估在利率上升后您是否仍可负担月供。信用卡额度、个人贷款、HECS 或 HELP 学贷，以及先买后付等持续性义务，即便余额不高，也可能拉低借贷能力。"
+      },
+      "q8": {
+        "question": "什么是预审批？它等于正式批准吗？",
+        "answer": "预审批通常表示贷款机构基于当前已审核的信息，初步认为有可能向您放贷，但它并不等同于无条件正式批复。通常仍需通过房产估值、最终资料审核、在职与负债确认，以及完整信用审批等环节。由于在购房前后，您的财务情况、物业情况或政策条件都有可能变化，因此预审批更适合作为方向参考，而不是绝对保证。"
+      },
+      "q9": {
+        "question": "我可以用养老金来帮助购买首套房吗？",
+        "answer": "符合条件的首次置业者，可能可以通过 First Home Super Saver Scheme，在 ATO 规定范围内提取部分自愿养老金供款用于首付积累。这项安排有助于更快建立购房储蓄，但并不能代替正常的贷款审批要求，您仍需要满足贷款机构对收入、负债和还款能力的评估。是否适合使用这一方式，还应结合您的供款历史、时间安排和整体现金流计划来判断。"
+      },
+      "q10": {
+        "question": "如果我担心之后无法按时还款，应该怎么办？",
+        "answer": "如果您预感未来可能难以按时还款，最好尽早联系贷款机构，而不是等到连续逾期后再处理。很多贷款机构都设有 hardship support 机制，可能会根据具体情况提供短期调整还款安排或其他支持方案。越早沟通，通常选择越多，也更有机会减少信用记录受损、法律催收升级和额外费用。"
       }
     },
     "moreHelp": "还有疑问吗？欢迎随时与我们联系。"
@@ -615,6 +812,8 @@
     "listTitle": "博客",
     "listIntro": "通过我们的最新文章、贴士和深度内容，及时了解房屋贷款与融资资讯。",
     "publishedOn": "发布日期：",
+    "searchPlaceholder": "搜索博客标题",
+    "searchEmpty": "没有找到符合该关键词的博客。",
     "backToBlogs": "← 返回博客列表",
     "blogsSeoTitle": "博客 - Open Mortgage",
     "blogsSeoDescription": "了解房贷与贷款的最新资讯、实用贴士与深度分析，尽在 Open Mortgage 博客。",

@@ -17,12 +17,12 @@ export async function generateMetadata({
 
   return {
     title: "Open Mortgage - Your Trusted Mortgage Partner",
-    description: t("subtitle"),
+    description: t("metaDescription"),
     keywords:
       "mortgage, home loan, car loan, commercial loan, financial services",
     openGraph: {
       title: "Open Mortgage - Your Trusted Mortgage Partner",
-      description: t("subtitle"),
+      description: t("metaDescription"),
       type: "website",
     },
   };
@@ -38,6 +38,56 @@ export default async function HomePage({
   const tHome = await getTranslations({ locale, namespace: "home" });
   const tServices = await getTranslations({ locale, namespace: "services" });
   const tResources = await getTranslations({ locale, namespace: "resources" });
+  const professionalStats = [
+    {
+      value: tHome("professional.stats.coverage.value"),
+      label: tHome("professional.stats.coverage.label"),
+    },
+    {
+      value: tHome("professional.stats.comparison.value"),
+      label: tHome("professional.stats.comparison.label"),
+    },
+    {
+      value: tHome("professional.stats.submission.value"),
+      label: tHome("professional.stats.submission.label"),
+    },
+    {
+      value: tHome("professional.stats.support.value"),
+      label: tHome("professional.stats.support.label"),
+    },
+  ];
+  const professionalPillars = [
+    {
+      title: tHome("professional.pillars.strategy.title"),
+      description: tHome("professional.pillars.strategy.description"),
+    },
+    {
+      title: tHome("professional.pillars.credit.title"),
+      description: tHome("professional.pillars.credit.description"),
+    },
+    {
+      title: tHome("professional.pillars.execution.title"),
+      description: tHome("professional.pillars.execution.description"),
+    },
+  ];
+  const journeySteps = [
+    {
+      title: tHome("journey.steps.discovery.title"),
+      description: tHome("journey.steps.discovery.description"),
+    },
+    {
+      title: tHome("journey.steps.structuring.title"),
+      description: tHome("journey.steps.structuring.description"),
+    },
+    {
+      title: tHome("journey.steps.application.title"),
+      description: tHome("journey.steps.application.description"),
+    },
+    {
+      title: tHome("journey.steps.settlement.title"),
+      description: tHome("journey.steps.settlement.description"),
+    },
+  ];
 
   // All lender images
   const lenderImages = [
@@ -76,7 +126,7 @@ export default async function HomePage({
         title={tHome("title")}
         subtitle={tHome("subtitle")}
         ctaText={tHome("cta")}
-        ctaLink={`/${locale}/our-process`}
+        ctaLink={`/${locale}/resources/free-valuation`}
         locale={locale}
       />
 
@@ -106,6 +156,96 @@ export default async function HomePage({
           </div>
         </div>
       </section>
+
+      {/* Professional Advisory Section */}
+      <Section
+        title={tHome("professional.title")}
+        subtitle={tHome("professional.subtitle")}
+        className="bg-[#f4f8fc]"
+      >
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10 max-w-6xl mx-auto">
+          {professionalStats.map((stat) => (
+            <div
+              key={stat.label}
+              className="bg-white border border-[#e3e7f5] rounded-2xl p-5 text-center shadow-sm"
+            >
+              <p className="text-sm uppercase tracking-[0.16em] text-[#4f6b84] mb-2">
+                {stat.value}
+              </p>
+              <p className="text-[#0d3250] font-semibold leading-snug">
+                {stat.label}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {professionalPillars.map((pillar) => (
+            <div
+              key={pillar.title}
+              className="rounded-3xl border border-[#d8e2ef] bg-white p-6 shadow-sm"
+            >
+              <h3 className="text-xl font-semibold text-[#0d3250] mb-3">
+                {pillar.title}
+              </h3>
+              <p className="text-[#4f6172] leading-relaxed">
+                {pillar.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      {/* Client Journey Section */}
+      <Section
+        title={tHome("journey.title")}
+        subtitle={tHome("journey.subtitle")}
+        className="bg-white"
+      >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+          {journeySteps.map((step, index) => (
+            <div
+              key={step.title}
+              className="rounded-3xl border border-[#e3e7f5] bg-[#f9fbff] p-6"
+            >
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#5f7890] mb-2">
+                {tHome("journey.stepLabel", { number: index + 1 })}
+              </p>
+              <h3 className="text-2xl font-semibold text-[#0d3250] mb-3">
+                {step.title}
+              </h3>
+              <p className="text-[#4f6172] leading-relaxed">
+                {step.description}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-12 max-w-4xl mx-auto rounded-3xl bg-[#0d3250] p-8 text-white text-center">
+          <h3
+            className="text-2xl md:text-3xl font-black mb-4"
+            style={{ fontFamily: "var(--font-montserrat), sans-serif" }}
+          >
+            {tHome("journey.ctaTitle")}
+          </h3>
+          <p className="text-lg text-gray-200 mb-8 leading-relaxed">
+            {tHome("journey.ctaDescription")}
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href={`/${locale}/contact-us`}>
+              <Button variant="primary" className="rounded-full px-7 py-3">
+                {tHome("journey.ctaPrimary")}
+              </Button>
+            </Link>
+            <Link href={`/${locale}/our-process`}>
+              <Button
+                variant="secondary"
+                className="rounded-full px-7 py-3 bg-white text-[#0d3250] hover:bg-gray-100"
+              >
+                {tHome("journey.ctaSecondary")}
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </Section>
 
       {/* Why Choose Open Mortgage Section */}
       <Section title={tHome("whyChoose.title")} className="bg-white">
