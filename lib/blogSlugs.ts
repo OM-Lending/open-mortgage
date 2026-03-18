@@ -5,6 +5,9 @@ export type LocaleKey = "en" | "zh";
 
 // Slugs that exist in English blog detail page
 const EN_SLUGS = new Set([
+  "reported-cba-mortgage-fraud-review-impact-on-home-buyers",
+  "how-to-respond-to-rba-rate-hike-fixed-or-variable",
+  "are-unlimited-trust-loans-over-in-australia",
   "choosing-the-right-mortgage-broker",
   "understanding-mortgage-rates",
   "first-home-buyer-guide",
@@ -18,6 +21,7 @@ const EN_SLUGS = new Set([
   "fixed-rate-expiring-high-interest-rates",
   "final-inspection-before-property-settlement",
   "what-income-proof-does-a-PAYG-director-need",
+  "what-to-do-if-bank-loan-is-declined-non-bank-lenders",
   "get-loan-and-save",
   "buy-a-home-with-loan",
   "default-payments-amidst-continuous-interest-rate-hike",
@@ -33,11 +37,15 @@ const EN_SLUGS = new Set([
 
 // Slugs that exist in Chinese blog detail page
 const ZH_SLUGS = new Set([
+  "reported-cba-mortgage-fraud-review-impact-on-home-buyers",
+  "how-to-respond-to-rba-rate-hike-fixed-or-variable",
+  "are-unlimited-trust-loans-over-in-australia",
   "choosing-the-right-mortgage-broker",
   "understanding-mortgage-rates",
   "first-home-buyer-guide",
   "tips-for-loan-approval",
   "loan-process-revealed",
+  "what-to-do-if-bank-loan-is-declined-non-bank-lenders",
   "company-depreciation-can-support-loan",
   "incomes-can-help-us-increase-our-loan-capacity",
   "the-loan-interest-rate-might-become",

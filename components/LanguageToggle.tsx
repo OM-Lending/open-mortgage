@@ -16,8 +16,9 @@ export const LanguageToggle = () => {
     const currentLocale: LocaleKey = locale === "zh" ? "zh" : "en";
     const newLocale: LocaleKey = currentLocale === "en" ? "zh" : "en";
 
-    // Remove locale prefix from pathname
-    const pathWithoutLocale = pathname.replace(`/${currentLocale}`, "") || "/";
+    // Remove only the leading locale segment from the current path
+    const pathWithoutLocale =
+      pathname.replace(/^\/(en|zh)(?=\/|$)/, "") || "/";
 
     // Check if we're on a blog detail page
     const blogDetailMatch = pathWithoutLocale.match(/^\/blogs\/(.+)$/);
@@ -26,7 +27,8 @@ export const LanguageToggle = () => {
       // If the target locale doesn't have this blog, redirect to blog list instead of 404
       if (!hasBlogSlug(newLocale, slug)) {
         startTransition(() => {
-          router.push(`/${newLocale}/blogs`);
+          router.replace(`/${newLocale}/blogs`);
+          router.refresh();
         });
         return;
       }
@@ -39,7 +41,8 @@ export const LanguageToggle = () => {
         : `/${newLocale}${pathWithoutLocale}`;
 
     startTransition(() => {
-      router.push(newPath);
+      router.replace(newPath);
+      router.refresh();
     });
   };
 

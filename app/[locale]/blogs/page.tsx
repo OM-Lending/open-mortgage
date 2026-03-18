@@ -1,8 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Section } from "@/components/Section";
-import { Card } from "@/components/Card";
-import { Button } from "@/components/Button";
-import Link from "next/link";
+import { BlogList } from "@/components/BlogList";
+import { getBlogDisplayDate } from "@/lib/blogDisplayDates";
 import type { Metadata } from "next";
 
 type BlogPost = {
@@ -16,6 +15,28 @@ type LocaleKey = "en" | "zh";
 
 const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
   en: [
+    {
+      slug: "reported-cba-mortgage-fraud-review-impact-on-home-buyers",
+      title:
+        "What the Reported CBA Mortgage Fraud Review Could Mean for Home Buyers",
+      excerpt:
+        "Reports around CBA's suspected fraudulent mortgage review may lead to tighter document checks, slower approvals, and more scrutiny for complex borrower profiles.",
+      date: "2026-03-07",
+    },
+    {
+      slug: "how-to-respond-to-rba-rate-hike-fixed-or-variable",
+      title: "RBA Rate Hike: Should You Fix Your Home Loan Rate?",
+      excerpt:
+        "After the RBA lifted the cash rate to 3.85% on 3 February 2026, borrowers are again weighing repayment pressure, borrowing capacity, and whether fixing their rate still makes sense.",
+      date: "2026-02-04",
+    },
+    {
+      slug: "are-unlimited-trust-loans-over-in-australia",
+      title: "Are 'Unlimited' Trust Loans in Australia Becoming Harder to Do?",
+      excerpt:
+        "Major banks have become more selective with trust and company borrowing, but that does not mean trust lending has disappeared. It means structuring, lender fit, and documentation now matter more.",
+      date: "2026-02-13",
+    },
     {
       slug: "choosing-the-right-mortgage-broker",
       title: "Choosing the Right Mortgage Broker",
@@ -109,6 +130,13 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
       date: "2025-03-17",
     },
     {
+      slug: "what-to-do-if-bank-loan-is-declined-non-bank-lenders",
+      title: "What to Do If Your Bank Loan Is Declined: Understanding Non-Bank Lenders",
+      excerpt:
+        "A bank decline does not always mean the end of your property plans. In some scenarios, a non-bank lender may offer a more suitable path forward.",
+      date: "2025-03-21",
+    },
+    {
       slug: "get-loan-and-save",
       title: "How to Get a 90% Loan and Save Nearly $40,000 on LMI",
       excerpt:
@@ -190,6 +218,27 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
   ],
   zh: [
     {
+      slug: "reported-cba-mortgage-fraud-review-impact-on-home-buyers",
+      title: "CBA 房贷疑似造假风波，会对普通买房人产生什么影响？",
+      excerpt:
+        "围绕 CBA 疑似问题房贷的报道，可能推动银行在未来一段时间收紧审核、延长审批周期，并提高对复杂收入和资金来源的核查力度。",
+      date: "2026-03-07",
+    },
+    {
+      slug: "how-to-respond-to-rba-rate-hike-fixed-or-variable",
+      title: "RBA 加息后该怎么应对，要不要固定利率？",
+      excerpt:
+        "RBA 于 2026 年 2 月把现金利率上调至 3.85% 后，借款人需要重新评估月供压力、贷款额度变化，以及固定利率是否仍适合自己。",
+      date: "2026-02-04",
+    },
+    {
+      slug: "are-unlimited-trust-loans-over-in-australia",
+      title: "Trust “无限贷”的时代结束了吗？",
+      excerpt:
+        "澳洲主要银行对 Trust 和 company 名下贷款正在明显收紧，但这并不代表 Trust 贷款彻底消失，而是意味着 lender 选择、材料质量和结构设计变得更重要。",
+      date: "2026-02-13",
+    },
+    {
       slug: "choosing-the-right-mortgage-broker",
       title: "如何选择合适的房贷经纪人",
       excerpt:
@@ -222,6 +271,13 @@ const blogPostsByLocale: Record<LocaleKey, BlogPost[]> = {
       excerpt:
         "有很多新贷款的小伙伴一定都遇到过这样的问题：第一次做贷款，对整体的流程什么的都不懂，被动的跟着broker或者银行走是不是很没有安全感？今天，小编就很贴心的为大家准备了贷款的全部流程以及所需的材料，快跟我一起来看一下吧!",
       date: "2025-04-07",
+    },
+    {
+      slug: "what-to-do-if-bank-loan-is-declined-non-bank-lenders",
+      title: "Bank 贷款被拒怎么办？了解 Non-bank lenders",
+      excerpt:
+        "买房贷款不只有 bank 一条路。对于自雇、收入复杂或被银行拒绝的客户，non-bank lender 有时可能提供更适合的融资路径。",
+      date: "2025-03-21",
     },
     {
       slug: "company-depreciation-can-support-loan",
@@ -312,7 +368,12 @@ export default async function BlogsPage({
   const lang: LocaleKey = locale === "zh" ? "zh" : "en";
   const commonT = await getTranslations({ locale: lang, namespace: "common" });
   const blogsT = await getTranslations({ locale: lang, namespace: "blogs" });
-  const blogPosts = blogPostsByLocale[lang];
+  const blogPosts = [...blogPostsByLocale[lang]]
+    .map((post) => ({
+      ...post,
+      date: getBlogDisplayDate(post.slug, post.date),
+    }))
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return (
     <Section title={blogsT("listTitle")} className="bg-white py-16">
@@ -320,33 +381,15 @@ export default async function BlogsPage({
         <p className="text-lg text-[#666666] mb-8 text-center">
           {blogsT("listIntro")}
         </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {blogPosts.map((post) => (
-            <Card key={post.slug} className="h-full flex flex-col">
-              <h3 className="text-xl font-semibold text-[#0d3250] mb-3">
-                {post.title}
-              </h3>
-              <p className="text-[#666666] mb-4 grow">{post.excerpt}</p>
-              <div className="text-sm text-[#666666] mb-4">
-                {blogsT("publishedOn")}{" "}
-                {new Date(post.date).toLocaleDateString(
-                  lang === "zh" ? "zh-CN" : "en-AU",
-                  {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  }
-                )}
-              </div>
-              <Link href={`/${locale}/blogs/${post.slug}`}>
-                <Button variant="outline" className="w-full">
-                  {commonT("readMore")}
-                </Button>
-              </Link>
-            </Card>
-          ))}
-        </div>
+        <BlogList
+          posts={blogPosts}
+          locale={locale}
+          lang={lang}
+          publishedOnLabel={blogsT("publishedOn")}
+          readMoreLabel={commonT("readMore")}
+          searchPlaceholder={blogsT("searchPlaceholder")}
+          searchEmpty={blogsT("searchEmpty")}
+        />
       </div>
     </Section>
   );

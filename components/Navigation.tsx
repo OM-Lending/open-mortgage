@@ -59,7 +59,6 @@ export const Navigation = () => {
   const moreLinks = [
     { href: `/${locale}/faq`, label: tMore('faq') },
     { href: `/${locale}/about-us`, label: tMore('aboutUs') },
-    { href: `/${locale}/contact-us`, label: tMore('contactUs') },
   ];
 
   return (
@@ -130,6 +129,10 @@ export const Navigation = () => {
 
         <Link href={`/${locale}/blogs`} className="text-white hover:text-gray-200 font-medium">
           {tNav('blogs')}
+        </Link>
+
+        <Link href={`/${locale}/contact-us`} className="text-white hover:text-gray-200 font-medium">
+          {tMore('contactUs')}
         </Link>
 
         <div
@@ -245,6 +248,13 @@ export const Navigation = () => {
             >
               {tNav('blogs')}
             </Link>
+            <Link
+              href={`/${locale}/contact-us`}
+              className="px-4 py-3 text-[#0d3250] border-b border-[#e0e0e0]"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              {tMore('contactUs')}
+            </Link>
             <div className="border-b border-[#e0e0e0]">
               <button
                 className="w-full px-4 py-3 text-left text-[#0d3250] flex items-center justify-between"
@@ -276,4 +286,3 @@ export const Navigation = () => {
     </>
   );
 };
-
